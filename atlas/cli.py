@@ -20,7 +20,7 @@ from pathlib import Path
 import typer
 
 from atlas import config
-from atlas.db.session import get_session, init_db, rebuild_fts, sync_sources
+from atlas.db.session import checkpoint, get_session, init_db, rebuild_fts, sync_sources
 
 app = typer.Typer(add_completion=False, help="Scholarship Intelligence Crawler")
 LOG_DIR = config.DATA_DIR / "logs"
@@ -49,14 +49,14 @@ def _new_run(mode: str, trigger: str) -> int:
         return r.id
 
 
-def _finish_run(run_id: int, stats: dict) -> None:
+def _finish_run(run_id: int, stats: dict, status: str = "DONE") -> None:
     from sqlalchemy import func
 
     from atlas.db.models import CrawlRun, Page, RunEvent
     with get_session() as s:
         r = s.get(CrawlRun, run_id)
         r.finished_at = datetime.utcnow().replace(microsecond=0)
-        r.status = "DONE"
+        r.status = status
         r.pages_fetched = s.query(func.count(Page.id)).filter(Page.last_run_id == run_id).scalar()
         r.pages_not_modified = s.query(func.count(Page.id)).filter(Page.last_run_id == run_id, Page.http_status == 304).scalar()
         r.errors = s.query(func.count(Page.id)).filter(Page.last_run_id == run_id, Page.consecutive_failures > 0).scalar()
@@ -137,6 +137,21 @@ def run(force: bool = typer.Option(False, help="ignore recrawl schedule"), sourc
     _post(rid, stats, t0)
 
 
+def run_health(rid: int) -> dict:
+    """How many official scholarship pages re-checked in this run failed at the network level."""
+    from atlas.db.models import Page, Scholarship
+    with get_session() as s:
+        ids = {pid for (pid,) in s.query(Scholarship.official_source_page_id)
+               .filter(Scholarship.official_source_page_id.isnot(None))}
+        pages = s.query(Page).filter(Page.id.in_(ids), Page.last_run_id == rid).all() if ids else []
+        failed = [p for p in pages if p.consecutive_failures and (p.http_status or 0) in (0, 403, 429, 500, 502, 503, 504)]
+        return {"checked": len(pages), "failed": len(failed),
+                "failed_domains": sorted({(p.final_url or p.url).split("/")[2] for p in failed})[:20]}
+
+
+DEGRADED_RATIO = 0.5
+
+
 def _post(rid: int, stats: dict, t0: datetime) -> None:
     from atlas.lifecycle.status import update_lifecycle
     from atlas.process import enrich_card_records, process_pages, touch_unchanged_scholarships
@@ -144,11 +159,22 @@ def _post(rid: int, stats: dict, t0: datetime) -> None:
     stats["process"] = process_pages(rid)
     stats["enrich"] = enrich_card_records(rid)
     stats["unchanged_touch"] = touch_unchanged_scholarships(rid)
-    stats["verify"] = verify_all(rid)
-    stats["lifecycle"] = update_lifecycle(rid)
+    health = run_health(rid)
+    stats["health"] = health
+    degraded = health["checked"] >= 10 and health["failed"] / health["checked"] > DEGRADED_RATIO
+    if degraded:
+        # Most official pages were unreachable (outage, or the runner's IP is blocked/throttled). Do NOT
+        # downgrade verification or count misses on that basis: keep the previous scores and statuses.
+        log.warning("DEGRADED run %s: %d/%d official pages failed (%s) - verification/lifecycle not updated",
+                    rid, health["failed"], health["checked"], ", ".join(health["failed_domains"][:8]))
+        stats["degraded"] = True
+    else:
+        stats["verify"] = verify_all(rid)
+        stats["lifecycle"] = update_lifecycle(rid)
     rebuild_fts()
     stats["duration_s"] = (datetime.utcnow() - t0).seconds
-    _finish_run(rid, stats)
+    _finish_run(rid, stats, status="DEGRADED" if degraded else "DONE")
+    checkpoint()
     log.info("=== RUN %s finished: %s ===", rid, json.dumps(stats, default=str))
     report(rid)
 
@@ -317,6 +343,13 @@ def audit(n: int = 20, out: Path = config.DATA_DIR / "audit_sample.csv", seed: i
                     w.writerow([sch.id, sch.name, sch.confidence, sch.status, e.field_name, e.value_json,
                                 e.evidence_text[:500], e.source_url, ""])
     typer.echo(f"audit sheet written to {out}")
+
+
+@app.command("checkpoint")
+def checkpoint_cmd():
+    """Write the WAL into data/atlas.db (run before committing the DB)."""
+    checkpoint()
+    typer.echo("database checkpointed (single-file journal)")
 
 
 @app.command("evidence-files")

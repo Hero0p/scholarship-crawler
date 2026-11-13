@@ -62,6 +62,26 @@ def init_db() -> None:
             conn.execute(text(stmt))
 
 
+def checkpoint() -> None:
+    """Fold the WAL into the main file and switch to a single-file journal, so data/atlas.db can be
+    committed to git / read by the dashboard without its -wal/-shm side files."""
+    import logging
+
+    from sqlalchemy.exc import OperationalError
+    try:
+        with engine.connect() as conn:
+            conn.execute(text("PRAGMA wal_checkpoint(TRUNCATE)"))
+            conn.execute(text("PRAGMA journal_mode=DELETE"))
+            conn.commit()
+    except OperationalError as e:
+        # another process (e.g. a local dashboard) has the DB open: a passive checkpoint still copies
+        # every committed page into the main file, which is what matters before a git commit
+        logging.getLogger("atlas").warning("full checkpoint not possible (%s); doing a passive checkpoint", e.orig)
+        with engine.connect() as conn:
+            conn.execute(text("PRAGMA wal_checkpoint(PASSIVE)"))
+    engine.dispose()
+
+
 def rebuild_fts() -> None:
     with engine.begin() as conn:
         conn.execute(text("INSERT INTO scholarships_fts(scholarships_fts) VALUES('rebuild')"))
