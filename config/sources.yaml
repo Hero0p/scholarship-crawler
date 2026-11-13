@@ -1,0 +1,198 @@
+# Seed registry: official entry points (hubs) for the focused crawler.
+# Scheme-specific pages are discovered by the crawler, not hard-coded here.
+# Fields: key, name, provider, source_type, trust_tier, seeds, render_js, max_depth,
+#         page_budget, base_frequency_hours, role (CRAWL | DISCOVERY_ONLY), domain_aliases
+# Seed URLs checked on 2026-11-13 (see PROJECT_PLAN.md §18).
+
+defaults:
+  render_js: false
+  max_depth: 3
+  page_budget: 120
+  base_frequency_hours: 72
+  role: CRAWL
+  approval_status: APPROVED
+
+sources:
+  # ---------------- Central government, regulators, PSUs ----------------
+  - key: nsp
+    name: National Scholarship Portal
+    provider: National Scholarship Portal, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://scholarships.gov.in/]
+    page_budget: 200
+    base_frequency_hours: 24
+  - key: myscheme
+    name: myScheme – Education & Learning
+    provider: myScheme, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: ["https://www.myscheme.gov.in/search/category/Education%20%26%20Learning"]
+    render_js: true
+    base_frequency_hours: 24
+  - key: moe_scholarships
+    name: Ministry of Education – Scholarships
+    provider: Ministry of Education, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://www.education.gov.in/scholarships, https://www.education.gov.in/en/scholarships-education-loan]
+    page_budget: 150
+  - key: aicte
+    name: AICTE – Student Development Schemes
+    provider: All India Council for Technical Education (AICTE)
+    source_type: REGULATOR
+    trust_tier: 1
+    seeds: [https://www.aicte.gov.in/schemes/students-development-schemes]
+    domain_aliases: [aicte-india.org]
+    page_budget: 150
+  - key: ugc
+    name: University Grants Commission
+    provider: University Grants Commission (UGC)
+    source_type: REGULATOR
+    trust_tier: 1
+    seeds: [https://www.ugc.gov.in/]
+    page_budget: 150
+  - key: msje
+    name: Ministry of Social Justice & Empowerment
+    provider: Ministry of Social Justice and Empowerment, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://socialjustice.gov.in/]
+  - key: tribal
+    name: Ministry of Tribal Affairs
+    provider: Ministry of Tribal Affairs, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://tribal.nic.in/]
+  - key: nos_tribal
+    name: National Overseas Scholarship for ST Students
+    provider: Ministry of Tribal Affairs, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://overseas.tribal.gov.in/]
+  - key: minority
+    name: Ministry of Minority Affairs
+    provider: Ministry of Minority Affairs, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://www.minorityaffairs.gov.in/]
+  - key: depwd
+    name: Department of Empowerment of Persons with Disabilities
+    provider: Department of Empowerment of Persons with Disabilities, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://depwd.gov.in/]
+  - key: ksb
+    name: Kendriya Sainik Board
+    provider: Kendriya Sainik Board, Ministry of Defence
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://ksb.gov.in/]
+  - key: desw
+    name: Department of Ex-Servicemen Welfare
+    provider: Department of Ex-Servicemen Welfare, Ministry of Defence
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://desw.gov.in/]
+  - key: inspire
+    name: INSPIRE (DST)
+    provider: Department of Science & Technology, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://online-inspire.gov.in/]
+  - key: pmrf
+    name: Prime Minister's Research Fellowship
+    provider: Ministry of Education, Government of India
+    source_type: GOV_CENTRAL
+    trust_tier: 1
+    seeds: [https://pmrf.in/]
+  - key: csir_hrdg
+    name: CSIR Human Resource Development Group
+    provider: Council of Scientific & Industrial Research (CSIR)
+    source_type: REGULATOR
+    trust_tier: 1
+    seeds: [https://csirhrdg.res.in/]
+  - key: lic_gjf
+    name: LIC Golden Jubilee Foundation
+    provider: Life Insurance Corporation of India
+    source_type: CORPORATE_CSR
+    trust_tier: 2
+    seeds: [https://licindia.in/golden-jubilee-foundation]
+    max_depth: 2
+  - key: ongc
+    name: ONGC Scholarship
+    provider: Oil and Natural Gas Corporation (ONGC)
+    source_type: CORPORATE_CSR
+    trust_tier: 2
+    seeds: [https://www.ongcscholar.org/]
+
+  # ---------------- State portals ----------------
+  - {key: mahadbt, name: MahaDBT Scholarships, provider: Government of Maharashtra, source_type: GOV_STATE, trust_tier: 1, seeds: [https://mahadbt.maharashtra.gov.in/], base_frequency_hours: 24}
+  - {key: ssp_karnataka, name: Karnataka State Scholarship Portal, provider: Government of Karnataka, source_type: GOV_STATE, trust_tier: 1, seeds: [https://ssp.postmatric.karnataka.gov.in/], base_frequency_hours: 24}
+  - {key: up_scholarship, name: UP Scholarship Portal, provider: Government of Uttar Pradesh, source_type: GOV_STATE, trust_tier: 1, seeds: [https://scholarship.up.gov.in/], base_frequency_hours: 24}
+  - {key: bihar_pms, name: Bihar Post-Matric Scholarship, provider: Government of Bihar, source_type: GOV_STATE, trust_tier: 1, seeds: [https://pmsonline.bihar.gov.in/], base_frequency_hours: 24}
+  - {key: telangana_epass, name: Telangana ePASS, provider: Government of Telangana, source_type: GOV_STATE, trust_tier: 1, seeds: [https://telanganaepass.cgg.gov.in/], base_frequency_hours: 24}
+  - {key: ap_jnanabhumi, name: AP Jnanabhumi, provider: Government of Andhra Pradesh, source_type: GOV_STATE, trust_tier: 1, seeds: [https://jnanabhumi.ap.gov.in/], base_frequency_hours: 24}
+  - {key: kerala_dce, name: Kerala DCE Scholarships, provider: Directorate of Collegiate Education, Government of Kerala, source_type: GOV_STATE, trust_tier: 1, seeds: [https://dcescholarship.kerala.gov.in/], base_frequency_hours: 24}
+  - {key: odisha_ssp, name: Odisha State Scholarship Portal, provider: Government of Odisha, source_type: GOV_STATE, trust_tier: 1, seeds: [https://scholarship.odisha.gov.in/], base_frequency_hours: 24}
+  - {key: punjab, name: Punjab Scholarship Portal, provider: Government of Punjab, source_type: GOV_STATE, trust_tier: 1, seeds: [https://scholarships.punjab.gov.in/], base_frequency_hours: 24}
+  - {key: haryana, name: Haryana Higher Education Scholarships, provider: Department of Higher Education, Haryana, source_type: GOV_STATE, trust_tier: 1, seeds: [https://harchhatravratti.highereduhry.ac.in/], base_frequency_hours: 24}
+  - {key: digital_gujarat, name: Digital Gujarat Scholarships, provider: Government of Gujarat, source_type: GOV_STATE, trust_tier: 1, seeds: [https://www.digitalgujarat.gov.in/], base_frequency_hours: 24}
+  - {key: wb_svmcm, name: West Bengal SVMCM, provider: Higher Education Department, Government of West Bengal, source_type: GOV_STATE, trust_tier: 1, seeds: [https://svmcm.wbhed.gov.in/], base_frequency_hours: 24}
+
+  # ---------------- Universities ----------------
+  - {key: du, name: University of Delhi, provider: University of Delhi, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.du.ac.in/], base_frequency_hours: 168}
+  - {key: jnu, name: Jawaharlal Nehru University, provider: Jawaharlal Nehru University, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.jnu.ac.in/], base_frequency_hours: 168}
+  - {key: bhu, name: Banaras Hindu University, provider: Banaras Hindu University, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.bhu.ac.in/], base_frequency_hours: 168}
+  - {key: amu, name: Aligarh Muslim University, provider: Aligarh Muslim University, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.amu.ac.in/], base_frequency_hours: 168}
+  - {key: iitb, name: IIT Bombay, provider: Indian Institute of Technology Bombay, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.iitb.ac.in/], base_frequency_hours: 168}
+  - {key: iitm, name: IIT Madras, provider: Indian Institute of Technology Madras, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.iitm.ac.in/], base_frequency_hours: 168}
+  - {key: iitd, name: IIT Delhi, provider: Indian Institute of Technology Delhi, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://home.iitd.ac.in/], base_frequency_hours: 168}
+  - {key: ashoka, name: Ashoka University, provider: Ashoka University, source_type: UNIVERSITY, trust_tier: 2, seeds: [https://www.ashoka.edu.in/], base_frequency_hours: 168}
+
+  # ---------------- Corporate CSR ----------------
+  - {key: reliance, name: Reliance Foundation Scholarships, provider: Reliance Foundation, source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.scholarships.reliancefoundation.org/], render_js: true, base_frequency_hours: 168}
+  - {key: aditya_birla, name: Aditya Birla Scholars, provider: Aditya Birla Group, source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.adityabirlascholars.net/], base_frequency_hours: 168}
+  - {key: santoor, name: Santoor Women's Scholarship, provider: Wipro Consumer Care & Lighting (Santoor), source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.santoorscholarships.com/], base_frequency_hours: 168}
+  - {key: kotak_kanya, name: Kotak Kanya Scholarship, provider: Kotak Education Foundation, source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.kotakeducation.org/kotak-kanya-scholarship/], base_frequency_hours: 168}
+  - {key: loreal_fywis, name: L'Oréal India For Young Women in Science, provider: L'Oréal India, source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.foryoungwomeninscience.com/], base_frequency_hours: 168}
+  - {key: glowup, name: Glow & Lovely Careers / Glow Up Academy, provider: Hindustan Unilever (Glow & Lovely), source_type: CORPORATE_CSR, trust_tier: 2, seeds: [https://www.glowupacademy.in/], domain_aliases: [glowandlovelycareers.in], base_frequency_hours: 168}
+
+  # ---------------- Foundations & trusts ----------------
+  - {key: jn_tata, name: J N Tata Endowment, provider: J N Tata Endowment, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.jntataendowment.org/], base_frequency_hours: 168}
+  - {key: tata_trusts, name: Tata Trusts – Education Grants, provider: Tata Trusts, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.tatatrusts.org/explore-our-work/enabling-human-potential/individual-grants/education-grants], max_depth: 2, base_frequency_hours: 168}
+  - {key: kcmet, name: K C Mahindra Education Trust, provider: K C Mahindra Education Trust, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.kcmet.org/], base_frequency_hours: 168}
+  - {key: inlaks, name: Inlaks Shivdasani Foundation, provider: Inlaks Shivdasani Foundation, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://inlaksfoundation.org/], base_frequency_hours: 168}
+  - {key: nsf, name: Narotam Sekhsaria Foundation, provider: Narotam Sekhsaria Foundation, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://pg.nsfoundation.co.in/], base_frequency_hours: 168}
+  - {key: sitaram_jindal, name: Sitaram Jindal Foundation, provider: Sitaram Jindal Foundation, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.sitaramjindalfoundation.org/scholarships-for-students-in-bangalore.php], base_frequency_hours: 168}
+  - {key: vidyadhan, name: Vidyadhan, provider: Sarojini Damodaran Foundation, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.vidyadhan.org/], base_frequency_hours: 168}
+  - {key: ffe, name: Foundation for Excellence, provider: Foundation for Excellence, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://ffe.org/], base_frequency_hours: 168}
+  - {key: dakshana, name: Dakshana Foundation, provider: Dakshana Foundation, source_type: FOUNDATION_TRUST, trust_tier: 2, seeds: [https://www.dakshana.org/], base_frequency_hours: 168}
+
+  # ---------------- International (open to Indian nationals) ----------------
+  - {key: cscuk, name: Commonwealth Scholarship Commission UK, provider: Commonwealth Scholarship Commission in the UK, source_type: INTERNATIONAL, trust_tier: 1, seeds: [https://cscuk.fcdo.gov.uk/scholarships/], base_frequency_hours: 168}
+  - {key: usief, name: Fulbright-Nehru (USIEF), provider: United States-India Educational Foundation (USIEF), source_type: INTERNATIONAL, trust_tier: 2, seeds: [https://www.usief.org.in/], base_frequency_hours: 168}
+  - {key: daad, name: DAAD India, provider: German Academic Exchange Service (DAAD), source_type: INTERNATIONAL, trust_tier: 2, seeds: [https://www.daad.in/en/find-funding/], base_frequency_hours: 168}
+  - {key: rhodes_india, name: Rhodes Scholarship – India, provider: Rhodes Trust, source_type: INTERNATIONAL, trust_tier: 2, seeds: [https://www.rhodeshouse.ox.ac.uk/scholarships/applications/india/], max_depth: 2, base_frequency_hours: 168}
+  - {key: gates_cambridge, name: Gates Cambridge, provider: Gates Cambridge Trust, source_type: INTERNATIONAL, trust_tier: 2, seeds: [https://www.gatescambridge.org/], max_depth: 2, base_frequency_hours: 168}
+  - {key: mext, name: Study in Japan – MEXT Scholarships, provider: Government of Japan (MEXT / JASSO), source_type: INTERNATIONAL, trust_tier: 1, seeds: [https://www.studyinjapan.go.jp/en/planning/scholarships/about-scholarships/], max_depth: 2, base_frequency_hours: 168}
+  - {key: chevening, name: Chevening – India, provider: UK Foreign, Commonwealth & Development Office (Chevening), source_type: INTERNATIONAL, trust_tier: 1, seeds: [https://www.chevening.org/scholarship/india/], max_depth: 2, base_frequency_hours: 168}
+
+  # ---------------- Aggregators: DISCOVERY ONLY (never authoritative) ----------------
+  - key: buddy4study
+    name: Buddy4Study
+    source_type: AGGREGATOR
+    trust_tier: 4
+    role: DISCOVERY_ONLY
+    seeds: [https://www.buddy4study.com/scholarships]
+    sitemaps: [https://www.buddy4study.com/sitemap1.xml, https://www.buddy4study.com/sitemap2.xml]
+    page_budget: 200
+    base_frequency_hours: 24
+  - key: scholarshipsinindia
+    name: ScholarshipsInIndia
+    source_type: AGGREGATOR
+    trust_tier: 4
+    role: DISCOVERY_ONLY
+    seeds: [https://www.scholarshipsinindia.com/]
+    page_budget: 60
+    base_frequency_hours: 24

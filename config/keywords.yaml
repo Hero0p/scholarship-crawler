@@ -1,0 +1,197 @@
+# Lexicons for link scoring, page relevance and section segmentation (EN + HI).
+strong_terms:
+  - scholarship
+  - scholarships
+  - fellowship
+  - fellowships
+  - stipend
+  - bursary
+  - bursaries
+  - chhatravritti
+  - chhatravratti
+  - छात्रवृत्ति
+  - pre-matric
+  - post-matric
+  - pre matric
+  - post matric
+  - merit-cum-means
+  - merit cum means
+  - financial assistance
+  - freeship
+  - free-ship
+  - tuition fee waiver
+  - fee waiver
+
+weak_terms:
+  - scheme
+  - schemes
+  - yojana
+  - योजना
+  - award
+  - awards
+  - grant
+  - grants
+  - students
+  - student
+  - education
+  - merit
+  - girl child
+  - minority
+  - financial aid
+  - funding
+  - apply
+  - guidelines
+  - guideline
+  - specifications
+  - specification
+  - scheme details
+
+deny_terms:
+  - tender
+  - tenders
+  - recruitment
+  - vacancy
+  - vacancies
+  - career
+  - careers
+  - jobs
+  - job
+  - result
+  - results
+  - answer key
+  - answer-key
+  - admit card
+  - admit-card
+  - gallery
+  - photo
+  - photos
+  - video
+  - videos
+  - rti
+  - press release
+  - press-release
+  - newsletter
+  - annual report
+  - annual-report
+  - budget
+  - minutes
+  - faculty
+  - login
+  - sign in
+  - signin
+  - print
+  - share
+  - sitemap
+  - feedback
+  - disclaimer
+  - privacy
+  - terms
+  - copyright
+  - hyperlink
+  - accessibility
+  - screen reader
+  - contact us
+  - grievance
+  - procurement
+  - auction
+  - empanelment
+  - corrigendum to tender
+  - convocation
+  - alumni
+  - placement
+  - hostel allotment
+  - time table
+  - timetable
+  - syllabus
+  - question paper
+  - notice board
+  - covid
+
+# URL fragments never worth fetching
+deny_url_patterns:
+  - "\\.(jpg|jpeg|png|gif|svg|webp|ico|css|js|mp4|mp3|avi|mov|zip|rar|7z|xls|xlsx|ppt|pptx|exe|apk|woff2?|ttf)(\\?|$)"
+  - "(facebook|twitter|x|instagram|linkedin|youtube|whatsapp|telegram|t)\\.(com|me)/"
+  - "mailto:"
+  - "tel:"
+  - "javascript:"
+  - "/(login|signin|sign-in|register\\.aspx|logout)"
+  - "[?&](lang|language)=(hi|hin|hindi)"
+  - "/hi/"
+  - "/hindi/"
+  - "[?&](print|share|sort|order|replytocom)="
+  - "/(wp-json|feed|xmlrpc)"
+  - "/tag/"
+  - "/author/"
+
+# Canonical sections and their heading synonyms
+sections:
+  eligibility:
+    - eligibility
+    - eligibility criteria
+    - eligibility conditions
+    - conditions of eligibility
+    - who can apply
+    - who is eligible
+    - eligible candidates
+    - eligibility requirements
+    - criteria
+    - पात्रता
+  benefits:
+    - benefits
+    - benefit
+    - scholarship amount
+    - amount of scholarship
+    - quantum of scholarship
+    - value of scholarship
+    - value of award
+    - rate of scholarship
+    - financial assistance
+    - scholarship details
+    - what the scholarship covers
+    - what we offer
+    - award
+    - rewards
+    - stipend
+    - fellowship amount
+    - scholarship value
+    - funding
+  dates:
+    - important dates
+    - key dates
+    - deadline
+    - deadlines
+    - last date
+    - closing date
+    - schedule
+    - timeline
+    - application deadline
+    - अंतिम तिथि
+  documents:
+    - documents required
+    - documents
+    - required documents
+    - list of documents
+    - documents to be uploaded
+    - checklist
+    - enclosures
+    - आवश्यक दस्तावेज़
+  apply:
+    - how to apply
+    - application process
+    - application procedure
+    - mode of application
+    - procedure for applying
+    - steps to apply
+    - application
+    - आवेदन
+  selection:
+    - selection process
+    - selection criteria
+    - selection procedure
+    - mode of selection
+    - selection
+  renewal:
+    - renewal
+    - renewal criteria
+    - continuation of scholarship
+    - renewal of scholarship

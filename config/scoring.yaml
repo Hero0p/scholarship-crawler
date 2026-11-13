@@ -1,0 +1,44 @@
+# Confidence-score methodology (deterministic, evidence-based). See PROJECT_PLAN.md §11.
+version: "1.0"
+verified_threshold: 95.0
+gate_cap: 94.9
+
+weights:            # must sum to 100
+  S1_official_source: 25
+  S2_live_on_source: 15
+  S3_application_route: 10
+  S4_eligibility_support: 10
+  S5_deadline_support: 10
+  S6_currency: 10
+  S7_traceability: 10
+  S8_consistency: 5
+  S9_corroboration: 5
+
+source_authority:   # S1 values by source_type of the official source
+  GOV_CENTRAL: 1.0
+  GOV_STATE: 1.0
+  REGULATOR: 1.0
+  UNIVERSITY: 0.95
+  CORPORATE_CSR: 0.90
+  FOUNDATION_TRUST: 0.90
+  INTERNATIONAL: 0.90
+  PROVIDER_UNAPPROVED: 0.60
+  APPLICATION_PLATFORM: 0.30
+  AGGREGATOR: 0.0
+  NEWS_BLOG: 0.0
+  UNKNOWN: 0.0
+
+conflict_penalty_per_field: 10
+conflict_penalty_cap: 30
+
+name_match_live: 90       # rapidfuzz partial_ratio for S2 = 1.0
+name_match_partial: 75    # S2 = 0.5
+liveness_decay_days: 14
+currency_recent_days: 60  # closing date >= today - N days counts as current
+
+gates:
+  G1_official_source: "S1 >= 0.90"
+  G2_live_now: "S2 == 1.0"
+  G3_fully_traceable: "S7 == 1.0"
+  G4_no_conflicts: "penalty == 0"
+  G5_core_identity: "name, provider, official_source_url present"

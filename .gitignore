@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/atlas.db-wal
+data/atlas.db-shm
+data/logs/
+data/run*_console.log
+data/audit_sample.csv
+# raw snapshots are large; the text snapshots (evidence base) are kept
+data/snapshots/**/*.raw.gz

@@ -1,0 +1,329 @@
+2026-11-13 03:43:59,030 INFO atlas.process: rejected https://library.harvard.edu/grants-fellowships/houghton-library-visiting-fellowships: no evidence that Indian students are eligible
+2026-11-13 03:43:59,032 INFO atlas.process: processed 50/1283 pages
+2026-11-13 03:44:10,137 INFO atlas.process: rejected https://www.kcmet.org/what-we-do-Scholarship-Grants.aspx?tab=0&: no specific scholarship name on page
+2026-11-13 03:44:17,663 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/: neither benefit nor eligibility evidenced
+2026-11-13 03:44:21,610 INFO atlas.process: processed 100/1283 pages
+2026-11-13 03:44:28,909 INFO atlas.process: rejected https://www.chevening.org/scholarships/: page is not addressed to students/candidates
+2026-11-13 03:44:29,239 INFO atlas.process: rejected https://www.kcmet.org/what-we-do-Scholarship-Grants.aspx?tab=3&: no specific scholarship name on page
+2026-11-13 03:44:29,898 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/jasso-scholarships/index.html: no evidence that Indian students are eligible
+2026-11-13 03:44:30,125 INFO atlas.process: processed 150/1283 pages
+2026-11-13 03:44:30,321 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/: no evidence that Indian students are eligible
+2026-11-13 03:44:38,924 INFO atlas.process: rejected https://www.kcmet.org/what-we-do-Scholarship-Grants.aspx: no specific scholarship name on page
+2026-11-13 03:44:39,381 INFO atlas.process: processed 200/1283 pages
+2026-11-13 03:44:44,559 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-professional-fellowships-information-for-uk-host-organisations/: no evidence that Indian students are eligible
+2026-11-13 03:44:47,329 INFO atlas.process: rejected https://www.jasso.go.jp/en/ryugaku/scholarship_j/shoreihi/yoyaku_eju/202606.html: no evidence that Indian students are eligible
+2026-11-13 03:44:49,286 INFO atlas.process: rejected https://www.msif.org/research/awards-grants-and-fellowships/mcdonald-fellowships/?lang=ar: no evidence that Indian students are eligible
+2026-11-13 03:44:49,537 INFO atlas.process: processed 250/1283 pages
+2026-11-13 03:45:24,138 INFO atlas.process: rejected https://www.jasso.go.jp/en/ryugaku/scholarship_j/shoreihi/yoyaku_eju/202611.html: no evidence that Indian students are eligible
+2026-11-13 03:45:25,739 INFO atlas.process: rejected https://www.msif.org/research/awards-grants-and-fellowships/mcdonald-fellowships/?lang=es: no evidence that Indian students are eligible
+2026-11-13 03:45:25,802 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3050061808: no evidence that Indian students are eligible
+2026-11-13 03:45:25,884 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-fellowships-information-for-candidates/: no evidence that Indian students are eligible
+2026-11-13 03:45:26,629 INFO atlas.process: processed 300/1283 pages
+2026-11-13 03:45:36,059 INFO atlas.process: rejected https://www.daad.in/en/find-funding/scholarship-database/?type=a&q=&status=0&subject=0&onlydaad=0&detail_to_show=0&target=4&origin=4&pg=1&tab=&intention=&pg=2: neither benefit nor eligibility evidenced
+2026-11-13 03:45:36,131 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00015660: no evidence that Indian students are eligible
+2026-11-13 03:45:39,164 INFO atlas.process: processed 350/1283 pages
+2026-11-13 03:45:40,927 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00014374: no evidence that Indian students are eligible
+2026-11-13 03:45:50,996 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3050673930: no evidence that Indian students are eligible
+2026-11-13 03:45:56,323 INFO atlas.process: processed 400/1283 pages
+2026-11-13 03:46:04,193 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-fragile-states/: no evidence that Indian students are eligible
+2026-11-13 03:46:08,181 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=5-00014515: no evidence that Indian students are eligible
+2026-11-13 03:46:12,251 INFO atlas.process: processed 450/1283 pages
+2026-11-13 03:46:27,416 INFO atlas.process: processed 500/1283 pages
+2026-11-13 03:46:27,467 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/: no evidence that Indian students are eligible
+2026-11-13 03:46:33,981 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-professional-fellowships-3/: no evidence that Indian students are eligible
+2026-11-13 03:46:40,863 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/jasso-scholarships/: no evidence that Indian students are eligible
+2026-11-13 03:47:11,109 INFO atlas.process: processed 550/1283 pages
+2026-11-13 03:47:11,691 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,693 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,693 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,695 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,696 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,698 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,699 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,699 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,700 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,700 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,701 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,703 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,704 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,706 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,709 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,710 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,712 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,714 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,715 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,716 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,717 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,717 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,718 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,719 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,720 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,721 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,723 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,724 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,725 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,726 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,727 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,727 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,728 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,728 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,729 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,732 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,733 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,734 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,735 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,736 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,737 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:11,738 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:47:32,269 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007593: no evidence that Indian students are eligible
+2026-11-13 03:47:37,667 INFO atlas.process: processed 600/1283 pages
+2026-11-13 03:47:38,037 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007590: no evidence that Indian students are eligible
+2026-11-13 03:47:40,759 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships/: neither benefit nor eligibility evidenced
+2026-11-13 03:47:45,500 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007587: no evidence that Indian students are eligible
+2026-11-13 03:47:48,621 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=305055716: no evidence that Indian students are eligible
+2026-11-13 03:47:57,392 INFO atlas.process: processed 650/1283 pages
+2026-11-13 03:47:57,421 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3041231470: no evidence that Indian students are eligible
+2026-11-13 03:48:09,334 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00694488: no evidence that Indian students are eligible
+2026-11-13 03:48:41,318 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00044379: no evidence that Indian students are eligible
+2026-11-13 03:48:52,956 INFO atlas.process: processed 700/1283 pages
+2026-11-13 03:49:19,729 INFO atlas.process: rejected https://www.kcl.ac.uk/study/funding/funding-opportunities/commonwealth-shared-scholarship-scheme-csss: no evidence that Indian students are eligible
+2026-11-13 03:49:19,804 INFO atlas.process: processed 750/1283 pages
+2026-11-13 03:49:36,011 INFO atlas.process: rejected https://chevening.org/fellowship/lse/: no evidence that Indian students are eligible
+2026-11-13 03:49:36,351 INFO atlas.process: rejected http://www.stir.ac.uk/scholarships/general/postgraduate/commonwealth-shared-scholarships/: no evidence that Indian students are eligible
+2026-11-13 03:49:57,564 INFO atlas.process: rejected https://chevening.org/fellowship/ocis/: no evidence that Indian students are eligible
+2026-11-13 03:49:57,589 INFO atlas.process: rejected http://www.st-andrews.ac.uk/study/fees-and-funding/scholarships/scholarships-catalogue/postgraduate-scholarships/commonwealth-shared-scholarship-scheme/: neither benefit nor eligibility evidenced
+2026-11-13 03:49:57,613 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/the-reid-family-scholarship---widening-participation/: no evidence that Indian students are eligible
+2026-11-13 03:50:06,065 INFO atlas.process: rejected http://www.southampton.ac.uk/courses/funding/scholarships-awards/commonwealth-shared.page: no evidence that Indian students are eligible
+2026-11-13 03:50:06,138 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/zimbabwe/: no evidence that Indian students are eligible
+2026-11-13 03:50:28,876 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/university-of-stirling-international-study-centre-progression-scholarships/: no evidence that Indian students are eligible
+2026-11-13 03:50:28,961 INFO atlas.process: processed 800/1283 pages
+2026-11-13 03:50:29,253 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-2022/: neither benefit nor eligibility evidenced
+2026-11-13 03:50:34,620 INFO atlas.process: rejected http://www.cranfield.ac.uk/funding/funding-opportunities/commonwealth-shared-scholarship-scheme: no evidence that Indian students are eligible
+2026-11-13 03:50:35,212 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/zambia/: no evidence that Indian students are eligible
+2026-11-13 03:50:42,345 INFO atlas.process: rejected https://www.chevening.org/fellowship/chevening-british-library-southeast-asian-fellowship/: no evidence that Indian students are eligible
+2026-11-13 03:50:42,842 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/: no evidence that Indian students are eligible
+2026-11-13 03:50:50,098 INFO atlas.process: rejected https://www.cranfield.ac.uk/funding: no evidence that Indian students are eligible
+2026-11-13 03:50:50,108 INFO atlas.process: processed 850/1283 pages
+2026-11-13 03:50:50,605 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/: no evidence that Indian students are eligible
+2026-11-13 03:51:00,641 INFO atlas.process: rejected https://www.chevening.org/fellowship/chevening-british-library-coptic-collections-fellowship/: no evidence that Indian students are eligible
+2026-11-13 03:51:00,676 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/stirlingshire-educational-trust/: page is not addressed to students/candidates
+2026-11-13 03:51:00,702 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-arab-emirates/: no evidence that Indian students are eligible
+2026-11-13 03:51:11,640 INFO atlas.process: processed 900/1283 pages
+2026-11-13 03:51:11,688 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/syria-jordan-lebanon-and-palestine/: no evidence that Indian students are eligible
+2026-11-13 03:51:25,355 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/southern-africa/: no evidence that Indian students are eligible
+2026-11-13 03:51:41,420 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/singapore/: no evidence that Indian students are eligible
+2026-11-13 03:51:49,959 INFO atlas.process: processed 950/1283 pages
+2026-11-13 03:51:50,091 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/saudi-arabia/: no evidence that Indian students are eligible
+2026-11-13 03:51:58,702 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/: no evidence that Indian students are eligible
+2026-11-13 03:52:03,099 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/new-zealand/: no evidence that Indian students are eligible
+2026-11-13 03:52:08,659 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/malaysia/: no evidence that Indian students are eligible
+2026-11-13 03:52:08,691 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/csc-research-impact-awards-2/: neither benefit nor eligibility evidenced
+2026-11-13 03:52:09,673 INFO atlas.process: processed 1000/1283 pages
+2026-11-13 03:52:14,386 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/kenya/: no evidence that Indian students are eligible
+2026-11-13 03:52:21,161 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/jamaica/: no evidence that Indian students are eligible
+2026-11-13 03:52:26,399 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/israel/: no evidence that Indian students are eligible
+2026-11-13 03:52:37,205 INFO atlas.process: processed 1050/1283 pages
+2026-11-13 03:52:41,367 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/hong-kong-sar/: no evidence that Indian students are eligible
+2026-11-13 03:52:53,339 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/germany/: no evidence that Indian students are eligible
+2026-11-13 03:53:03,321 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/east-africa/: no evidence that Indian students are eligible
+2026-11-13 03:53:09,185 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/commonwealth-caribbean/: no evidence that Indian students are eligible
+2026-11-13 03:53:20,806 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/china/: no evidence that Indian students are eligible
+2026-11-13 03:53:29,752 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/canada/: no evidence that Indian students are eligible
+2026-11-13 03:53:37,661 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/bermuda/: no evidence that Indian students are eligible
+2026-11-13 03:53:46,940 INFO atlas.process: processed 1100/1283 pages
+2026-11-13 03:53:46,969 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/australia/: no evidence that Indian students are eligible
+2026-11-13 03:54:26,403 INFO atlas.process: processed 1150/1283 pages
+2026-11-13 03:55:10,758 INFO atlas.process: processed 1200/1283 pages
+2026-11-13 03:55:49,099 INFO atlas.process: processed 1250/1283 pages
+2026-11-13 03:56:19,576 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,578 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,579 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,580 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,582 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,584 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,585 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,586 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,587 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,588 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,588 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,591 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,592 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,595 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,598 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,599 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,603 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,605 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,607 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,608 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,608 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,609 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,611 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,612 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,613 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,614 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,616 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,617 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,618 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,619 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,620 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,620 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,621 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,621 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,623 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,624 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,625 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,626 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,627 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,629 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,630 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:19,631 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,454 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,456 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,457 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,458 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,460 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,463 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,463 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,464 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,465 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,466 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,466 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,468 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,469 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,472 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,474 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,475 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,479 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,481 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,483 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,484 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,485 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,486 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,488 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,489 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,490 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,490 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,493 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,494 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,495 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,496 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,496 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,497 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,499 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,499 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,501 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,503 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,505 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,506 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,506 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,507 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,509 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 03:56:23,509 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+D:\Coding\Scholarship Crawler\atlas\cli.py:143: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  stats["duration_s"] = (datetime.utcnow() - t0).seconds
+D:\Coding\Scholarship Crawler\atlas\cli.py:58: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  r.finished_at = datetime.utcnow().replace(microsecond=0)
+2026-11-13 03:56:36,211 INFO atlas: === RUN 1 finished: {"resumed": true, "process": {"pages": 1283, "DETAIL": 140, "LISTING": 145, "IRRELEVANT": 954, "SOFT_404": 41, "DRIFTED": 3, "CARDS": 50, "NEW": 84, "CHANGED": 12, "UNCHANGED": 0, "CORROBORATING": 24, "REJECTED": 70, "errors": 0}, "enrich": {"enriched": 23, "changed": 0, "missing_doc": 1}, "unchanged_touch": 0, "verify": {"scored": 88, "verified": 0}, "lifecycle": {"EXPIRED": 37, "REVIEW_REQUIRED": 51}, "duration_s": 1710} ===
+
+Run 1 (FULL, 2026-11-12 21:58:06 -> 2026-11-12 22:26:36): pages fetched 1452, 304 0, errors 69
+  CHANGED         AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diplo name: "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Degree) (Merit Based Scheme)" -> "AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diploma) (Merit Based Scheme)"
+  CHANGED         AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Techn name: "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Diploma) (Welfare Based Scheme)" -> "AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Degree) (Welfare Based Scheme)"
+  CHANGED         AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based  name: "AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme)" -> "AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based Scheme)"
+  CHANGED         Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsd name: "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Post Matric (Welfare Based Scheme)" -> "Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsdm- Pre Matric (Welfare Based Scheme)"
+  CHANGED         PM YASASVI Central Sector Scheme Of Top Class Education In College For name: "PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students (Merit Based Scheme)" -> "PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)"; opening_date: "2026-10-22" -> "2026-06-01"
+  CHANGED         Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)          name: "Icar National Talent Scholarship(Nts-Ug) (Merit Based Scheme)" -> "Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)"
+  CHANGED         Post Matric Scholarship For Students With Disabilities (Welfare Based  closing_date: "2026-10-31" -> "2026-11-30"; name: "Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme)" -> "Post Matric Scholarship For Students With Disabilities (Welfare Based Scheme)"
+  CHANGED         Award value                                                            closing_date: "2027-01-11" -> "2026-01-12"; closing_date: "2026-01-12" -> "2026-05-29"; closing_date: "2026-05-29" -> "2025-05-31"; closing_date: "2025-05-31" -> "2025-07-31"; closing_date: "2025-07-31" -> "2026-05-29"
+  CHANGED         Award value                                                            closing_date: "2027-01-11" -> "2026-01-12"; closing_date: "2026-01-12" -> "2026-05-29"; closing_date: "2026-05-29" -> "2025-05-31"; closing_date: "2025-05-31" -> "2025-07-31"; closing_date: "2025-07-31" -> "2026-05-29"
+  CHANGED         Award value                                                            closing_date: "2027-01-11" -> "2026-01-12"; closing_date: "2026-01-12" -> "2026-05-29"; closing_date: "2026-05-29" -> "2025-05-31"; closing_date: "2025-05-31" -> "2025-07-31"; closing_date: "2025-07-31" -> "2026-05-29"
+  CHANGED         Award value                                                            closing_date: "2027-01-11" -> "2026-01-12"; closing_date: "2026-01-12" -> "2026-05-29"; closing_date: "2026-05-29" -> "2025-05-31"; closing_date: "2025-05-31" -> "2025-07-31"; closing_date: "2025-07-31" -> "2026-05-29"
+  CHANGED         Award value                                                            closing_date: "2027-01-11" -> "2026-01-12"; closing_date: "2026-01-12" -> "2026-05-29"; closing_date: "2026-05-29" -> "2025-05-31"; closing_date: "2025-05-31" -> "2025-07-31"; closing_date: "2025-07-31" -> "2026-05-29"
+  NEW             Santoor Women's Scholarship                                            {"url": "https://www.santoorscholarships.com/"}
+  NEW             Goonj Setu Fellowship 2024 -25                                         {"url": "https://goonj.org/goonj-fellowship/"}
+  NEW             Sightsavers India Fellowship Program                                   {"url": "https://indiafellowshipprogram.sightsaversindia.org/"}
+  NEW             Bihar Post Matric Scholarship · Official Portal                        {"url": "https://pmsonline.bihar.gov.in/pms/pms_online/Default.aspx"}
+  NEW             Commonwealth Master's Scholarships                                     {"url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"}
+  NEW             Stipend of Rs. 500 per month for trainees in Craftsman Training Scheme {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A8D6E1E4E8866EE600571B0A841AF768C93C24C5AEB049B3D"}
+  NEW             The Inlaks Fellowship For Social Engagement                            {"url": "https://inlaksfoundation.org/opportunities/fellowships/inlaks-shivdasani-fellowship-for-social-engagement/"}
+  NEW             Golden Jubilee Scholarship Scheme- 2024                                {"url": "https://licindia.in/documents/d/guest/golden-jubilee-scholarship-scheme-2024"}
+  NEW             Scholarship for student communities pursuing higher and Professional C {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A14D02B3B9D1B4C86EFDF20E447AB42D8B9E7FDA684F6DF59"}
+  NEW             The Inlaks-Asia Art Archive Art Grant                                  {"url": "https://inlaksfoundation.org/opportunities/grants/aaa-inlaks-art-grant/"}
+  NEW             Minority Scholarship                                                   {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A3DED9E25855FB26766A86AA048E5C167661433728284252E"}
+  NEW             INSPIRE Fellowship Guidelines (September, 2018)                        {"url": "https://online-inspire.gov.in/Account/OpenDocument?documentId=2336914"}
+  NEW             Aditya Birla Group Scholarships                                        {"url": "https://www.adityabirlascholars.net/the-scholarship/eligibility-application-process/"}
+  NEW             Visvesvaraya Ph.D. Scheme                                              {"url": "https://www.iiserbpr.ac.in/visvesvaraya-admissions-phd"}
+  NEW             State Minority Scholarship Part II (DHE)                               {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A0D73B666D1DADFB476AD7228CCFCCECE862BCF76CF63E6DB"}
+  NEW             Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Per {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Prime Minister'S Scholarship Scheme For Central Armed Police Forces An {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based  {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit  {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diplo {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Techn {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme)     {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             National Scholarship For Post Graduate Studies (Merit Based Scheme)    {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Financial Assistance For Education To The Wards Of Beedi/Cine/Iomc/Lsd {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             PM YASASVI Central Sector Scheme Of Top Class Education In College For {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             National Renewable Energy Fellowship Scheme (Merit Based Scheme)       {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Stipend Scheme For Under Graduate And Post Graduate Studies In Indian  {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Icar National Talent Scholarship(Nts-Pg) (Merit Based Scheme)          {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Icar Post Graduate Scholarship(Pgs) (Merit Based Scheme)               {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Icar Junior Research Fellowships(Jrf) And Senior Research Fellowships( {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Central Sector Scholarship Of Top Class Education For SC Students (Mer {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Sche {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Post Matric Scholarship For Students With Disabilities (Welfare Based  {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Scholarship For Top Class Education For Students With Disabilities (We {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             National Means Cum Merit Scholarship (Merit Based Scheme)              {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             PM-USP - Central Sector Scheme Of Scholarship For College And Universi {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Financial Support To The Students Of NER For Higher Professional Cours {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             Prime Minister'S Scholarship Scheme For Ministry Of Railways (Merit Ba {"url": "https://scholarships.gov.in/All-Scholarships"}
+  NEW             The application deadline is 21 October 2024. The scholarship will star {"url": "https://www.daad.in/en/study-research-in-germany/studying-in-germany/daad-scholarships/research-grants-doctoral-degree-in-germany-phd/"}
+  NEW             Scheme of Govt. of Haryana for Merit Scholarship to                    {"url": "https://harchhatravratti.highereduhry.ac.in/Notices/State%20Merit%20Scholarship%20To%20UG%20Girls.pdf"}
+  NEW             Have participated in a U.S. government-sponsored exchange program with {"url": "https://usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/hubert-h-humphrey-fellowship-program/"}
+  NEW             Post Matric Scholarship to SBC Students                                {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51ABD801C85A5E1070827B2230746448BA9CCB9B577565F338F"}
+  NEW             Scholarship Database                                                   {"url": "https://www.daad.in/en/find-funding/scholarship-database/?type=a&q=&status=0&subject=0&onlydaad=0&detail_to_show=0&target=4&origin=4&pg=2&tab=&intentio
+  NEW             CONSOLIDATED STIPEND SCHEME & FREE BOOKS SCHEME FOR                    {"url": "https://harchhatravratti.highereduhry.ac.in/Notices/Consolidate%20Stipend%20and%20Free%20Books%20to%20SC%20Students%20Scheme.pdf"}
+  NEW             Apply to Young India Fellowship                                        {"url": "https://www.ashoka.edu.in/yif-admissions/"}
+  NEW             Rajarshi Chhatrapati Shahu Maharaj Merit Scholarship for students stud {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A91E82A5FCFBAAB0483ADB704B47ED161F43EE2545EC67678"}
+  NEW             If you're a US citizen applying for a Gates Cambridge scholarship, the {"url": "https://www.postgraduate.study.cam.ac.uk/funding?ucam-ref=global-header"}
+  NEW             Merit Scholarships for Economically Backward Class Students            {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A28BFA30CC1E4590B8F718E4CDE619112BB546E172DF7EFEA"}
+  NEW             Scheme of Post Matric Scholarship to Lower Income                      {"url": "https://harchhatravratti.highereduhry.ac.in/Notices/Lower%20Income%20Group%20Scheme.pdf"}
+  NEW             Scheme Guidelines of National Overseas Scholarship for SC etc. Candida {"url": "https://www.ee.iitb.ac.in/~belur/scst-students-cell/files/NOS-SC-SCHEME-GUIDELINES-2020-21.pdf"}
+  NEW             Open Merit Scholarships in Junior College                              {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AD2BE9F3A5300828BE4EFF8979CAC37F89BF462A7353CD060"}
+  NEW             All Young India Fellows in the Class of 2025-26 will receive scholarsh {"url": "https://www.ashoka.edu.in/yif/"}
+  NEW             EIL 2018 scholarship                                                   {"url": "https://www.ee.iitb.ac.in/~belur/scst-students-cell/eil18/"}
+  NEW             Rules for Award for NEC Merit Scholarship                              {"url": "https://scholarships.gov.in/public/schemeGuidelines/NEC_1234_G.pdf"}
+  NEW             Assistance to Meritorious Students scholarship - Senior Level          {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A081772910D526AF0EDDF60A95235BCA1E7C80233A30F725A"}
+  NEW             Scholarship to Meritorious students possessing Mathematics /Physics    {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AE50D4D8851DF49C43E0ED43F316413C64DC359D08045E4DB"}
+  NEW             SAKSHAM SCHOLARSHIP SCHEME                                             {"url": "https://www.aicte.gov.in/sites/default/files/stdc/FAQs-Saksham%20Scheme.pdf"}
+  NEW             State Government Open Merit Scholarship                                {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AED33CA69606C0CC2EF25388FB8EC7046E5E9B1E993657CEB"}
+  NEW             Assistance to Meritorious Students scholarship                         {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AE6CC3420B0C53DCEB5F351B3D2A9E2CDC4ABAD8058B38786"}
+  NEW             Students belonging to all the
+categories whose family income is less t {"url": "https://www.ee.iitb.ac.in/~belur/scst-students-cell/files/karnataka18.html"}
+  NEW             Innovation in Science Pursuit for Inspired Research (INSPIRE) Scheme   {"url": "https://online-inspire.gov.in/Account/OpenDocument?documentId=3388105"}
+  NEW             Post Matric Scholarship Scheme (Government Of India )                  {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A668ED132B54E2162E54C475F826D85C79DA948301E5F7772"}
+  NEW             The application deadline is 21 October 2024. This is for scholarship s {"url": "https://www.daad.in/en/study-research-in-germany/studying-in-germany/phd-studies/bi-nationally-supervised-doctoral-degree-scholarship/"}
+  NEW             Rajarshri Chhatrapati Shahu Maharaj Merit Scholarship                  {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51ADF0B5B3136AAAD4C06BEFD7079D45EBAADC7F5BA9DCAA1F3"}
+  NEW             Post Matric Scholarship to the Girls Belonging to Other Backward Class {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A20E2AADEC5FCAFCAA9EF15C9E7BE6DA49EFF8397D1CB5063"}
+  NEW             PRAGATI SCHOLARSHIP SCHEME FOR GIRLS STUDENT                           {"url": "https://www.aicte.gov.in/sites/default/files/pragatisaksham%20(1).pdf"}
+  NEW             Scholarship Forms Close                                                {"url": "https://www.ashoka.edu.in/undergraduate-programme-scholarships/"}
+  NEW             State Government Daxshina Adhichatra Scholarship                       {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A9D67A04BA966CE9B96F78E67437811F5BC8073C49AE8C141"}
+  NEW             Government Vidyaniketan Scholarship                                    {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A63C8EB5C6B8591A03ACAAA73B08A2E9A0140E826A54AE104"}
+  NEW             Arunkumar & Ramniklal Mehta Scholarship (ARRA)                         {"url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/"}
+  NEW             Eklavya Scholarship                                                    {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A1655B141877065672B6A562E1EC5891E6D5A884AC6702F5D"}
+  NEW             SWANATH SCHOLARSHIP                                                    {"url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf"}
+  NEW             Post-Matric Scholarship for persons with disability                    {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51ABCC44582035F06CB9B6B2704869FE16E9E8F561A36261D4D"}
+  NEW             The web portal has been reopened till 31-05-2017 to apply for Saksham  {"url": "https://www.aicte.gov.in/schemes/students-development-schemes/Batch-2016-2017"}
+  NEW             Government of India Post-Matric Scholarship                            {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51ACE99921E698B1EE85995B38445F14746E1B0DD7E66FFF88B"}
+  NEW             Commonwealth shared scholarships                                       {"url": "https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/fees-and-funding-pg/commonwealth-shared-scholarships"}
+  NEW             Scholarships Division, Department of Higher Education                  {"url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf"}
+  NEW             Commonwealth Shared Scholarships                                       {"url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship"}
+  NEW             Award value                                                            {"url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/"}
+  NEW             Commonwealth Shared Scholarship Scheme                                 {"url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1"}
+  NEW             Chevening Europe Defence and Security Fellowship                       {"url": "https://www.chevening.org/fellowship/chevening-europe-defence-and-security-fellowship/"}
+  NEW             Rajarshri Chhatrapati Shahu Maharaj Fee Reimbursement Scheme           {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A85D4A975C5D5142BC657258E23D57FBDAD7167545F0B41EF"}
+  NEW             U of T India Foundation Research Catalyst Grants 2027-28               {"url": "https://www.ashoka.edu.in/research-funding/"}
+  NEW             Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Schem {"url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AA86467549C6E0CFFDFD61E992C8610ED352EC9DEF886C9CD"}
+  NEW             REVISED GUIDELINES OF RAJIV GANDHI NATIONAL FELLOWSHIP FOR STUDENTS    {"url": "https://www.ugc.gov.in/pdfnews/4309928_rgnfdisbrevised-guidelines.pdf"}
+  NEW             AICTE National Doctoral Fellowship Scheme (NDF)                        {"url": "https://www.aicte.gov.in/sites/default/files/sdc/AICTE_NDF_guidelines_updated.pdf"}
+  NEW             PRAGATI SCHOLARSHIP SCHEME                                             {"url": "https://www.aicte.gov.in/sites/default/files/stdc/Pragati/FAQs-Pragati%20Scheme.pdf"}
+  NEW             SWANATH SCHOLARSHIP                                                    {"url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf"}

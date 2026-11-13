@@ -1,0 +1,29 @@
+# --- crawling ---
+scrapy>=2.13
+# optional JS rendering for render_js sources (myScheme, Reliance Foundation):
+# scrapy-playwright>=0.0.40
+# playwright>=1.45            # then: playwright install chromium
+# --- parsing & extraction ---
+lxml>=5.2
+beautifulsoup4>=4.12
+trafilatura>=1.12
+pdfplumber>=0.11
+dateparser>=1.2
+python-dateutil>=2.9
+rapidfuzz>=3.9
+tldextract>=5.1
+# --- data, config, validation ---
+sqlalchemy>=2.0
+pydantic>=2.7
+pyyaml>=6.0
+requests>=2.32
+# --- orchestration ---
+typer>=0.12
+apscheduler>=3.10
+tzdata
+# --- dashboard ---
+streamlit>=1.36
+pandas>=2.2
+plotly>=5.22
+# --- dev ---
+pytest>=8.2

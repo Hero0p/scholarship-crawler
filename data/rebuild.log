@@ -1,0 +1,139 @@
+2026-11-13 05:09:33,505 INFO atlas.process: rejected https://www.msif.org/research/awards-grants-and-fellowships/mcdonald-fellowships/: no evidence that Indian students are eligible
+2026-11-13 05:09:33,582 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/india/: neither benefit nor eligibility evidenced
+2026-11-13 05:09:33,871 INFO atlas.process: rejected https://www.vahanischolarship.com/admission: no evidence that Indian students are eligible
+2026-11-13 05:09:33,940 INFO atlas.process: processed 50/1383 pages
+2026-11-13 05:09:36,021 INFO atlas.process: processed 100/1383 pages
+2026-11-13 05:09:44,943 INFO atlas.process: rejected https://library.harvard.edu/grants-fellowships/houghton-library-visiting-fellowships: no evidence that Indian students are eligible
+2026-11-13 05:09:44,944 INFO atlas.process: processed 150/1383 pages
+2026-11-13 05:09:55,936 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/: neither benefit nor eligibility evidenced
+2026-11-13 05:10:00,312 INFO atlas.process: processed 200/1383 pages
+2026-11-13 05:10:07,395 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/jasso-scholarships/index.html: no evidence that Indian students are eligible
+2026-11-13 05:10:07,544 INFO atlas.process: processed 250/1383 pages
+2026-11-13 05:10:07,682 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-vulnerable-states/: no evidence that Indian students are eligible
+2026-11-13 05:10:14,928 INFO atlas.process: processed 300/1383 pages
+2026-11-13 05:10:17,586 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-professional-fellowships-information-for-uk-host-organisations/: no evidence that Indian students are eligible
+2026-11-13 05:10:19,662 INFO atlas.process: rejected https://www.jasso.go.jp/en/ryugaku/scholarship_j/shoreihi/yoyaku_eju/202606.html: no evidence that Indian students are eligible
+2026-11-13 05:10:20,936 INFO atlas.process: rejected https://www.msif.org/research/awards-grants-and-fellowships/mcdonald-fellowships/?lang=ar: no evidence that Indian students are eligible
+2026-11-13 05:10:21,078 INFO atlas.process: processed 350/1383 pages
+2026-11-13 05:10:33,260 INFO atlas.process: rejected https://www.jasso.go.jp/en/ryugaku/scholarship_j/shoreihi/yoyaku_eju/202611.html: no evidence that Indian students are eligible
+2026-11-13 05:10:34,308 INFO atlas.process: rejected https://www.msif.org/research/awards-grants-and-fellowships/mcdonald-fellowships/?lang=es: no evidence that Indian students are eligible
+2026-11-13 05:10:34,342 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3050061808: no evidence that Indian students are eligible
+2026-11-13 05:10:34,398 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-fellowships-information-for-candidates/: no evidence that Indian students are eligible
+2026-11-13 05:10:34,987 INFO atlas.process: processed 400/1383 pages
+2026-11-13 05:10:41,639 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00015660: no evidence that Indian students are eligible
+2026-11-13 05:10:44,011 INFO atlas.process: processed 450/1383 pages
+2026-11-13 05:10:45,528 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00014374: no evidence that Indian students are eligible
+2026-11-13 05:10:50,696 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3050673930: no evidence that Indian students are eligible
+2026-11-13 05:10:54,190 INFO atlas.process: processed 500/1383 pages
+2026-11-13 05:10:57,714 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-phd-scholarships-for-least-developed-countries-and-fragile-states/: no evidence that Indian students are eligible
+2026-11-13 05:11:01,106 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=5-00014515: no evidence that Indian students are eligible
+2026-11-13 05:11:04,635 INFO atlas.process: processed 550/1383 pages
+2026-11-13 05:11:17,080 INFO atlas.process: processed 600/1383 pages
+2026-11-13 05:11:17,118 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/: no evidence that Indian students are eligible
+2026-11-13 05:11:22,020 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-professional-fellowships-3/: no evidence that Indian students are eligible
+2026-11-13 05:11:27,057 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/planning/scholarships/jasso-scholarships/: no evidence that Indian students are eligible
+2026-11-13 05:11:44,514 INFO atlas.process: processed 650/1383 pages
+2026-11-13 05:11:45,028 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,029 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,030 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,031 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,033 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,035 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,036 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,036 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,037 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,037 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,038 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,040 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,041 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,044 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,046 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,047 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,050 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,052 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,054 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,054 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,055 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,056 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,057 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,058 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,058 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,059 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,061 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,062 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,063 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,063 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,064 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,065 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,065 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,066 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,067 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,069 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,070 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,070 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,071 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,072 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,073 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:45,074 WARNING pdfminer.pdffont: Could not get FontBBox from font descriptor because None cannot be parsed as 4 floats
+2026-11-13 05:11:57,623 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007593: no evidence that Indian students are eligible
+2026-11-13 05:12:00,417 INFO atlas.process: processed 700/1383 pages
+2026-11-13 05:12:00,702 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007590: no evidence that Indian students are eligible
+2026-11-13 05:12:03,123 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships/: neither benefit nor eligibility evidenced
+2026-11-13 05:12:06,175 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=306007587: no evidence that Indian students are eligible
+2026-11-13 05:12:08,864 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=305055716: no evidence that Indian students are eligible
+2026-11-13 05:12:15,875 INFO atlas.process: processed 750/1383 pages
+2026-11-13 05:12:15,895 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=3041231470: no evidence that Indian students are eligible
+2026-11-13 05:12:22,015 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00694488: no evidence that Indian students are eligible
+2026-11-13 05:12:41,668 INFO atlas.process: rejected https://www.studyinjapan.go.jp/en/search-for-scholarships/detail.php?lang=en&mid=4-00044379: no evidence that Indian students are eligible
+2026-11-13 05:12:48,551 INFO atlas.process: processed 800/1383 pages
+2026-11-13 05:13:04,360 INFO atlas.process: rejected https://www.kcl.ac.uk/study/funding/funding-opportunities/commonwealth-shared-scholarship-scheme-csss: no evidence that Indian students are eligible
+2026-11-13 05:13:04,424 INFO atlas.process: processed 850/1383 pages
+2026-11-13 05:13:13,770 INFO atlas.process: rejected https://chevening.org/fellowship/lse/: no evidence that Indian students are eligible
+2026-11-13 05:13:14,056 INFO atlas.process: rejected http://www.stir.ac.uk/scholarships/general/postgraduate/commonwealth-shared-scholarships/: no evidence that Indian students are eligible
+2026-11-13 05:13:30,659 INFO atlas.process: rejected https://chevening.org/fellowship/ocis/: no evidence that Indian students are eligible
+2026-11-13 05:13:30,677 INFO atlas.process: rejected http://www.st-andrews.ac.uk/study/fees-and-funding/scholarships/scholarships-catalogue/postgraduate-scholarships/commonwealth-shared-scholarship-scheme/: neither benefit nor eligibility evidenced
+2026-11-13 05:13:30,695 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/the-reid-family-scholarship---widening-participation/: no evidence that Indian students are eligible
+2026-11-13 05:13:35,247 INFO atlas.process: rejected http://www.southampton.ac.uk/courses/funding/scholarships-awards/commonwealth-shared.page: no evidence that Indian students are eligible
+2026-11-13 05:13:35,293 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/zimbabwe/: no evidence that Indian students are eligible
+2026-11-13 05:13:44,633 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/university-of-stirling-international-study-centre-progression-scholarships/: no evidence that Indian students are eligible
+2026-11-13 05:13:44,687 INFO atlas.process: processed 900/1383 pages
+2026-11-13 05:13:45,211 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-2022/: neither benefit nor eligibility evidenced
+2026-11-13 05:13:47,568 INFO atlas.process: rejected http://www.cranfield.ac.uk/funding/funding-opportunities/commonwealth-shared-scholarship-scheme: no evidence that Indian students are eligible
+2026-11-13 05:13:48,084 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/zambia/: no evidence that Indian students are eligible
+2026-11-13 05:13:52,213 INFO atlas.process: rejected https://www.chevening.org/fellowship/chevening-british-library-southeast-asian-fellowship/: no evidence that Indian students are eligible
+2026-11-13 05:13:52,611 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/west-africa/: no evidence that Indian students are eligible
+2026-11-13 05:13:57,074 INFO atlas.process: processed 950/1383 pages
+2026-11-13 05:13:57,464 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-states/: no evidence that Indian students are eligible
+2026-11-13 05:14:02,888 INFO atlas.process: rejected https://www.chevening.org/fellowship/chevening-british-library-coptic-collections-fellowship/: no evidence that Indian students are eligible
+2026-11-13 05:14:02,902 INFO atlas.process: rejected https://www.stir.ac.uk/scholarships/general/stirlingshire-educational-trust/: page is not addressed to students/candidates
+2026-11-13 05:14:02,918 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/united-arab-emirates/: no evidence that Indian students are eligible
+2026-11-13 05:14:08,467 INFO atlas.process: processed 1000/1383 pages
+2026-11-13 05:14:08,501 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/syria-jordan-lebanon-and-palestine/: no evidence that Indian students are eligible
+2026-11-13 05:14:15,354 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/southern-africa/: no evidence that Indian students are eligible
+2026-11-13 05:14:23,492 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/singapore/: no evidence that Indian students are eligible
+2026-11-13 05:14:28,546 INFO atlas.process: processed 1050/1383 pages
+2026-11-13 05:14:28,680 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/saudi-arabia/: no evidence that Indian students are eligible
+2026-11-13 05:14:34,087 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/pakistan/: no evidence that Indian students are eligible
+2026-11-13 05:14:37,275 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/new-zealand/: no evidence that Indian students are eligible
+2026-11-13 05:14:41,130 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/malaysia/: no evidence that Indian students are eligible
+2026-11-13 05:14:41,161 INFO atlas.process: rejected https://cscuk.fcdo.gov.uk/csc-research-impact-awards-2/: neither benefit nor eligibility evidenced
+2026-11-13 05:14:41,951 INFO atlas.process: processed 1100/1383 pages
+2026-11-13 05:14:45,036 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/kenya/: no evidence that Indian students are eligible
+2026-11-13 05:14:49,738 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/jamaica/: no evidence that Indian students are eligible
+2026-11-13 05:14:53,066 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/israel/: no evidence that Indian students are eligible
+2026-11-13 05:14:58,988 INFO atlas.process: processed 1150/1383 pages
+2026-11-13 05:15:01,596 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/hong-kong-sar/: no evidence that Indian students are eligible
+2026-11-13 05:15:08,775 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/germany/: no evidence that Indian students are eligible
+2026-11-13 05:15:15,173 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/east-africa/: no evidence that Indian students are eligible
+2026-11-13 05:15:18,876 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/commonwealth-caribbean/: no evidence that Indian students are eligible
+2026-11-13 05:15:25,111 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/china/: no evidence that Indian students are eligible
+2026-11-13 05:15:30,360 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/canada/: no evidence that Indian students are eligible
+2026-11-13 05:15:34,316 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/bermuda/: no evidence that Indian students are eligible
+2026-11-13 05:15:39,368 INFO atlas.process: processed 1200/1383 pages
+2026-11-13 05:15:39,387 INFO atlas.process: rejected https://www.rhodeshouse.ox.ac.uk/scholarships/applications/australia/: no evidence that Indian students are eligible
+2026-11-13 05:16:08,846 INFO atlas.process: processed 1250/1383 pages
+2026-11-13 05:16:48,239 INFO atlas.process: processed 1300/1383 pages
+2026-11-13 05:17:14,527 INFO atlas.process: processed 1350/1383 pages
+D:\Coding\Scholarship Crawler\atlas\cli.py:58: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  r.finished_at = datetime.utcnow().replace(microsecond=0)
+{"rebuild": true, "process": {"pages": 1383, "DETAIL": 122, "LISTING": 168, "IRRELEVANT": 1034, "SOFT_404": 56, "DRIFTED": 3, "CARDS": 38, "NEW": 83, "CHANGED": 0, "UNCHANGED": 0, "CORROBORATING": 10, "REJECTED": 67, "errors": 0}, "enrich": {"enriched": 20, "changed": 0, "missing_doc": 0, "shared_doc_skipped": 11}, "verify": {"scored": 83, "verified": 15}, "lifecycle": {"REVIEW_REQUIRED": 56, "EXPIRED": 13, "ACTIVE": 14}}

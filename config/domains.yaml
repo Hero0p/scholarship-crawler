@@ -1,0 +1,140 @@
+# Rule-based source classification (applied to the FINAL URL after redirects).
+official_gov_suffixes:      # tier 1, government
+  - gov.in
+  - nic.in
+  - gov.uk
+  - go.jp
+  - gc.ca
+  - gov.au
+  - govt.nz
+  - europa.eu
+  - gov
+academic_suffixes:          # tier 2, universities / research institutes
+  - ac.in
+  - edu.in
+  - res.in
+  - edu
+  - ac.uk
+  - ac.jp
+  - edu.au
+
+# State tokens used to label GOV_STATE vs GOV_CENTRAL
+state_tokens:
+  - andhra
+  - ap
+  - arunachal
+  - assam
+  - bihar
+  - chhattisgarh
+  - cg
+  - goa
+  - gujarat
+  - haryana
+  - himachal
+  - hp
+  - jharkhand
+  - karnataka
+  - kerala
+  - mp
+  - madhyapradesh
+  - maharashtra
+  - manipur
+  - meghalaya
+  - mizoram
+  - nagaland
+  - odisha
+  - punjab
+  - rajasthan
+  - sikkim
+  - tn
+  - tamilnadu
+  - telangana
+  - tripura
+  - up
+  - uttarakhand
+  - uk
+  - wb
+  - wbhed
+  - westbengal
+  - delhi
+  - jk
+  - ladakh
+  - puducherry
+  - chandigarh
+  - cgg
+  - highereduhry
+
+aggregators:
+  - buddy4study.com
+  - scholarshipsinindia.com
+  - vidyasaarathi.co.in
+  - shiksha.com
+  - collegedunia.com
+  - collegedekho.com
+  - leverageedu.com
+  - scholarshipportal.com
+  - scholars4dev.com
+  - opportunitiesforafricans.com
+  - opportunitydesk.org
+  - jagranjosh.com
+  - careers360.com
+  - aglasem.com
+  - sarkariresult.com
+  - freejobalert.com
+  - indiaeducation.net
+  - studyabroad.shiksha.com
+  - scholarshipdb.net
+  - afterschoolafrica.com
+
+news_blogs:
+  - timesofindia.indiatimes.com
+  - indiatimes.com
+  - ndtv.com
+  - indianexpress.com
+  - hindustantimes.com
+  - thehindu.com
+  - news18.com
+  - livemint.com
+  - economictimes.indiatimes.com
+  - medium.com
+  - blogspot.com
+  - wordpress.com
+  - wikipedia.org
+
+# Valid only as application_url (never as official source)
+application_platforms:
+  - scholarships.gov.in
+  - buddy4study.com
+  - vidyasaarathi.co.in
+  - mahadbt.maharashtra.gov.in
+  - ssp.postmatric.karnataka.gov.in
+  - scholarship.up.gov.in
+
+# Hosts that are never scholarship providers (social, infra, CDNs, search)
+ignore_hosts:
+  - facebook.com
+  - twitter.com
+  - x.com
+  - instagram.com
+  - linkedin.com
+  - youtube.com
+  - youtu.be
+  - whatsapp.com
+  - t.me
+  - google.com
+  - goo.gl
+  - bit.ly
+  - play.google.com
+  - apps.apple.com
+  - amazonaws.com
+  - cloudfront.net
+  - googleapis.com
+  - gstatic.com
+  - cdnjs.cloudflare.com
+  - wa.me
+  - india.gov.in
+  - digitalindia.gov.in
+  - mygov.in
+  - data.gov.in
+  - pmindia.gov.in
+  - web.archive.org
