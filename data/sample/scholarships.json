@@ -3906,7 +3906,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:33",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:54:35",
+    "last_checked_at": "2026-11-13 22:23:06",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -4031,7 +4031,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -6792,7 +6792,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:49",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:57:00",
+    "last_checked_at": "2026-11-13 22:30:15",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -6806,7 +6806,7 @@
         "value": "Commonwealth Shared Scholarship Scheme",
         "evidence": "Commonwealth Shared Scholarship Scheme",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [7, 45]}"
       },
       {
@@ -6814,7 +6814,7 @@
         "value": "University of Birmingham",
         "evidence": "University of Birmingham",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [48, 72]}"
       },
       {
@@ -6822,7 +6822,7 @@
         "value": true,
         "evidence": "Bangladesh, Botswana, Belize, Cameroon, Ghana, Dominica, Fiji, Gabon, Gambia, Grenada, Guyana, India, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [2867, 3167]}"
       },
       {
@@ -6830,7 +6830,7 @@
         "value": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "evidence": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [1435, 2866]}"
       },
       {
@@ -6841,7 +6841,7 @@
         ],
         "evidence": "agree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [1815, 2068]}"
       },
       {
@@ -6849,7 +6849,7 @@
         "value": "2026-12-08",
         "evidence": "8 December 2026",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [435, 450]}"
       },
       {
@@ -6857,7 +6857,7 @@
         "value": "2026-11-10",
         "evidence": "Applications for 2027 entry open on 10 November 2026 and close on 8 December 2026 at 16:00 (GMT); we strongly encourage you to check the Commonwealth Shared Scholarships webpage for more information: Commonwealth Shared Scholarships - Commonwealth Scholarship Commission in the UK",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [878, 1158]}"
       },
       {
@@ -6869,15 +6869,15 @@
         },
         "evidence": "[Apply now] -> https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{\"char\": [291, 300]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-12 (snapshot a93847040323)",
+        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-13 (snapshot 1c40f6f95f5d)",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "a938470403238f434bbac712ccc16558408027cb195b482af4e2e025dd3c8f79",
+        "snapshot_sha256": "1c40f6f95f5dbe6d1527a9eb27933e83e37b9b13c409b12240eaa36740bbaf66",
         "locator": "{}"
       }
     ],
@@ -6897,7 +6897,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -8575,6 +8575,245 @@
     }
   },
   {
+    "id": 85,
+    "fingerprint": "british council english and school education scholarships scheme msc tesol online@stir.ac.uk",
+    "name": "British Council English and School Education Scholarships Scheme - MSc TESOL (Online)",
+    "provider": "University of Stirling",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+    "official_source_page_id": 1590,
+    "official_source_tier": 2,
+    "source_id": 124,
+    "source_type": "UNIVERSITY",
+    "application_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/msc-podiatry-pre-registration-scholarship/",
+    "application_mode": "ONLINE",
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": "Scholarship awardees must:\nbe passport holders and permanent residents of Bangladesh, India, or Sri Lanka;\nmeet the academic requirements that will enable them to gain entry onto the MSc TESOL (Online) course;\ndemonstrate the case for financial support / socio-economic need;\nnot be in receipt of financial support or funding towards their MSc TESOL (Online) from any other source;\nhave not previously studied at degree level or higher in the UK or lived recently (in the last five years) in the UK;\nmeet the English language requirement as stipulated by the University of Stirling;\nbe motivated and academically able to follow and benefit from a UK postgraduate taught course;\nbe working in or directly with the government education sector in their country, with a focus on English language teaching;\nbe active in the field with a proven interest in the proposed subject area of English language teaching - teacher development;\nbe able to demonstrate plans for contributing to the field of English language teaching and teacher development in their country through the benefits achieved after graduating from UK higher education;\ndemonstrate a plan and a passion to engage with the wider community working in English language teaching from their home country;\nagree to participate fully in British Council monitoring and evaluation of the scholarship programme;",
+    "education_levels": "[\"PG\"]",
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": null,
+    "income_text": null,
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": null,
+    "deadline_text": null,
+    "is_rolling": null,
+    "academic_year": "2026-27",
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "PAGE",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 85.8,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "DISCOVERED_OUTLINK",
+    "first_seen_at": "2026-11-13 22:30:16",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-13 22:30:16",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 1.0,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "British Council English and School Education Scholarships Scheme - MSc TESOL (Online)",
+        "evidence": "British Council English and School Education Scholarships Scheme - MSc TESOL (Online)",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [7, 92]}"
+      },
+      {
+        "field": "provider",
+        "value": "University of Stirling",
+        "evidence": "University of Stirling",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [110, 132]}"
+      },
+      {
+        "field": "india_eligibility",
+        "value": true,
+        "evidence": "Bangladesh, India, Sri Lanka",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [366, 394]}"
+      },
+      {
+        "field": "eligibility_text",
+        "value": "Scholarship awardees must:\nbe passport holders and permanent residents of Bangladesh, India, or Sri Lanka;\nmeet the academic requirements that will enable them to gain entry onto the MSc TESOL (Online) course;\ndemonstrate the case for financial support / socio-economic need;\nnot be in receipt of financial support or funding towards their MSc TESOL (Online) from any other source;\nhave not previously studied at degree level or higher in the UK or lived recently (in the last five years) in the UK;\nmeet the English language requirement as stipulated by the University of Stirling;\nbe motivated and academically able to follow and benefit from a UK postgraduate taught course;\nbe working in or directly with the government education sector in their country, with a focus on English language teaching;\nbe active in the field with a proven interest in the proposed subject area of English language teaching - teacher development;\nbe able to demonstrate plans for contributing to the field of English language teaching and teacher development in their country through the benefits achieved after graduating from UK higher education;\ndemonstrate a plan and a passion to engage with the wider community working in English language teaching from their home country;\nagree to participate fully in British Council monitoring and evaluation of the scholarship programme;",
+        "evidence": "Scholarship awardees must:\nbe passport holders and permanent residents of Bangladesh, India, or Sri Lanka;\nmeet the academic requirements that will enable them to gain entry onto the MSc TESOL (Online) course;\ndemonstrate the case for financial support / socio-economic need;\nnot be in receipt of financial support or funding towards their MSc TESOL (Online) from any other source;\nhave not previously studied at degree level or higher in the UK or lived recently (in the last five years) in the UK;\nmeet the English language requirement as stipulated by the University of Stirling;\nbe motivated and academically able to follow and benefit from a UK postgraduate taught course;\nbe working in or directly with the government education sector in their country, with a focus on English language teaching;\nbe active in the field with a proven interest in the proposed subject area of English language teaching - teacher development;\nbe able to demonstrate plans for contributing to the field of English language teaching and teacher development in their country through the benefits achieved after graduating from UK higher education;\ndemonstrate a plan and a passion to engage with the wider community working in English language teaching from their home country;\nagree to participate fully in British Council monitoring and evaluation of the scholarship programme;",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [2529, 3891]}"
+      },
+      {
+        "field": "education_levels",
+        "value": [
+          "PG"
+        ],
+        "evidence": "British Council English and School Education Scholarships Scheme - MSc TESOL (Online)",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [7, 92]}"
+      },
+      {
+        "field": "academic_year",
+        "value": "2026-27",
+        "evidence": "olarships for government school educators from Bangladesh, India and Sri Lanka in the academic year 2026/27 to complete the MSc TESOL (Online) at the University of Stirling. The online course will commence in September 2026 and finish in March 2029, including a two-week study visit to the UK, that o",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{\"char\": [951, 1251]}"
+      },
+      {
+        "field": "application_url",
+        "value": {
+          "url": "https://www.stir.ac.uk/scholarships/general/postgraduate/msc-podiatry-pre-registration-scholarship/",
+          "mode": "ONLINE",
+          "route": "OFFICIAL"
+        },
+        "evidence": "[MSc Podiatry (pre-registration) scholarship] -> https://www.stir.ac.uk/scholarships/general/postgraduate/msc-podiatry-pre-registration-scholarship/",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "evidence": "HTTP 200 from https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/ on 2026-11-13 (snapshot 37cbbac3ef8e)",
+        "source_url": "https://www.stir.ac.uk/scholarships/general/postgraduate/british-council-english-and-school-education-scholarships-scheme---msc-tesol-online/",
+        "snapshot_sha256": "37cbbac3ef8e6a7a14c2f116b401f5c630da6a45063a67549426145c30a99cc0",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "stir.ac.uk classified UNIVERSITY (tier 2); origin DISCOVERED_OUTLINK"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 1.0,
+          "points": 15.0,
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "'[MSc Podiatry (pre-registration) scholarship] -> https://www.stir.ac.uk/scholarships/gener' (official)"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.5,
+          "points": 5.0,
+          "reason": "1 structured criteria with evidence (education_levels)"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 0.4,
+          "points": 4.0,
+          "reason": "only cycle known (2026-27), no date"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "current cycle 2026-27 mentioned"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "8/8 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 1.0,
+          "points": 5.0,
+          "reason": "100% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": true
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 85.8,
+      "capped": false,
+      "scoring_version": "1.0"
+    }
+  },
+  {
     "id": 15,
     "fingerprint": "scholarship scheme for state minority communities pursuing higher professional education all post h s c courses part i technical course dte@maharashtra.gov.in",
     "name": "Scholarship Scheme for State Minority Communities Pursuing Higher Professional Education/All Post H.S.C Courses.(Part-I{(Technical Course(DTE)}",
@@ -8912,7 +9151,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:35",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:54:51",
+    "last_checked_at": "2026-11-13 22:24:59",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9008,7 +9247,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -9863,7 +10102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:13",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:57:00",
+    "last_checked_at": "2026-11-13 22:30:14",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9877,7 +10116,7 @@
         "value": "Commonwealth Shared Scholarships",
         "evidence": "Commonwealth Shared Scholarships",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{\"char\": [7, 39]}"
       },
       {
@@ -9885,7 +10124,7 @@
         "value": true,
         "evidence": "sh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana,India, Jamaica, Kenya, Kiribati ,Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint V",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{\"char\": [2251, 2551]}"
       },
       {
@@ -9893,7 +10132,7 @@
         "value": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "evidence": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{\"char\": [707, 2120]}"
       },
       {
@@ -9903,7 +10142,7 @@
         ],
         "evidence": "Have made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{\"char\": [1098, 1364]}"
       },
       {
@@ -9911,15 +10150,15 @@
         "value": "2026-12-08",
         "evidence": "Application deadline: Tuesday 8 December 2026",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{\"char\": [199, 244]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-12 (snapshot f741571de0d1)",
+        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-13 (snapshot 95c78c1c7476)",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "f741571de0d163393413cc49391a1cd1e610fad0685046714524e98d90cc9793",
+        "snapshot_sha256": "95c78c1c7476a0fc0c449d7093010bfb6fc326d2cb43dedee72e5e9f595f9be2",
         "locator": "{}"
       }
     ],
@@ -9939,7 +10178,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -14609,7 +14848,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:54:49",
+    "last_checked_at": "2026-11-13 22:23:48",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -14667,7 +14906,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -16543,7 +16782,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:57:00",
+    "last_checked_at": "2026-11-13 22:30:14",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -16557,7 +16796,7 @@
         "value": "Sightsavers India Fellowship Program",
         "evidence": "Sightsavers India Fellowship Program",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{\"char\": [7, 43]}"
       },
       {
@@ -16565,7 +16804,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{\"char\": [19, 24]}"
       },
       {
@@ -16573,7 +16812,7 @@
         "value": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "evidence": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{\"char\": [1942, 2287]}"
       },
       {
@@ -16581,7 +16820,7 @@
         "value": "2026-07-31",
         "evidence": "Last date of application: 31st July 2026",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{\"char\": [2741, 2781]}"
       },
       {
@@ -16593,15 +16832,15 @@
         },
         "evidence": "[Apply for the program] -> https://indiafellowshipprogram.sightsaversindia.org/verify",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{\"char\": [184, 205]}"
       },
       {
         "field": "official_source_url",
         "value": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-12 (snapshot aade18df8ec9)",
+        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-13 (snapshot a8fd777b0e9f)",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "aade18df8ec96e9013b2311c913ae22ed81cedc6c5d35ed446fca5c5c3f335e6",
+        "snapshot_sha256": "a8fd777b0e9f6bc38ebe27a4286be81d7a1a64bd2a6a8ff4090d8c1c4efcb503",
         "locator": "{}"
       }
     ],
@@ -16621,7 +16860,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -18248,7 +18487,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:57:00",
+    "last_checked_at": "2026-11-13 22:30:14",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18262,7 +18501,7 @@
         "value": "Goonj Setu Fellowship 2024 -25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18270,7 +18509,7 @@
         "value": "Goonj",
         "evidence": "Goonj",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [7, 12]}"
       },
       {
@@ -18278,7 +18517,7 @@
         "value": true,
         "evidence": "n empathy, dignity, and action, our fellowships are immersive, year-long journeys into the heart of India's rural and urban landscapes. Our fellows walk with the communities, co-create solutions, and build leadership from the ground up.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [410, 646]}"
       },
       {
@@ -18291,7 +18530,7 @@
         },
         "evidence": "Yes, fellows receive a monthly stipend of Rs. 10,000/- if placed in the native district. A stipend of Rs.12,000/- would be given to those who are placed outside their native district.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [8843, 9026]}"
       },
       {
@@ -18299,7 +18538,7 @@
         "value": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "evidence": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [3888, 4932]}"
       },
       {
@@ -18310,7 +18549,7 @@
         },
         "evidence": "Age - you ought to be 21 to 40 years by 31st December, 2024",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [3919, 3978]}"
       },
       {
@@ -18318,7 +18557,7 @@
         "value": "2024-25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18326,7 +18565,7 @@
         "value": "OPEN",
         "evidence": "Application Open Now",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{\"char\": [123, 143]}"
       },
       {
@@ -18338,15 +18577,15 @@
         },
         "evidence": "[REGISTER HERE] -> https://crm.goonj.org/collection-camp/",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{}"
       },
       {
         "field": "official_source_url",
         "value": "https://goonj.org/goonj-fellowship/",
-        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-12 (snapshot 4bfbb8acf153)",
+        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-13 (snapshot 3880fb291ad9)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "4bfbb8acf1531b53199e14b5ed9b8ed5c232a3fdafd128035952aefd5d728010",
+        "snapshot_sha256": "3880fb291ad995d1e04c85902e11b5b2f4874682fd3c51e8b55711fab0f1d8fd",
         "locator": "{}"
       }
     ],
@@ -18366,7 +18605,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -18723,7 +18962,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:04",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:54:35",
+    "last_checked_at": "2026-11-13 22:23:05",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18793,7 +19032,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -19594,7 +19833,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:54:29",
+    "last_checked_at": "2026-11-13 22:30:15",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19608,31 +19847,31 @@
         "value": "India Future Leaders Scholarship",
         "evidence": "India Future Leaders Scholarship",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "3ad3f2d667f6f689be37edbdec2e87db258f4cfadbf46c46e39e0aa884daf881",
-        "locator": "{\"char\": [35126, 35158]}"
+        "snapshot_sha256": "b4203ac569260e65b8766b395a34db26d6026c25be66224957530196a21d655b",
+        "locator": "{\"char\": [33998, 34030]}"
       },
       {
         "field": "closing_date",
         "value": "2025-04-07",
         "evidence": "07/04/2025 Closed",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "3ad3f2d667f6f689be37edbdec2e87db258f4cfadbf46c46e39e0aa884daf881",
-        "locator": "{\"char\": [35278, 35295]}"
+        "snapshot_sha256": "b4203ac569260e65b8766b395a34db26d6026c25be66224957530196a21d655b",
+        "locator": "{\"char\": [34150, 34167]}"
       },
       {
         "field": "india_eligibility",
         "value": true,
         "evidence": "India Future Leaders Scholarship",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "3ad3f2d667f6f689be37edbdec2e87db258f4cfadbf46c46e39e0aa884daf881",
-        "locator": "{\"char\": [35126, 35158]}"
+        "snapshot_sha256": "b4203ac569260e65b8766b395a34db26d6026c25be66224957530196a21d655b",
+        "locator": "{\"char\": [33998, 34030]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/ on 2026-11-12 (snapshot 3ad3f2d667f6)",
+        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/ on 2026-11-13 (snapshot b4203ac56926)",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "3ad3f2d667f6f689be37edbdec2e87db258f4cfadbf46c46e39e0aa884daf881",
+        "snapshot_sha256": "b4203ac569260e65b8766b395a34db26d6026c25be66224957530196a21d655b",
         "locator": "{}"
       }
     ],
@@ -19652,7 +19891,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
@@ -19795,7 +20034,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:31",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:56:59",
+    "last_checked_at": "2026-11-13 22:30:12",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19809,7 +20048,7 @@
         "value": "Sage IT India Scholarship 2026",
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "7dc79d9bc0ef46a6b2147f8f92576f84fb440369c033a582a625622ca0860ac4",
+        "snapshot_sha256": "c2b31ff109a9d6b3638cd192f799e7e30f2fd536b31bdedf683198174f504358",
         "locator": "{\"char\": [160, 190]}"
       },
       {
@@ -19817,7 +20056,7 @@
         "value": "2026-11-15",
         "evidence": "Submission Deadline:\n 15th November 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "7dc79d9bc0ef46a6b2147f8f92576f84fb440369c033a582a625622ca0860ac4",
+        "snapshot_sha256": "c2b31ff109a9d6b3638cd192f799e7e30f2fd536b31bdedf683198174f504358",
         "locator": "{\"char\": [513, 553]}"
       },
       {
@@ -19825,15 +20064,15 @@
         "value": true,
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "7dc79d9bc0ef46a6b2147f8f92576f84fb440369c033a582a625622ca0860ac4",
+        "snapshot_sha256": "c2b31ff109a9d6b3638cd192f799e7e30f2fd536b31bdedf683198174f504358",
         "locator": "{\"char\": [160, 190]}"
       },
       {
         "field": "official_source_url",
         "value": "https://sageitinc.com/scholarship/india",
-        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-12 (snapshot 7dc79d9bc0ef)",
+        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-13 (snapshot c2b31ff109a9)",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "7dc79d9bc0ef46a6b2147f8f92576f84fb440369c033a582a625622ca0860ac4",
+        "snapshot_sha256": "c2b31ff109a9d6b3638cd192f799e7e30f2fd536b31bdedf683198174f504358",
         "locator": "{}"
       }
     ],
@@ -19853,7 +20092,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
+          "reason": "HTTP 200 on 2026-11-13, name match 100"
         },
         {
           "id": "S3",
