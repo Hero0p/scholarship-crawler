@@ -1,5 +1,5 @@
 id,fingerprint,name,provider,funding_type,official_source_url,official_source_page_id,official_source_tier,source_id,source_type,application_url,application_mode,amount_text,amount_min_inr,amount_max_inr,amount_period,eligibility_text,education_levels,min_percentage,min_cgpa,academic_text,income_limit_inr,income_text,age_min,age_max,gender,categories,disability_min_percent,domicile_states,institution_text,opening_date,closing_date,deadline_text,is_rolling,academic_year,documents_required,selection_process,renewal_text,page_status_text,detail_doc_url,record_kind,status,verification_status,confidence,scoring_version,india_eligible,discovered_via,first_seen_at,last_verified_at,last_checked_at,last_changed_at,version,consecutive_misses,live_status,name_match_score,consistency_ratio,is_active_record
-21,pm usp special scholarship scheme for jammu kashmir and ladakh merit based scheme@scholarships.gov.in,PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"*Not exceeding Rs.1.00 Lakh per annum (Ten equal instalments to meet hostel, mess, books, stationery & other incidentals). Fresh students",100000,100000,YEAR,"(i) Candidates should be domicile of Union Territories of J&K and Ladakh.
+21,pm usp special scholarship scheme for jammu kashmir and ladakh merit based scheme@scholarships.gov.in,PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme),"Ministry of Education, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"*Not exceeding Rs.1.00 Lakh per annum (Ten equal instalments to meet hostel, mess, books, stationery & other incidentals). Fresh students",100000,100000,YEAR,"(i) Candidates should be domicile of Union Territories of J&K and Ladakh.
 (ii) Students must have passed 12th examination from JKBOSE or CBSE affiliated schools located in
 UTs of J&K and Ladakh.
 (iii) Having family income of Rs. 8.00 Lakh or less per annum.
@@ -23,22 +23,22 @@ Government Schemes or any scheme run by any autonomous body under them.
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,2026-11-14 01:14:47,2,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,2026-11-15 00:19:16,3,0,LIVE,100.0,1.0,True
 23,aicte pragati scholarship scheme for girl students technical diploma merit based scheme@scholarships.gov.in,AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Diploma) (Merit Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"1) Rs. 50,000/- per annum for every year of study i.e. maximum 3 years for first year",50000,50000,YEAR,,"[""DIPLOMA_ITI""]",,,,800000,3) Family income from all sources should not be more than Rs. 8 lakh per annum during,,,FEMALE,,,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2011_G.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2011_G.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 24,aicte saksham scholarship scheme for specially abled student technical diploma welfare based scheme@scholarships.gov.in,AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Diploma) (Welfare Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"1) Rs. 50,000/- per annum for every year of study i.e. maximum 3 years for first year",50000,50000,YEAR,,"[""DIPLOMA_ITI""]",,,,800000,3) Family income from all sources should not be more than Rs. 8 lakh per annum during the,,,,"[""PWD""]",,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 26,aicte swanath scholarship scheme technical diploma welfare based scheme@scholarships.gov.in,AICTE - Swanath Scholarship Scheme (Technical Diploma) (Welfare Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",50000,50000,YEAR,,"[""DIPLOMA_ITI""]",,,,800000,2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial,,,,,,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 28,national scholarship for post graduate studies merit based scheme@scholarships.gov.in,National Scholarship For Post Graduate Studies (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"Commission, at the rate of Rs.15,000/- per month for 10 months in a year, are",15000,15000,MONTH,"1. The scholarship is available to the students for the first PG Degree programme
 only. Students, who have already acquired any postgraduate degree, are not eligible
 to apply.
@@ -75,7 +75,7 @@ examination, at the lowest level of merit list, the list shall be further short
 listed/segregated on the basis of marks obtained by them in Under-graduation
 (UG). In case, there are still more candidates in the merit list as compared to the
 desired/declared slots, further short listing shall be done on the basis of marks
-obtained by candidates in XII class.",,,https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+obtained by candidates in XII class.",,,https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 32,pm yasasvi central sector scheme of top class education in college for obc ebc and dnt students merit based scheme@scholarships.gov.in,"PM YASASVI Central Sector Scheme Of Top Class Education In College For OBC, EBC And DNT Students (Merit Based Scheme)","National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,fee and non-refundable charges (there will be a ceiling of Rs. 2.00 lakh per annum,3000,372000,,"(i) Those OBC/EBC/DNT students having total annual family income from all
 sources up to Rs. 2.50 lakh and having secured admission in a full-time prescribed
 course in any of the notified institutions according to the general selection criteria
@@ -97,17 +97,17 @@ to eligible students studying in 2nd, 3rd and 4th year, etc. on the basis of int
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf,CARD,ACTIVE,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf,CARD,EXPIRING_SOON,VERIFIED,98.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 22,aicte pragati scholarship scheme for girl students technical degree merit based scheme@scholarships.gov.in,AICTE - Pragati Scholarship Scheme For Girl Students ( Technical Degree) (Merit Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"1) Rs. 50,000/- per annum for every year of study i.e. maximum 4 years for first year",50000,50000,YEAR,,,,,,800000,3) Family income from all sources should not be more than Rs. 8 lakh per annum during,,,FEMALE,,,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 25,aicte saksham scholarship scheme for specially abled student technical degree welfare based scheme@scholarships.gov.in,AICTE - Saksham Scholarship Scheme For Specially Abled Student ( Technical Degree) (Welfare Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"1) Rs. 50,000/- per annum for every year of study i.e. maximum 4 years for first year",50000,50000,YEAR,,,,,,800000,3) Family income from all sources should not be more than Rs. 8 lakh per annum during the,,,,"[""PWD""]",,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 27,ishan uday special scholarship scheme for ner merit based scheme@scholarships.gov.in,Ishan Uday Special Scholarship Scheme For NER (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"Ten thousand (10000) Scholarships, at the rate of Rs.8,000/- per month for 10 months in a",8000,8000,MONTH,"(I) The scholarship is open to those students who have passed Class XII or equivalent
 examination from a school situated within NER through a recognized Board of
 Education including Central Board of Secondary Education (CBSE), Indian Certificate
@@ -130,7 +130,7 @@ through 'Regular/Full Time' mode only. The students, who are pursuing any UG","[
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/Guidelines_ISHAN UDAY_2324.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/Guidelines_ISHAN UDAY_2324.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 40,free coaching for scs obcs and beneficiaries of pm cares children scheme welfare based scheme@scholarships.gov.in,Free Coaching For Scs OBCs And Beneficiaries Of PM Cares Children Scheme (Welfare Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,(ii) Stipend @ Rs. 4000 per month for full duration of the course not exceeding 12,4000,4000,MONTH,,,,,,800000,"a. Students belonging to SCs and OBCs, having total family income of Rs. 8.00 lakh",,,,"[""OBC"", ""SC""]",,,,2026-08-03,2026-11-30,"Scheme Open from : 03-08-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
@@ -150,7 +150,7 @@ iii. Joint Secretary, DoHE - Member
 iv. Director, DAF - Member
 v. Director/DS (SCD-1), MSJE - Convener
 d. Signing of MoU :The Central Universities approved for empanelment and the
-Central Universities which have been earlier part of DACE shall sign MoU with Dr.",,,https://scholarships.gov.in/public/schemeGuidelines/guid_3108.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+Central Universities which have been earlier part of DACE shall sign MoU with Dr.",,,https://scholarships.gov.in/public/schemeGuidelines/guid_3108.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 41,pre matric scholarship for students with disabilities welfare based scheme@scholarships.gov.in,Pre Matric Scholarship For Students With Disabilities (Welfare Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,,,,,,"[""PRE_MATRIC""]",,,,,,,,,"[""PWD""]",,,,2026-07-25,2026-10-31,"Scheme Open from : 25-07-2026 
  Student Application Closed on : 31-10-2026 
  Defective Application Verification Open till:15-11-2026 
@@ -160,12 +160,12 @@ Central Universities which have been earlier part of DACE shall sign MoU with Dr
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 45,pm usp central sector scheme of scholarship for college and university students csss merit based scheme@scholarships.gov.in,PM-USP - Central Sector Scheme Of Scholarship For College And University Students (CSSS) (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"The rate of scholarship is ₹12,000/-per annum at Graduation level for first three years of College and",10000,20000,YEAR,,,,,,450000,v. Students with gross parental/family income upto ₹ 4.5 lakh per annum are eligible for,,,,"[""MINORITY (reservation)""]",,,,2026-06-01,2026-11-30,"Scheme Open from (for Renewal): 01-06-2026 
  Student Application Open till (for Renewal): 30-11-2026 
  Defective Application Verification Open till (for Renewal):15-12-2026 
  Institute Verification Open till (for Renewal):15-12-2026 
- DNO/SNO/MNO Verification Open till (for Renewal):31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 00:57:45,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till (for Renewal):31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 00:57:45,,1,0,LIVE,100.0,1.0,True
 47,financial support to the students of ner for higher professional courses nec merit scholarship merit based scheme@scholarships.gov.in,Financial Support To The Students Of NER For Higher Professional Courses(NEC Merit Scholarship) (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,,,,,"3.1 The scholarship is open only to a student who is a permanent resident of any of the
 North Eastern States.
 3.2 For candidates belonging to Academic Year 2020-21 and onwards, the scholarship
@@ -198,15 +198,15 @@ subsequent para.
 6.2 Every renewal of scholarship is for a period of one academic year only, if not
 otherwise specified. All existing and eligible beneficiaries of the scholarship are required to
 fill up the renewal form on NSP every year during their entire course period. The student
-shall be required to upload previous exam marks-sheet/pass certificate during renewal",,https://scholarships.gov.in/public/schemeGuidelines/NEC_1234_G.pdf,CARD,ACTIVE,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+shall be required to upload previous exam marks-sheet/pass certificate during renewal",,https://scholarships.gov.in/public/schemeGuidelines/NEC_1234_G.pdf,CARD,EXPIRING_SOON,VERIFIED,96.0,1.0,True,SEED,2026-11-12 23:40:30,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 20,aicte swanath scholarship scheme technical degree welfare based scheme@scholarships.gov.in,AICTE - Swanath Scholarship Scheme ( Technical Degree) (Welfare Based Scheme),AICTE,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,"Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",50000,50000,YEAR,,,,,,800000,2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial,,,,,,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
- DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf,CARD,ACTIVE,VERIFIED,95.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
+ DNO/SNO/MNO Verification Open till:31-12-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf,CARD,EXPIRING_SOON,VERIFIED,95.0,1.0,True,SEED,2026-11-12 23:40:29,2026-11-14 00:57:45,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
 2,santoor women s scholarship@santoorscholarships.com,Santoor Women's Scholarship,Wipro Consumer Care & Lighting (Santoor),SCHOLARSHIP,https://www.santoorscholarships.com/,40,2,40,CORPORATE_CSR,https://www.buddy4study.com/page/santoor-women-scholarship,ONLINE,"The students would be given Rs. 30,000 per annum till they complete their course of study. Students are permitted to utilize the scholarship for tuition fees or other expenses incidental to education.",30000,30000,YEAR,"Passed class 10 from a local government school.
 Passed class 12 from a government school/junior college in the academic year 2025-26.
-Enrolled in an undergraduate program beginning 2026-27.","[""UG""]",,,,,,,,FEMALE,,,,Passed class 10 from a local government school.,,2026-10-15,Last date to apply : 15th October 2026,,2026-27,,,,,,PAGE,EXPIRED,REVIEW_REQUIRED,93.5,1.0,True,SEED,2026-11-12 23:39:33,,2026-11-14 01:09:29,,1,0,LIVE,100.0,1.0,True
+Enrolled in an undergraduate program beginning 2026-27.","[""UG""]",,,,,,,,FEMALE,,,,Passed class 10 from a local government school.,,2026-10-15,Last date to apply : 15th October 2026,,2026-27,,,,,,PAGE,EXPIRED,REVIEW_REQUIRED,93.5,1.0,True,SEED,2026-11-12 23:39:33,,2026-11-15 00:12:06,,1,0,LIVE,100.0,1.0,True
 18,prime minister s scholarship scheme for wards of states uts police personnel martyred during terror naxal attacks merit based scheme@scholarships.gov.in,Prime Minister'S Scholarship Scheme For Wards Of States/UTs Police Personnel Martyred During Terror/Naxal Attacks (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,,,,,,,,,,,,,,,"[""DEFENCE""]",,,,2026-06-01,2026-11-30,"Scheme Open from : 01-06-2026 
  Student Application Open till : 30-11-2026 
  Defective Application Verification Open till:15-12-2026 
@@ -319,7 +319,7 @@ MSc International Development
 MSc Respiratory Medicine
 MSc Conflict, Security and Development
 MSc Clinical Oncology
-Eligible nationalities:","[""PG"", ""PHD""]",,,,,,,,,,,,,2026-11-10,2026-12-08,8 December 2026,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,91.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:49,,2026-11-14 01:14:47,,1,0,LIVE,100.0,0.5,True
+Eligible nationalities:","[""PG"", ""PHD""]",,,,,,,,,,,,,2026-11-10,2026-12-08,8 December 2026,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,91.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:49,,2026-11-15 00:19:11,,1,0,LIVE,100.0,0.5,True
 70,arunkumar ramniklal mehta scholarship arra@ashoka.edu.in,Arunkumar & Ramniklal Mehta Scholarship (ARRA),Ashoka University,SCHOLARSHIP,https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/,813,2,37,UNIVERSITY,https://apply.ashoka.edu.in/,ONLINE,,,,,"Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:
 Academic Criteria
 To avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:
@@ -357,7 +357,7 @@ Applicant should be between the ages of 17 - 25 years","[""CLASS_11_12""]",,,,35
  Defective Application Verification Open till:15-12-2026 
  Institute Verification Open till:15-12-2026 
  DNO/SNO/MNO Verification Open till:30-11-2026",,,,,,,https://scholarships.gov.in/public/schemeGuidelines/RevisedGuidelinesforICAR_JRF_SRFandPG_Scholarship_3105_3106.pdf,CARD,REVIEW_REQUIRED,REVIEW_REQUIRED,88.0,1.0,True,SEED,2026-11-12 23:40:29,,2026-11-14 01:14:47,,1,0,LIVE,100.0,1.0,True
-44,national means cum merit scholarship merit based scheme@scholarships.gov.in,National Means Cum Merit Scholarship (Merit Based Scheme),"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,,,,,,,,,,,,,,,,,,,2026-06-01,2026-11-15,"Scheme Open from : 01-06-2026 
+44,national means cum merit scholarship merit based scheme@scholarships.gov.in,National Means Cum Merit Scholarship (Merit Based Scheme),Ministry of Education,SCHOLARSHIP,https://scholarships.gov.in/All-Scholarships,392,1,1,GOV_CENTRAL,https://scholarships.gov.in/All-Scholarships,ONLINE,,,,,,,,,,,,,,,,,,,2026-06-01,2026-11-15,"Scheme Open from : 01-06-2026 
  Student Application Open till : 15-11-2026 
  Defective Application Verification Open till:30-11-2026 
  Institute Verification Open till:30-11-2026 
@@ -374,7 +374,7 @@ be working in or directly with the government education sector in their country,
 be active in the field with a proven interest in the proposed subject area of English language teaching - teacher development;
 be able to demonstrate plans for contributing to the field of English language teaching and teacher development in their country through the benefits achieved after graduating from UK higher education;
 demonstrate a plan and a passion to engage with the wider community working in English language teaching from their home country;
-agree to participate fully in British Council monitoring and evaluation of the scholarship programme;","[""PG""]",,,,,,,,,,,,,,,,,2026-27,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,85.8,1.0,True,DISCOVERED_OUTLINK,2026-11-13 22:30:16,,2026-11-13 22:30:16,,1,0,LIVE,100.0,1.0,True
+agree to participate fully in British Council monitoring and evaluation of the scholarship programme;","[""PG""]",,,,,,,,,,,,,,,,,2026-27,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,85.8,1.0,True,DISCOVERED_OUTLINK,2026-11-13 22:30:16,,2026-11-15 00:01:19,,1,0,LIVE,100.0,1.0,True
 15,scholarship scheme for state minority communities pursuing higher professional education all post h s c courses part i technical course dte@maharashtra.gov.in,Scholarship Scheme for State Minority Communities Pursuing Higher Professional Education/All Post H.S.C Courses.(Part-I{(Technical Course(DTE)},Minority Development Department,SCHOLARSHIP,https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A2C489D8FEE1DE79D3D179EC97AB141825125A9561892EF10,331,1,18,GOV_STATE,https://mahadbt.maharashtra.gov.in/Login/Login,ONLINE,"• For Technical Course ( Part-I of GR ) -Scholarship Amount Maximum Rs.50,000/- Per Annum or Actual Tution Fees and Exam Fee whichever is less effective from AY 2022-23.",50000,50000,YEAR,"a) Applicant should have Nationality of India.
 b) Candidate should be Domicile of Maharashtra State.
 c) Candidates should have pass SSC from Maharashtra State.
@@ -393,7 +393,7 @@ Bonafide
 Fee Receipt
 Last Mark Sheet
 Photograph
-Aadhaar Seeded Bank",,,OPEN,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,82.0,1.0,True,SEED,2026-11-12 23:39:35,,2026-11-14 01:10:25,,1,0,LIVE,100.0,0.0,True
+Aadhaar Seeded Bank",,,OPEN,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,82.0,1.0,True,SEED,2026-11-12 23:39:35,,2026-11-15 00:13:57,,1,0,LIVE,100.0,0.0,True
 8,stipend of rs 500 per month for trainees in craftsman training scheme in govt iti@maharashtra.gov.in,Stipend of Rs. 500 per month for trainees in Craftsman Training Scheme in Govt ITI,"Skill Development, Employement And Entrepreneurship Department",SCHOLARSHIP,https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A8D6E1E4E8866EE600571B0A841AF768C93C24C5AEB049B3D,155,1,18,GOV_STATE,https://mahadbt.maharashtra.gov.in/Login/Login,ONLINE,Stipend 500/- Rs per month,500,500,MONTH,"1. The trainee should be domicile in Maharashtra.
 2. The annual income should not exceed Rs. 8 lac. Future amendments made by the Government of Maharashtra (GoM) for non-creamy layer criteria will be applicable.
 3. Only two siblings within a family are eligible for this benefit.
@@ -441,7 +441,7 @@ MSc Drug Discovery
 MSc Entrepreneurship, Innovation and Management
 MSc Quantum Science and Technology
 MSc Sustainable Energy Engineering
-Eligible countries","[""UG""]",,,,,,,,,,,,,,2026-12-08,Application deadline: Tuesday 8 December 2026,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,81.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:13,,2026-11-14 01:14:47,,1,0,LIVE,100.0,0.5,True
+Eligible countries","[""UG""]",,,,,,,,,,,,,,2026-12-08,Application deadline: Tuesday 8 December 2026,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,81.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:13,,2026-11-15 00:19:11,,1,0,LIVE,100.0,0.5,True
 50,post matric scholarship to sbc students@maharashtra.gov.in,Post Matric Scholarship to SBC Students,"VJNT,OBC and SBC Welfare Department",SCHOLARSHIP,https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51ABD801C85A5E1070827B2230746448BA9CCB9B577565F338F,464,1,18,GOV_STATE,https://mahadbt.maharashtra.gov.in/Login/Login,ONLINE,,,,,"1) The parents/Guardians annual Income should be less than or equal to Rs.2.50 Lac.
 2) Applicants must be belongs to SBC category.
 3) Applicants should be residents of Maharashtra.
@@ -686,7 +686,7 @@ Attendance Certificate.
 Previous year Mark sheet.
 Login to apply",,"1. Last year, students availed of scholarship can apply for the Renewal scholarship.
 2. To Renew the application, student should use an application ID from the list published on website of www.dhepune.gov.in, Higher Education Directorate.",,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,75.7,1.0,True,SEED,2026-11-12 23:44:53,,2026-11-14 00:58:42,,1,0,LIVE,100.0,0.3333333333333333,True
-5,the inlaks fellowship for social engagement@inlaksfoundation.org,The Inlaks Fellowship for Social Engagement,Inlaks Shivdasani Foundation,FELLOWSHIP,https://inlaksfoundation.org/,79,2,47,FOUNDATION_TRUST,,,,,,,,,,,,,,,,,,,,,,2026-11-15,"Deadline: 15th November 2026, 11:59PM (IST)",,,,,,,,CARD,REVIEW_REQUIRED,REVIEW_REQUIRED,75.5,1.0,True,SEED,2026-11-12 23:39:34,,2026-11-14 01:10:02,,1,0,LIVE,100.0,1.0,True
+5,the inlaks fellowship for social engagement@inlaksfoundation.org,The Inlaks Fellowship for Social Engagement,Inlaks Shivdasani Foundation,FELLOWSHIP,https://inlaksfoundation.org/,79,2,47,FOUNDATION_TRUST,,,,,,,,,,,,,,,,,,,,,,2026-11-15,"Deadline: 15th November 2026, 11:59PM (IST)",,,,,,,,CARD,REVIEW_REQUIRED,REVIEW_REQUIRED,75.5,1.0,True,SEED,2026-11-12 23:39:34,,2026-11-15 00:12:48,,1,0,LIVE,100.0,1.0,True
 55,merit scholarships for economically backward class students@maharashtra.gov.in,Merit Scholarships for Economically Backward Class Students,School Education and Sports Department,SCHOLARSHIP,https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51A28BFA30CC1E4590B8F718E4CDE619112BB546E172DF7EFEA,576,1,18,GOV_STATE,https://mahadbt.maharashtra.gov.in/Login/Login,ONLINE,The hosteler boys will receive a scholarship amount of INR 140 per month for 10 months that sums up to INR 1400.,800,1600,,"Applicant must secure a minimum of 50 % marks in SSC examination.
 Students who cleared examination in first attempt.","[""CLASS_9_10""]",50.0,,,,,,,,,,,,,,,,,"Income certificate (Approved by Tahasildar)*
 SSC marksheeet.
@@ -747,7 +747,7 @@ Login to apply",,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,73.7,1.0,True,SEED,2026
  recognized institute/university in India (current year pass outs are eligible to apply), having sound
  knowledge on clinical ophthalmology.
 DESIRED ATTRIBUTES
-High learning orientation, adaptability, professional ethics and emotional resilience.",,,,,,,,,,,,,,,2026-07-31,Last date of application: 31st July 2026,,,,,,,,PAGE,EXPIRED,REVIEW_REQUIRED,73.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:34,,2026-11-14 01:14:46,,1,0,LIVE,100.0,1.0,True
+High learning orientation, adaptability, professional ethics and emotional resilience.",,,,,,,,,,,,,,,2026-07-31,Last date of application: 31st July 2026,,,,,,,,PAGE,EXPIRED,REVIEW_REQUIRED,73.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:34,,2026-11-15 00:19:10,,1,0,LIVE,100.0,1.0,True
 57,national overseas scholarship for sc etc candidate during@iitb.ac.in,National Overseas Scholarship for SC etc. Candidate during 2020-21,Indian Institute of Technology Bombay,SCHOLARSHIP,https://www.ee.iitb.ac.in/~belur/scst-students-cell/files/NOS-SC-SCHEME-GUIDELINES-2020-21.pdf,591,2,34,UNIVERSITY,,,1. Annual Maintenance15400 US Dollars 9900 Great British,1100,9900,,,,60.0,,,,,,,,"[""SC""]",,,,,2020-05-27,institute . The portal is open till 27-5-2020 during the first quarter of selection year 2020-,True,2020-21,"Enclosures: Guidelines of Central Sector Scheme of National Overseas Scholarship for SC
 etc. candidates during selection year 2020-21.
 Regards
@@ -862,7 +862,7 @@ Tripti
 (Batch 2021-2022)
 Engaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.
 Surendra
-(Batch 2019-2020)",,,,,,,21,40,,,,,,,,,,2024-25,,,,OPEN,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,70.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:34,,2026-11-14 01:14:46,,1,0,LIVE,100.0,0.0,True
+(Batch 2019-2020)",,,,,,,21,40,,,,,,,,,,2024-25,,,,OPEN,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,70.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:34,,2026-11-15 00:19:10,,1,0,LIVE,100.0,0.0,True
 72,swanath scholarship@scholarships.gov.in,SWANATH SCHOLARSHIP,"National Scholarship Portal, Government of India",SCHOLARSHIP,https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf,833,1,1,GOV_CENTRAL,,,"Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",50000,50000,YEAR,,,,,,800000,2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial,,,,,,,,,,,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,70.5,1.0,True,SEED,2026-11-12 23:42:42,,2026-11-14 00:57:48,,1,0,LIVE,100.0,0.5,True
 74,commonwealth shared scholarships@reading.ac.uk,Commonwealth shared scholarships,,SCHOLARSHIP,https://www.reading.ac.uk/ready-to-study/study/fees-and-funding/fees-and-funding-pg/commonwealth-shared-scholarships,896,2,121,UNIVERSITY,https://www.reading.ac.uk/clearing/register-your-interest,ONLINE,,,,,"Applications for the Commonwealth Shared Scholarship for 2026 entry are now closed.
 To apply for these scholarships, you must:
@@ -872,7 +872,7 @@ Be available to start your academic studies in the UK by the start of the UK aca
 Not have studied or worked for one (academic) year or more in a high income country.
 Be unable to afford to study in the UK without this scholarship.
 By September 2026, hold a first degree of at least upper second-class (2:1) honours standard, or a lower second-class degree (2:2) and a relevant postgraduate qualification (usually a master's degree).
-Eligible Commonwealth countries are: Bangladesh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana, India, Jamaica, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra Leone, Solomon Islands, South Africa, Sri Lanka, Tanzania, Togo, Tonga, Tuvalu, Uganda, Vanuatu, Zambia.",,,,,,,,,,,,,,,,,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,70.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:04,,2026-11-14 01:09:28,,1,0,LIVE,100.0,,True
+Eligible Commonwealth countries are: Bangladesh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana, India, Jamaica, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra Leone, Solomon Islands, South Africa, Sri Lanka, Tanzania, Togo, Tonga, Tuvalu, Uganda, Vanuatu, Zambia.",,,,,,,,,,,,,,,,,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,70.2,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:04,,2026-11-15 00:12:05,,1,0,LIVE,100.0,,True
 56,scheme of post matric scholarship to lower income@highereduhry.ac.in,Scheme of Post Matric Scholarship to Lower Income,Department of Higher Education,SCHOLARSHIP,https://harchhatravratti.highereduhry.ac.in/Notices/Lower%20Income%20Group%20Scheme.pdf,579,1,27,GOV_STATE,,,"exceeding Rs.2000/- per annum, except in the case of technical degree courses (e.g.,",2000,2400,YEAR,"(i) The scholarships are open to nationals of India only.
 (ii) These scholarships will be given for the study of all recognised post-matriculation
 courses in the National Fire Service College, Nagpur : Air Craft Maintenance Engineer's
@@ -906,9 +906,9 @@ The interviews will be conducted by an eminent panel of luminaries and academici
 The interviews will be held in Mumbai for which the shortlisted candidates will be provided accommodation, travel reimbursement, and a token allowance.",,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,68.0,1.0,True,SEED,2026-11-12 23:40:11,,2026-11-14 00:57:41,,1,0,LIVE,100.0,,True
 59,eil scholarship@iitb.ac.in,EIL 2018 scholarship,Indian Institute of Technology Bombay,SCHOLARSHIP,https://www.ee.iitb.ac.in/~belur/scst-students-cell/eil18/,609,2,34,UNIVERSITY,,,,,,,,,,,,,,,,,,,,,,2018-09-17,"Please apply soon: the last date is 17th September 2018: 5pm.
 More details are in the links/files below.",,,,,,,https://www.ee.iitb.ac.in/~belur/scst-students-cell/eil18/files/eil18-scheme-and-application-form-annexures.pdf,CARD,EXPIRED,REVIEW_REQUIRED,67.8,1.0,True,SEED,2026-11-12 23:41:11,,2026-11-14 00:57:45,,1,0,LIVE,100.0,1.0,True
-76,india future leaders scholarship@imperial.ac.uk,India Future Leaders Scholarship,,SCHOLARSHIP,https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/,920,2,113,UNIVERSITY,,,,,,,,,,,,,,,,,,,,,,2025-04-07,07/04/2025 Closed,,,,,,,,CARD,EXPIRED,REVIEW_REQUIRED,67.8,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:19,,2026-11-14 01:09:11,,1,0,LIVE,100.0,1.0,True
+76,india future leaders scholarship@imperial.ac.uk,India Future Leaders Scholarship,,SCHOLARSHIP,https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/,920,2,113,UNIVERSITY,,,,,,,,,,,,,,,,,,,,,,2025-04-07,07/04/2025 Closed,,,,,,,,CARD,EXPIRED,REVIEW_REQUIRED,67.8,1.0,True,DISCOVERED_OUTLINK,2026-11-12 23:43:19,,2026-11-15 00:10:50,,1,0,LIVE,100.0,1.0,True
 1,sage it india scholarship@sageitinc.com,Sage IT India Scholarship 2026,,SCHOLARSHIP,https://sageitinc.com/scholarship/india,5,3,78,PROVIDER_UNAPPROVED,,,,,,,,,,,,,,,,,,,,,,2026-11-15,"Submission Deadline:
- 15th November 2026",,,,,,,,CARD,REVIEW_REQUIRED,REVIEW_REQUIRED,66.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:31,,2026-11-14 01:14:46,,1,0,LIVE,100.0,1.0,True
+ 15th November 2026",,,,,,,,CARD,REVIEW_REQUIRED,REVIEW_REQUIRED,66.5,1.0,True,DISCOVERED_AGGREGATOR,2026-11-12 23:39:31,,2026-11-15 00:19:09,,1,0,LIVE,100.0,1.0,True
 83,swanath scholarship@aicte.gov.in,SWANATH SCHOLARSHIP,All India Council for Technical Education (AICTE),SCHOLARSHIP,https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf,1372,1,4,REGULATOR,,,"Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",50000,50000,YEAR,,,,,,800000,2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial,,,,,,,,,,,,,,,,,,PAGE,REVIEW_REQUIRED,REVIEW_REQUIRED,61.5,1.0,True,SEED,2026-11-12 23:46:53,,2026-11-12 23:46:53,,1,0,LIVE,100.0,0.5,True
 64,innovation in science pursuit for inspired research inspire scheme@online-inspire.gov.in,Innovation in Science Pursuit for Inspired Research (INSPIRE) Scheme,"Department of Science & Technology, Government of India",SCHOLARSHIP,https://online-inspire.gov.in/Account/OpenDocument?documentId=3388105,691,1,13,GOV_CENTRAL,,,,,,,"(a) INSPIRE Scholar having secured minimum 70% marks (or CGPA equivalent) in aggregate at M.Sc.
 or Integrated M.S./ M.Sc.

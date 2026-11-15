@@ -3,7 +3,7 @@
     "id": 21,
     "fingerprint": "pm usp special scholarship scheme for jammu kashmir and ladakh merit based scheme@scholarships.gov.in",
     "name": "PM USP Special Scholarship Scheme For Jammu Kashmir And Ladakh (Merit Based Scheme)",
-    "provider": "National Scholarship Portal, Government of India",
+    "provider": "Ministry of Education, Government of India",
     "funding_type": "SCHOLARSHIP",
     "official_source_url": "https://scholarships.gov.in/All-Scholarships",
     "official_source_page_id": 392,
@@ -41,7 +41,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -50,8 +50,8 @@
     "first_seen_at": "2026-11-12 23:40:29",
     "last_verified_at": "2026-11-14 00:57:45",
     "last_checked_at": "2026-11-14 01:14:47",
-    "last_changed_at": "2026-11-14 01:14:47",
-    "version": 2,
+    "last_changed_at": "2026-11-15 00:19:16",
+    "version": 3,
     "consecutive_misses": 0,
     "live_status": "LIVE",
     "name_match_score": 100.0,
@@ -93,14 +93,6 @@
         "source_url": "https://scholarships.gov.in/All-Scholarships",
         "snapshot_sha256": "b3359ba6fc9d94128b31397c65acff6cabd7c915a46f8aaa36d13e1f836bfe74",
         "locator": "{\"char\": [1325, 1551]}"
-      },
-      {
-        "field": "provider",
-        "value": "National Scholarship Portal, Government of India",
-        "evidence": "Source registry entry: National Scholarship Portal -> National Scholarship Portal, Government of India",
-        "source_url": "https://scholarships.gov.in/All-Scholarships",
-        "snapshot_sha256": "b3359ba6fc9d94128b31397c65acff6cabd7c915a46f8aaa36d13e1f836bfe74",
-        "locator": "{}"
       },
       {
         "field": "official_source_url",
@@ -167,6 +159,14 @@
         "source_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf",
         "snapshot_sha256": "b911a60d15addbadd792cd3589a38055a454de8e5693f0006b0297763d773ed9",
         "locator": "{\"char\": [4676, 4768], \"pdf_page\": 2}"
+      },
+      {
+        "field": "provider",
+        "value": "Ministry of Education, Government of India",
+        "evidence": "Ministry of Education, Government of India",
+        "source_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/PM_USPY(SSSJKL)SchemeSpecifications.pdf",
+        "snapshot_sha256": "b911a60d15addbadd792cd3589a38055a454de8e5693f0006b0297763d773ed9",
+        "locator": "{\"char\": [54, 96], \"pdf_page\": 1}"
       }
     ],
     "confidence_breakdown": {
@@ -320,7 +320,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2011_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -580,7 +580,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2013_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -840,7 +840,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3038_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -1092,7 +1092,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_NATIONAL_SCHOLARSHIP_FOR_POSTGRADUATE_STUDIES_UGC_2324.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -1371,7 +1371,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 98.0,
     "scoring_version": "1.0",
@@ -1647,7 +1647,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2010_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -1897,7 +1897,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_2012_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -2147,7 +2147,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/Guidelines_ISHAN UDAY_2324.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -2407,7 +2407,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/guid_3108.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -2912,7 +2912,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/DEPDGuidelines_1.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -3151,7 +3151,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -3401,7 +3401,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/NEC_1234_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 96.0,
     "scoring_version": "1.0",
@@ -3656,7 +3656,7 @@
     "page_status_text": null,
     "detail_doc_url": "https://scholarships.gov.in/public/schemeGuidelines/AICTE/AICTE_3039_G.pdf",
     "record_kind": "CARD",
-    "status": "ACTIVE",
+    "status": "EXPIRING_SOON",
     "verification_status": "VERIFIED",
     "confidence": 95.0,
     "scoring_version": "1.0",
@@ -3906,7 +3906,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:33",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:09:29",
+    "last_checked_at": "2026-11-15 00:12:06",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -4031,7 +4031,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -6792,7 +6792,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:49",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:14:47",
+    "last_checked_at": "2026-11-15 00:19:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -6806,7 +6806,7 @@
         "value": "Commonwealth Shared Scholarship Scheme",
         "evidence": "Commonwealth Shared Scholarship Scheme",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [7, 45]}"
       },
       {
@@ -6814,7 +6814,7 @@
         "value": "University of Birmingham",
         "evidence": "University of Birmingham",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [48, 72]}"
       },
       {
@@ -6822,7 +6822,7 @@
         "value": true,
         "evidence": "Bangladesh, Botswana, Belize, Cameroon, Ghana, Dominica, Fiji, Gabon, Gambia, Grenada, Guyana, India, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [2867, 3167]}"
       },
       {
@@ -6830,7 +6830,7 @@
         "value": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "evidence": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [1435, 2866]}"
       },
       {
@@ -6841,7 +6841,7 @@
         ],
         "evidence": "agree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [1815, 2068]}"
       },
       {
@@ -6849,7 +6849,7 @@
         "value": "2026-12-08",
         "evidence": "8 December 2026",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [435, 450]}"
       },
       {
@@ -6857,7 +6857,7 @@
         "value": "2026-11-10",
         "evidence": "Applications for 2027 entry open on 10 November 2026 and close on 8 December 2026 at 16:00 (GMT); we strongly encourage you to check the Commonwealth Shared Scholarships webpage for more information: Commonwealth Shared Scholarships - Commonwealth Scholarship Commission in the UK",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [878, 1158]}"
       },
       {
@@ -6869,15 +6869,15 @@
         },
         "evidence": "[Apply now] -> https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{\"char\": [291, 300]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-14 (snapshot 453c6fccbed1)",
+        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-15 (snapshot 61e30f0ed7cc)",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "453c6fccbed1417748dd499a2ff785765268fe0cb87703393fbc862bce648888",
+        "snapshot_sha256": "61e30f0ed7cce4e21992f0e7b4ab847965b23d9089bece7b85d21329eafbd08a",
         "locator": "{}"
       }
     ],
@@ -6897,7 +6897,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -8357,7 +8357,7 @@
     "id": 44,
     "fingerprint": "national means cum merit scholarship merit based scheme@scholarships.gov.in",
     "name": "National Means Cum Merit Scholarship (Merit Based Scheme)",
-    "provider": "National Scholarship Portal, Government of India",
+    "provider": "Ministry of Education",
     "funding_type": "SCHOLARSHIP",
     "official_source_url": "https://scholarships.gov.in/All-Scholarships",
     "official_source_page_id": 392,
@@ -8449,20 +8449,20 @@
         "locator": "{\"char\": [9021, 9247]}"
       },
       {
-        "field": "provider",
-        "value": "National Scholarship Portal, Government of India",
-        "evidence": "Source registry entry: National Scholarship Portal -> National Scholarship Portal, Government of India",
-        "source_url": "https://scholarships.gov.in/All-Scholarships",
-        "snapshot_sha256": "b3359ba6fc9d94128b31397c65acff6cabd7c915a46f8aaa36d13e1f836bfe74",
-        "locator": "{}"
-      },
-      {
         "field": "official_source_url",
         "value": "https://scholarships.gov.in/All-Scholarships",
         "evidence": "HTTP 200 from https://scholarships.gov.in/All-Scholarships on 2026-11-14 (snapshot b3359ba6fc9d)",
         "source_url": "https://scholarships.gov.in/All-Scholarships",
         "snapshot_sha256": "b3359ba6fc9d94128b31397c65acff6cabd7c915a46f8aaa36d13e1f836bfe74",
         "locator": "{}"
+      },
+      {
+        "field": "provider",
+        "value": "Ministry of Education",
+        "evidence": "Ministry of Education",
+        "source_url": "https://scholarships.gov.in/public/schemeGuidelines/NMMSSGuidelines.pdf",
+        "snapshot_sha256": "f4b231cdd472fe724f3ee27fce1135892fb1e3bf7704539bc393a7cb93127fbd",
+        "locator": "{\"char\": [38, 59], \"pdf_page\": 1}"
       }
     ],
     "confidence_breakdown": {
@@ -8624,7 +8624,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-13 22:30:16",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-13 22:30:16",
+    "last_checked_at": "2026-11-15 00:01:19",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -8720,7 +8720,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-13, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -9151,7 +9151,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:35",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:10:25",
+    "last_checked_at": "2026-11-15 00:13:57",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9247,7 +9247,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -10102,7 +10102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:13",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:14:47",
+    "last_checked_at": "2026-11-15 00:19:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10116,7 +10116,7 @@
         "value": "Commonwealth Shared Scholarships",
         "evidence": "Commonwealth Shared Scholarships",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{\"char\": [7, 39]}"
       },
       {
@@ -10124,7 +10124,7 @@
         "value": true,
         "evidence": "sh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana,India, Jamaica, Kenya, Kiribati ,Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint V",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{\"char\": [2251, 2551]}"
       },
       {
@@ -10132,7 +10132,7 @@
         "value": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "evidence": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{\"char\": [707, 2120]}"
       },
       {
@@ -10142,7 +10142,7 @@
         ],
         "evidence": "Have made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{\"char\": [1098, 1364]}"
       },
       {
@@ -10150,15 +10150,15 @@
         "value": "2026-12-08",
         "evidence": "Application deadline: Tuesday 8 December 2026",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{\"char\": [199, 244]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-14 (snapshot 9141a10698e1)",
+        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-15 (snapshot e5028dac8bb9)",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "9141a10698e1f3d4e198793b6a09f9369610af4ab6a266cd64e5ec0f1c3c6fa6",
+        "snapshot_sha256": "e5028dac8bb9b836ec3b8b80bd77b3503fa656851e929d8dd747e724c927702c",
         "locator": "{}"
       }
     ],
@@ -10178,7 +10178,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -14848,7 +14848,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:10:02",
+    "last_checked_at": "2026-11-15 00:12:48",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -14906,7 +14906,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -16782,7 +16782,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:14:46",
+    "last_checked_at": "2026-11-15 00:19:10",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -16796,7 +16796,7 @@
         "value": "Sightsavers India Fellowship Program",
         "evidence": "Sightsavers India Fellowship Program",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{\"char\": [7, 43]}"
       },
       {
@@ -16804,7 +16804,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{\"char\": [19, 24]}"
       },
       {
@@ -16812,7 +16812,7 @@
         "value": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "evidence": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{\"char\": [1942, 2287]}"
       },
       {
@@ -16820,7 +16820,7 @@
         "value": "2026-07-31",
         "evidence": "Last date of application: 31st July 2026",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{\"char\": [2741, 2781]}"
       },
       {
@@ -16832,15 +16832,15 @@
         },
         "evidence": "[Apply for the program] -> https://indiafellowshipprogram.sightsaversindia.org/verify",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{\"char\": [184, 205]}"
       },
       {
         "field": "official_source_url",
         "value": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-14 (snapshot 22d1336c08f8)",
+        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-15 (snapshot f0895a3909f1)",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "22d1336c08f826016a7987abab16e613b5b2ac203f95c232e7853b2db4cc3e65",
+        "snapshot_sha256": "f0895a3909f166c20498018c528226bb1932cc027c2ac536ecf0e186b4f562bb",
         "locator": "{}"
       }
     ],
@@ -16860,7 +16860,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -18236,7 +18236,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:14:46",
+    "last_checked_at": "2026-11-15 00:19:10",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18250,7 +18250,7 @@
         "value": "Goonj Setu Fellowship 2024 -25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18258,7 +18258,7 @@
         "value": "Goonj",
         "evidence": "Goonj",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [7, 12]}"
       },
       {
@@ -18266,7 +18266,7 @@
         "value": true,
         "evidence": "n empathy, dignity, and action, our fellowships are immersive, year-long journeys into the heart of India's rural and urban landscapes. Our fellows walk with the communities, co-create solutions, and build leadership from the ground up.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [410, 646]}"
       },
       {
@@ -18279,7 +18279,7 @@
         },
         "evidence": "Yes, fellows receive a monthly stipend of Rs. 10,000/- if placed in the native district. A stipend of Rs.12,000/- would be given to those who are placed outside their native district.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [8843, 9026]}"
       },
       {
@@ -18287,7 +18287,7 @@
         "value": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "evidence": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [3888, 4932]}"
       },
       {
@@ -18298,7 +18298,7 @@
         },
         "evidence": "Age - you ought to be 21 to 40 years by 31st December, 2024",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [3919, 3978]}"
       },
       {
@@ -18306,7 +18306,7 @@
         "value": "2024-25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18314,7 +18314,7 @@
         "value": "OPEN",
         "evidence": "Application Open Now",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{\"char\": [123, 143]}"
       },
       {
@@ -18326,15 +18326,15 @@
         },
         "evidence": "[REGISTER HERE] -> https://crm.goonj.org/collection-camp/",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{}"
       },
       {
         "field": "official_source_url",
         "value": "https://goonj.org/goonj-fellowship/",
-        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-14 (snapshot 9d06becad2ca)",
+        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-15 (snapshot 0ad111e8b149)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "9d06becad2cac515645fd09430d7a6f7ac8deeedaeba378a993b103c4f34c5ff",
+        "snapshot_sha256": "0ad111e8b1492e4f56c460ba2bdbd2a552992b6630638533bc3a0a3bd7ca9014",
         "locator": "{}"
       }
     ],
@@ -18354,7 +18354,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -18711,7 +18711,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:04",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:09:28",
+    "last_checked_at": "2026-11-15 00:12:05",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18781,7 +18781,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -19582,7 +19582,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:09:11",
+    "last_checked_at": "2026-11-15 00:10:50",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19640,7 +19640,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
@@ -19783,7 +19783,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:31",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-14 01:14:46",
+    "last_checked_at": "2026-11-15 00:19:09",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19797,7 +19797,7 @@
         "value": "Sage IT India Scholarship 2026",
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "e7dd984847970f8a1bc3f5449d65a47454fda32fd9c39d83cf5eda2a466e75d4",
+        "snapshot_sha256": "da989f3423b968768dd51cb117e9d485baffc910071ec0c748c3e377e31355b6",
         "locator": "{\"char\": [160, 190]}"
       },
       {
@@ -19805,7 +19805,7 @@
         "value": "2026-11-15",
         "evidence": "Submission Deadline:\n 15th November 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "e7dd984847970f8a1bc3f5449d65a47454fda32fd9c39d83cf5eda2a466e75d4",
+        "snapshot_sha256": "da989f3423b968768dd51cb117e9d485baffc910071ec0c748c3e377e31355b6",
         "locator": "{\"char\": [513, 553]}"
       },
       {
@@ -19813,15 +19813,15 @@
         "value": true,
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "e7dd984847970f8a1bc3f5449d65a47454fda32fd9c39d83cf5eda2a466e75d4",
+        "snapshot_sha256": "da989f3423b968768dd51cb117e9d485baffc910071ec0c748c3e377e31355b6",
         "locator": "{\"char\": [160, 190]}"
       },
       {
         "field": "official_source_url",
         "value": "https://sageitinc.com/scholarship/india",
-        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-14 (snapshot e7dd98484797)",
+        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-15 (snapshot da989f3423b9)",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "e7dd984847970f8a1bc3f5449d65a47454fda32fd9c39d83cf5eda2a466e75d4",
+        "snapshot_sha256": "da989f3423b968768dd51cb117e9d485baffc910071ec0c748c3e377e31355b6",
         "locator": "{}"
       }
     ],
@@ -19841,7 +19841,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-14, name match 100"
+          "reason": "HTTP 200 on 2026-11-15, name match 100"
         },
         {
           "id": "S3",
