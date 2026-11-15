@@ -116,23 +116,31 @@ def resolve(run_id: int = typer.Option(None)):
 
 @app.command()
 def run(force: bool = typer.Option(False, help="ignore recrawl schedule"), sources: str = None,
-        skip_leads: bool = False, trigger: str = "MANUAL"):
+        skip_leads: bool = False, leads: bool = typer.Option(False, help="mine aggregators even with --sources"),
+        trace_: bool = typer.Option(False, "--trace", help="print a live, human-readable trace of every step"),
+        trigger: str = "MANUAL"):
     """Full pipeline: recheck -> leads -> resolve -> official crawl -> process -> verify -> lifecycle."""
     from atlas.discovery.resolver import resolve_leads
-    from atlas.lifecycle.status import update_lifecycle
-    from atlas.process import enrich_card_records, process_pages, touch_unchanged_scholarships
-    from atlas.verify.confidence import verify_all
+    from atlas.trace import trace
 
+    if trace_:
+        os.environ["ATLAS_TRACE"] = "1"
     init_db()
     sync_sources()
     rid = _new_run("FULL", trigger)
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    os.environ["ATLAS_TRACE_FILE"] = str(LOG_DIR / f"trace_run{rid}.log")   # inherited by the Scrapy subprocesses
     t0 = datetime.utcnow()
     log.info("=== RUN %s started ===", rid)
+    trace("RUN", f"=== RUN {rid} started ({trigger}) | db {config.DB_PATH} | trace file {os.environ['ATLAS_TRACE_FILE']}")
     stats: dict = {}
+    trace("STEP", "1/7 RECHECK - re-verify pages that are the official source of a known scholarship")
     _scrapy("recheck", rid, None, force)
-    if not skip_leads and not sources:
+    if leads or (not skip_leads and not sources):
+        trace("STEP", "2/7 DISCOVER (aggregator leads) - names + outbound links only")
         _scrapy("leads", rid, None, force)
         stats["leads"] = resolve_leads(rid)
+    trace("STEP", "3/7 CRAWL - seeded, focused crawl of official sources (+ outlink discovery)")
     _scrapy("official", rid, sources, force)
     _post(rid, stats, t0)
 
@@ -154,9 +162,14 @@ DEGRADED_RATIO = 0.5
 
 def _post(rid: int, stats: dict, t0: datetime) -> None:
     from atlas.lifecycle.status import update_lifecycle
-    from atlas.process import enrich_card_records, process_pages, touch_unchanged_scholarships
+    from atlas.process import (cleanup_spurious_changes, enrich_card_records, process_pages,
+                               touch_unchanged_scholarships)
+    from atlas.trace import trace
     from atlas.verify.confidence import verify_all
+    stats["cleanup"] = cleanup_spurious_changes()
+    trace("STEP", "4/7 CLASSIFY + EXTRACT - new/changed snapshots -> page type -> fields with verbatim evidence")
     stats["process"] = process_pages(rid)
+    trace("STEP", "5/7 ENRICH - portal-listed schemes take details from their official guideline document")
     stats["enrich"] = enrich_card_records(rid)
     stats["unchanged_touch"] = touch_unchanged_scholarships(rid)
     health = run_health(rid)
@@ -169,14 +182,47 @@ def _post(rid: int, stats: dict, t0: datetime) -> None:
                     rid, health["failed"], health["checked"], ", ".join(health["failed_domains"][:8]))
         stats["degraded"] = True
     else:
+        trace("STEP", "6/7 VERIFY - evidence-based confidence score per record")
         stats["verify"] = verify_all(rid)
+        trace("STEP", "7/7 LIFECYCLE - ACTIVE / EXPIRING_SOON / EXPIRED / REVIEW_REQUIRED / NO_LONGER_VERIFIABLE")
         stats["lifecycle"] = update_lifecycle(rid)
     rebuild_fts()
     stats["duration_s"] = (datetime.utcnow() - t0).seconds
     _finish_run(rid, stats, status="DEGRADED" if degraded else "DONE")
     checkpoint()
     log.info("=== RUN %s finished: %s ===", rid, json.dumps(stats, default=str))
+    p = stats.get("process", {})
+    trace("SUMMARY", f"=== RUN {rid} {'DEGRADED' if degraded else 'DONE'} in {stats['duration_s']}s: "
+                     f"new {p.get('NEW', 0)}, changed {p.get('CHANGED', 0)}, "
+                     f"unchanged {p.get('UNCHANGED', 0) + stats.get('unchanged_touch', 0)}, "
+                     f"verified {stats.get('verify', {}).get('verified', '-')}, statuses {stats.get('lifecycle', {})}")
     report(rid)
+
+
+DEMO_SOURCES = "nsp,santoor,@discovered"
+
+
+@app.command()
+def demo(fresh: bool = typer.Option(False, help="start from an empty demo database (first demo run)"),
+         sources: str = typer.Option(DEMO_SOURCES, help="source keys from config/sources.yaml"),
+         max_pages: int = typer.Option(40, help="page budget per source (keeps the demo to a few minutes)"),
+         leads: bool = typer.Option(True, help="also mine aggregator leads (small budget)")):
+    """Narrated end-to-end run on a few sources, in a SEPARATE database (data/demo/atlas.db).
+    The production database (data/atlas.db, owned by the scheduled crawler) is never touched.
+    Run it twice: the first run discovers + stores, the second shows re-verification and change detection."""
+    import shutil
+
+    demo_dir = config.ROOT / "data" / "demo"
+    if fresh and demo_dir.exists():
+        shutil.rmtree(demo_dir)
+    demo_dir.mkdir(parents=True, exist_ok=True)
+    env = dict(os.environ, ATLAS_DATA_DIR=str(demo_dir), ATLAS_TRACE="1", ATLAS_MAX_PAGES=str(max_pages),
+               PYTHONIOENCODING="utf-8")
+    cmd = [sys.executable, "-m", "atlas.cli", "run", "--force", "--trigger", "DEMO", "--sources", sources]
+    if leads:
+        cmd.append("--leads")
+    typer.echo(f"demo database: {demo_dir / 'atlas.db'}  (view it: set ATLAS_DB_PATH to this file and run the dashboard)")
+    raise typer.Exit(subprocess.call(cmd, cwd=config.ROOT, env=env))
 
 
 @app.command()

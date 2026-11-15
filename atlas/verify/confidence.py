@@ -278,12 +278,22 @@ class Verifier:
 
 
 def verify_all(run_id=None) -> dict:
+    from atlas.trace import clip, trace
     with get_session() as s:
         v = Verifier(s)
         n = ver = 0
-        for sch in v.records:
+        trace("STEP", f"verify + score {len(v.records)} records (9 evidence signals, 5 gates; VERIFIED needs >= 95)")
+        for sch in sorted(v.records, key=lambda r: r.id):
+            before = (sch.confidence, sch.verification_status)
             v.score(sch, run_id)
             n += 1
             ver += sch.verification_status == "VERIFIED"
+            bd = json.loads(sch.confidence_breakdown or "{}")
+            weak = [f"{x['id']} {x['points']:g}/{x['weight']:g}" for x in bd.get("signals", []) if x["value"] < 0.99]
+            failed = [g["id"] for g in bd.get("gates", []) if not g["passed"]]
+            delta = "" if before[0] in (None, 0.0) or before[0] == sch.confidence else f"  (was {before[0]})"
+            trace("VERIFY", f"{sch.confidence:>5.1f}  {sch.verification_status:<15} {clip(sch.name, 55)}{delta}"
+                            + (f"  gates failed: {','.join(failed)}" if failed else "")
+                            + (f"  below max: {', '.join(weak[:3])}" if weak else ""))
         s.commit()
     return {"scored": n, "verified": ver}

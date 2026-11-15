@@ -9,6 +9,7 @@
 from __future__ import annotations
 
 import json
+import os
 from collections import defaultdict
 from datetime import datetime
 from urllib.parse import urljoin
@@ -22,6 +23,8 @@ from atlas.classify.source_classifier import (classify_by_rules, is_aggregator, 
 from atlas.db.models import Page, Source
 from atlas.db.session import get_session
 from atlas.urls import canonicalize, registered_domain
+
+from atlas.trace import clip, short, trace
 
 from .base import AtlasSpider, fetched_this_run, load_sources, page_item
 
@@ -43,10 +46,17 @@ class OfficialSpider(AtlasSpider):
             not_due = {c for (c,) in s.query(Page.canonical_url).filter(
                 Page.next_crawl_at.isnot(None), Page.next_crawl_at > now)}
         self.not_due = set() if self.force else not_due
-        for src in load_sources(self.source_keys or None):
+        cap = int(os.environ.get("ATLAS_MAX_PAGES", "0") or 0)       # demo mode: small per-source budgets
+        srcs = load_sources(self.source_keys or None, include_discovered=True)
+        if self.source_keys and "@discovered" in self.source_keys:   # + every source discovered at run time
+            srcs += [s for s in load_sources(None) if s.origin != "SEED" and s.registry_key not in self.source_keys]
+        trace("STEP", f"focused crawl of {len(srcs)} approved official sources"
+                      + (f" (max {cap} pages each)" if cap else ""))
+        for src in srcs:
             info = {"id": src.id, "key": src.registry_key, "domain": src.registered_domain,
                     "aliases": {registered_domain("http://" + a) for a in self.json_list(src.domain_aliases)},
-                    "max_depth": src.max_depth, "budget": src.page_budget, "render_js": src.render_js}
+                    "max_depth": src.max_depth, "budget": min(src.page_budget, cap) if cap else src.page_budget,
+                    "render_js": src.render_js}
             self.src_by_id[src.id] = info
             for seed in self.json_list(src.seeds):
                 yield from self._request(seed, info, depth=0, from_url=None, priority=1000, seed=True)
@@ -74,17 +84,21 @@ class OfficialSpider(AtlasSpider):
     # ------------------------------------------------------------------ parse
     def parse(self, response):
         meta = response.meta
+        info = self.src_by_id.get(meta["source_id"])
+        kind = "PDF " if not isinstance(response, TextResponse) else "HTML"
+        trace("FETCH", f"{response.status}  {kind} {short(response.url)}  [{info['key'] if info else '?'}, depth "
+                       f"{meta.get('atlas_depth', 0)}]")
         yield page_item(response, meta, self.run_id)
         if response.status != 200:
             return
         if not isinstance(response, TextResponse):      # PDFs etc.: stored, not link-followed
             return
-        info = self.src_by_id.get(meta["source_id"])
         if info is None:
             return
         depth = meta.get("atlas_depth", 0)
         if depth >= info["max_depth"]:
             return
+        followed: list[tuple[int, str]] = []
         for a in response.css("a[href]"):
             href = (a.attrib.get("href") or "").strip()
             if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
@@ -96,9 +110,16 @@ class OfficialSpider(AtlasSpider):
             score = link_score(anchor, url)
             if self._in_scope(url, info):
                 if score >= 2 or (depth == 0 and score >= 1):
+                    before = self.budget[info["id"]]
                     yield from self._request(url, info, depth + 1, response.url, priority=10 * score - depth)
+                    if self.budget[info["id"]] > before:
+                        followed.append((score, anchor or url))
             elif score >= 2:
                 yield from self._discover_domain(url, anchor, response.url)
+        if followed:
+            followed.sort(reverse=True)
+            best = "; ".join(f"'{clip(t, 40)}' ({s})" for s, t in followed[:3])
+            trace("FOLLOW", f"{len(followed)} scholarship-like links from {short(response.url, 50)}  best: {best}")
 
     def _discover_domain(self, url, anchor, from_url):
         """Outlink expansion: official-TLD domains become DISCOVERED sources (auto-approved by rule)."""
@@ -112,6 +133,8 @@ class OfficialSpider(AtlasSpider):
             return
         info = self._ensure_discovered_source(dom, url, anchor, from_url)
         if info:
+            if dom not in self.new_domains:
+                trace("DISCOVER", f"new official domain {dom} via link '{clip(anchor, 50)}' on {short(from_url, 50)}")
             self.new_domains.add(dom)
             yield from self._request(url, info, 0, from_url, priority=500)
 

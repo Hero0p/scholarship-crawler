@@ -7,6 +7,7 @@ from datetime import date, datetime, timedelta
 from atlas import snapshots
 from atlas.db.models import FieldChange, Page, RunEvent, Scholarship, Source
 from atlas.db.session import get_session
+from atlas.trace import clip, trace
 from atlas.verify.confidence import name_match
 
 EXPIRING_DAYS = 15
@@ -67,6 +68,7 @@ def update_lifecycle(run_id=None) -> dict:
             if checked_now:
                 if live in ("GONE", "MISSING", "UNREACHABLE", "DRIFTED"):
                     sch.consecutive_misses = (sch.consecutive_misses or 0) + 1
+                    trace("MISSING", f"{clip(sch.name, 60)}: {why} (miss {sch.consecutive_misses}/{MISSES_FOR_GONE})")
                     s.add(RunEvent(run_id=run_id, scholarship_id=sch.id, event="MISSING",
                                    detail_json=json.dumps({"live": live, "why": why})))
                 elif live == "LIVE":
@@ -77,6 +79,8 @@ def update_lifecycle(run_id=None) -> dict:
             sch.live_status = live
             status, reason = compute_status(sch, live, today)
             if status != sch.status:
+                trace("STATUS", f"{clip(sch.name, 55)}: {sch.status if sch.id not in new_ids else 'new'} -> {status}"
+                                f"  ({reason})")
                 if sch.id not in new_ids and run_id is not None:
                     s.add(FieldChange(scholarship_id=sch.id, field_name="status",
                                       old_value_json=json.dumps(sch.status), new_value_json=json.dumps(status),

@@ -84,10 +84,14 @@ class AtlasSpider(scrapy.Spider):
 
     def on_error(self, failure):
         from scrapy.exceptions import IgnoreRequest
+        from atlas.trace import short, trace
         if failure.check(IgnoreRequest):   # robots.txt disallow / circuit breaker: not a page failure
             self.crawler.stats.inc_value("atlas/ignored_requests")
+            trace("FETCH", f"skip {short(failure.request.url)}  ({failure.value})")
             return
-        yield error_item(failure, self.run_id)
+        item = error_item(failure, self.run_id)
+        trace("FETCH", f"{item['status'] or 'ERR'}  {short(failure.request.url)}  ({type(failure.value).__name__})")
+        yield item
 
     @staticmethod
     def json_list(v) -> list:

@@ -13,6 +13,7 @@ import re
 from datetime import date
 
 from rapidfuzz import fuzz
+from sqlalchemy import case
 from sqlalchemy.orm import Session
 
 from atlas import snapshots
@@ -28,6 +29,7 @@ from atlas.extract.fields import Extracted
 from atlas.extract.record import RecordDraft, build_record
 from atlas.extract.sections import segment
 from atlas.schedule.frequency import next_crawl
+from atlas.trace import clip, short, trace
 from atlas.urls import canonicalize, registered_domain
 
 log = logging.getLogger("atlas.process")
@@ -99,7 +101,8 @@ def current_values(s: Session, sch_id: int, page_id: int | None = None) -> dict:
     if page_id is not None:
         q = q.filter(FieldEvidence.page_id == page_id)
     vals: dict = {}
-    for e in q.order_by(FieldEvidence.id):
+    # registry-derived values first, page evidence after -> page evidence always wins (stable precedence)
+    for e in q.order_by(case((FieldEvidence.evidence_kind == "REGISTRY", 0), else_=1), FieldEvidence.id):
         if e.field_name == "official_source_url":
             continue
         v = json.loads(e.value_json)
@@ -254,7 +257,10 @@ def _diff_and_log(s: Session, sch: Scholarship, page: Page, old: dict, new_ev: d
         o, n = norm_value(k, old.get(k)), norm_value(k, new.get(k))
         if _dumps(o) == _dumps(n):
             continue
+        if (k in old_ev and old_ev[k].evidence_kind == "REGISTRY") or (k in new_ev and new_ev[k].evidence_kind == "REGISTRY"):
+            continue      # registry fallback <-> page evidence is a refinement, not a change on the source
         changed.append(k)
+        trace("CHANGE", f"{clip(sch.name, 50)}: {k}  {clip(o, 40)} -> {clip(n, 40)}  (source: {short(page.final_url or page.url, 45)})")
         s.add(FieldChange(scholarship_id=sch.id, field_name=k, old_value_json=_dumps(o), new_value_json=_dumps(n),
                           change_kind="ADDED" if o is None else "REMOVED" if n is None else "UPDATED",
                           detected_at=utcnow(), run_id=run_id, source_url=page.final_url or page.url,
@@ -289,6 +295,7 @@ def upsert(s: Session, page: Page, src: Source, doc: Document, d: RecordDraft, s
         refresh_columns(s, sch)
         s.add(ScholarshipVersion(scholarship_id=sch.id, version=1, record_json=record_json(sch), run_id=run_id))
         s.add(RunEvent(run_id=run_id, scholarship_id=sch.id, event="NEW", detail_json=json.dumps({"url": src_url})))
+        trace_record(sch, d, src, page, "NEW")
         return "NEW"
 
     if role != "PRIMARY":
@@ -298,8 +305,17 @@ def upsert(s: Session, page: Page, src: Source, doc: Document, d: RecordDraft, s
                                     is_official=src.is_official))
         else:
             s.query(ScholarshipSource).filter_by(scholarship_id=sch.id, page_id=page.id).update({"last_seen_at": now})
+        trace("STORE", f"{clip(name, 60)}: also listed on {short(src_url, 50)} (corroborating source)")
         return "CORROBORATING"
 
+    # a field already evidenced by ANOTHER official page (e.g. provider from the guideline PDF's letterhead)
+    # is not overwritten by this page's weaker registry fallback
+    better_elsewhere = {e.field_name for e in s.query(FieldEvidence).filter(
+        FieldEvidence.scholarship_id == sch.id, FieldEvidence.is_current.is_(True),
+        FieldEvidence.page_id != page.id, FieldEvidence.evidence_kind != "REGISTRY")}
+    for k in list(d.fields):
+        if k in better_elsewhere and d.fields[k].kind == "REGISTRY":
+            del d.fields[k]
     old = current_values(s, sch.id, page.id)
     old_ev = {e.field_name: e for e in s.query(FieldEvidence).filter_by(scholarship_id=sch.id, is_current=True,
                                                                          page_id=page.id)}
@@ -317,11 +333,13 @@ def upsert(s: Session, page: Page, src: Source, doc: Document, d: RecordDraft, s
     if not changed:
         s.add(RunEvent(run_id=run_id, scholarship_id=sch.id, event="UNCHANGED",
                        detail_json=json.dumps({"reason": "page changed, extracted values identical"})))
+        trace("STORE", f"UNCHANGED #{sch.id} {clip(sch.name, 60)} (page bytes changed, extracted values identical)")
         return "UNCHANGED"
     sch.version += 1
     sch.last_changed_at = now
     s.add(ScholarshipVersion(scholarship_id=sch.id, version=sch.version, record_json=record_json(sch), run_id=run_id))
     s.add(RunEvent(run_id=run_id, scholarship_id=sch.id, event="CHANGED", detail_json=json.dumps({"fields": changed})))
+    trace("STORE", f"CHANGED #{sch.id} {clip(sch.name, 60)}: {', '.join(changed)} (version {sch.version}, old values kept)")
     return "CHANGED"
 
 
@@ -394,13 +412,18 @@ def enrich_card_records(run_id=None) -> dict:
             new_ev = write_page_evidence(s, sch, d, doc, page, page.latest_snapshot_sha, run_id, raw,
                                          only=allowed, url_row=False)
             had_before = bool(old)
-            changed = _diff_and_log(s, sch, page, old, new_ev, old_ev, run_id, allowed) if had_before else []
+            replacing_registry = prov_row is not None and prov_row.evidence_kind == "REGISTRY"
+            log_fields = allowed - ({"provider"} if replacing_registry else set())
+            changed = _diff_and_log(s, sch, page, old, new_ev, old_ev, run_id, log_fields) if had_before else []
             if not s.query(ScholarshipSource).filter_by(scholarship_id=sch.id, page_id=page.id).first():
                 s.add(ScholarshipSource(scholarship_id=sch.id, page_id=page.id, url=page.final_url or page.url,
                                         registered_domain=src.registered_domain, role="DETAIL_DOC",
                                         is_official=src.is_official))
             refresh_columns(s, sch)
             stats["enriched"] += 1
+            got = sorted(k for k in d.fields if k in allowed)
+            if got:
+                trace("ENRICH", f"{clip(sch.name, 50)} <- {', '.join(got)} from official guidelines {short(page.url, 50)}")
             if changed:
                 stats["changed"] += 1
                 sch.version += 1
@@ -468,6 +491,8 @@ def process_pages(run_id=None, reprocess: bool = False, limit: int | None = None
                     src.approval_reason = f"domain drift: {page.url} -> {page.final_url}"
             page.page_kind = kind
             page.relevance_score = verdict.score
+            trace("CLASSIFY", f"{kind:<10} score {verdict.score:>5.1f}  {short(page.final_url or page.url, 60)}"
+                              + (f"  ({'; '.join(verdict.reasons[:2])})" if kind != 'IRRELEVANT' else ''))
             stats[kind] = stats.get(kind, 0) + 1
             outcomes: list[str] = []
             closing = opening = None
@@ -484,6 +509,7 @@ def process_pages(run_id=None, reprocess: bool = False, limit: int | None = None
                     stats["REJECTED"] += 1
                     page.page_kind = "DETAIL_REJECTED"
                     log.info("rejected %s: %s", page.url, d.rejected_reason)
+                    trace("REJECT", f"{short(page.url, 60)}: {d.rejected_reason}")
                 else:
                     outcomes.append(upsert(s, page, src, doc, d, sha, raw, run_id))
                     cd, od = d.fields.get("closing_date"), d.fields.get("opening_date")
@@ -509,6 +535,7 @@ def process_pages(run_id=None, reprocess: bool = False, limit: int | None = None
                     closing = c if closing is None else min(closing, c)
                 if cards:
                     page.page_kind = "LISTING_CARDS"
+                    trace("CLASSIFY", f"LISTING_CARDS {len(cards)} scheme cards found on {short(page.final_url or page.url, 60)}")
                     stats["CARDS"] += len(cards)
             for o in outcomes:
                 stats[o] += 1
@@ -535,9 +562,63 @@ def process_pages(run_id=None, reprocess: bool = False, limit: int | None = None
     return stats
 
 
+def cleanup_spurious_changes() -> int:
+    """One-off repair (idempotent): provider 'changes' on portal-card records caused by the registry-fallback /
+    letterhead precedence bug (fixed). They were never changes on the official source."""
+    from atlas.db.models import CrawlRun
+    n = 0
+    with get_session() as s:
+        card_ids = {sid for (sid,) in s.query(Scholarship.id).filter(Scholarship.record_kind == "CARD")}
+        bad = [c for c in s.query(FieldChange).filter(FieldChange.field_name == "provider", FieldChange.origin == "LIVE",
+                                                      FieldChange.change_kind == "ADDED")
+               if c.scholarship_id in card_ids]
+        runs = set()
+        for c in bad:
+            for ev in s.query(RunEvent).filter_by(run_id=c.run_id, scholarship_id=c.scholarship_id, event="CHANGED"):
+                fields = json.loads(ev.detail_json or "{}").get("fields", [])
+                if fields == ["provider"]:
+                    s.delete(ev)
+            runs.add(c.run_id)
+            s.delete(c)
+            n += 1
+        s.flush()
+        for rid in runs:
+            r = s.get(CrawlRun, rid)
+            if r is not None:
+                r.changed_count = s.query(RunEvent).filter_by(run_id=rid, event="CHANGED").count()
+        s.commit()
+    return n
+
+
+TRACE_FIELDS = ("closing_date", "opening_date", "amount", "income_limit", "education_levels", "gender",
+                "categories", "domicile_states", "application_url")
+
+
+def trace_record(sch: Scholarship, d: RecordDraft, src: Source, page: Page, event: str) -> None:
+    """Narrate one stored record: official source identification + extracted values with their evidence."""
+    from atlas.trace import enabled
+    if not enabled():
+        return
+    trace("STORE", f"{event} #{sch.id} {clip(sch.name, 70)}")
+    trace("SOURCE", f"official source {registered_domain(page.final_url or page.url)} = {src.source_type} "
+                    f"(tier {src.trust_tier}, {'official' if src.is_official else 'NOT official'}; {src.origin.lower()})")
+    for k in TRACE_FIELDS:
+        f = d.fields.get(k)
+        if f is None:
+            continue
+        v = f.value.get("url") if k == "application_url" and isinstance(f.value, dict) else             {kk: vv for kk, vv in f.value.items() if kk != "text"} if isinstance(f.value, dict) else f.value
+        trace("EVIDENCE", f"  {k:<16} = {clip(v, 40):<40} <- \"{clip(f.evidence, 70)}\"")
+    missing = [k for k in ("amount", "closing_date", "income_limit") if k not in d.fields]
+    if missing:
+        trace("EVIDENCE", f"  not stated on this page: {', '.join(missing)}"
+                          + (" (looked up next in the official guideline document)" if sch.detail_doc_url
+                             else " -> stored as 'Not specified', never guessed"))
+
+
 def touch_unchanged_scholarships(run_id) -> int:
     """Scholarship pages re-fetched this run whose snapshot did not change (304 or identical bytes)."""
     n = 0
+    trace("STEP", "re-checked scholarships whose official page did not change at all")
     with get_session() as s:
         touched = {sid for (sid,) in s.query(RunEvent.scholarship_id).filter(RunEvent.run_id == run_id)}
         for sch in s.query(Scholarship).filter(Scholarship.is_active_record.is_(True)):
@@ -546,9 +627,10 @@ def touch_unchanged_scholarships(run_id) -> int:
                 continue
             sch.last_checked_at = page.last_fetched_at
             if page.http_status in (200, 304):
+                why = "304 Not Modified" if page.http_status == 304 else "identical snapshot"
                 s.add(RunEvent(run_id=run_id, scholarship_id=sch.id, event="UNCHANGED",
-                               detail_json=json.dumps({"reason": "304 Not Modified" if page.http_status == 304
-                                                       else "identical snapshot"})))
+                               detail_json=json.dumps({"reason": why})))
+                trace("STORE", f"UNCHANGED #{sch.id} {clip(sch.name, 60)}  (re-checked: {why})")
                 n += 1
         s.commit()
     return n

@@ -9,3 +9,5 @@ data/run*_console.log
 data/audit_sample.csv
 # raw snapshots are large; the text snapshots (evidence base) are kept
 data/snapshots/**/*.raw.gz
+data/demo/
+data/demo_run*.txt

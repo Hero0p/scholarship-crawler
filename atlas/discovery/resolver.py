@@ -20,6 +20,7 @@ from atlas.classify.source_classifier import (classify_by_rules, is_aggregator, 
                                               is_news_blog, provider_domain_match, tld_class)
 from atlas.db.models import DiscoveryLead, Scholarship, Source
 from atlas.db.session import get_session
+from atlas.trace import clip, trace
 from atlas.urls import registered_domain
 
 MAX_NEW_SOURCES_PER_RUN = 40
@@ -52,6 +53,9 @@ def resolve_leads(run_id=None) -> dict:
                 ld.resolved_official_url = url
                 ld.resolution_method = "OUTLINK_OFFICIAL_TLD" if official_tld else "OUTLINK_PROVIDER_MATCH"
                 ld.status = "RESOLVED"
+                trace("RESOLVE", f"'{clip(name, 55)}' -> {dom} "
+                                 + ("(official TLD: auto-approved)" if official_tld else
+                                    f"(provider/domain match {match:.0f}: crawled, capped below VERIFIED until approved)"))
                 resolved = True
                 stats["RESOLVED" if official_tld else "PROVIDER_MATCH"] += 1
                 src = known.get(dom)
@@ -88,6 +92,8 @@ def resolve_leads(run_id=None) -> dict:
                     else:
                         ld.status, ld.resolution_method = "UNRESOLVED", "UNRESOLVED"
                 stats["MATCHED_EXISTING" if hit else "UNRESOLVED"] += 1
+                trace("RESOLVE", f"'{clip(name, 55)}' -> " + (f"matches existing record #{hit}" if hit else
+                                 "UNRESOLVED (no official link; stays a lead, never a record)"))
             else:
                 for ld in group:
                     if ld.status == "NEW":

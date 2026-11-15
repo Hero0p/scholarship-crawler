@@ -6,6 +6,7 @@ only (a) the scholarship name and (b) outbound links to non-aggregator sites. Th
 """
 from __future__ import annotations
 
+import os
 import re
 from collections import defaultdict
 from datetime import date
@@ -17,6 +18,8 @@ from scrapy.http import TextResponse
 from atlas.classify.page_classifier import link_score, url_denied
 from atlas.classify.source_classifier import is_aggregator, is_ignored_host
 from atlas.urls import registered_domain
+
+from atlas.trace import clip, trace
 
 from .base import AtlasSpider, load_sources
 
@@ -31,8 +34,12 @@ class LeadsSpider(AtlasSpider):
     def start_requests(self):
         self.budget = defaultdict(int)
         self.info = {}
-        for src in load_sources(self.source_keys or None, roles=("DISCOVERY_ONLY",)):
-            info = {"id": src.id, "domain": src.registered_domain, "budget": src.page_budget}
+        cap = int(os.environ.get("ATLAS_MAX_PAGES", "0") or 0)
+        srcs = load_sources(None, roles=("DISCOVERY_ONLY",))
+        trace("STEP", f"mine {len(srcs)} aggregators for leads (names + outbound links only, never data)")
+        for src in srcs:
+            info = {"id": src.id, "domain": src.registered_domain,
+                    "budget": min(src.page_budget, cap) if cap else src.page_budget}
             self.info[src.id] = info
             for sm in self.json_list(src.sitemaps):
                 yield scrapy.Request(sm, callback=self.parse_sitemap, errback=self.on_error,
@@ -71,6 +78,9 @@ class LeadsSpider(AtlasSpider):
                 if is_aggregator(url) or is_ignored_host(url) or registered_domain(url) == info["domain"]:
                     continue
                 outs.add(url)
+            doms = sorted({registered_domain(u) for u in outs})
+            trace("LEAD", f"'{clip(h1, 60)}' on {registered_domain(response.url)} -> outbound: "
+                          f"{', '.join(doms[:3]) or 'none'}")
             for u in sorted(outs):
                 yield {"type": "lead", "lead_name": re.sub(r"\s+", " ", h1)[:200], "found_on_url": response.url,
                        "outbound_url": u, "run_id": self.run_id}
