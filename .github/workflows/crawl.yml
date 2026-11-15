@@ -16,6 +16,9 @@ jobs:
   crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    env:
+      ATLAS_TRACE: "1"           # narrated, step-by-step log (visible live in the Actions log + trace_runN.log artifact)
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
 
@@ -28,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline (recheck -> leads -> crawl -> process -> verify -> lifecycle)
-        run: python -m atlas.cli run --trigger SCHEDULED 2>&1 | tee run.log
+        run: python -m atlas.cli run --trigger ${{ github.event_name == 'schedule' && 'SCHEDULED' || 'GITHUB_MANUAL' }} 2>&1 | tee run.log
 
       - name: Export sample data + checkpoint database
         run: |

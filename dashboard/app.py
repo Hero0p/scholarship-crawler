@@ -22,16 +22,32 @@ STATUS_COLORS = {"ACTIVE": "#1a7f37", "EXPIRING_SOON": "#b35900", "EXPIRED": "#6
 NS = "Not specified"
 
 
-@st.cache_resource
-def conn():
-    c = sqlite3.connect(f"file:{DB.as_posix()}?mode=ro", uri=True, check_same_thread=False)
-    c.row_factory = sqlite3.Row
-    return c
+def db_signature() -> str:
+    """Changes whenever the database file is replaced (e.g. Streamlit Cloud pulls the nightly crawl commit)."""
+    s = DB.stat()
+    return f"{s.st_mtime_ns}-{s.st_size}"
 
 
-@st.cache_data(ttl=60)
+@st.cache_data(ttl=300, max_entries=500)
+def _q(sql: str, params: tuple, sig: str) -> pd.DataFrame:  # noqa: ARG001 - sig is part of the cache key
+    # open -> read -> close on every query: no long-lived file handle. A long-lived connection keeps reading the
+    # OLD file after git replaces data/atlas.db (and on Windows it blocks `git pull`).
+    c = sqlite3.connect(f"file:{DB.as_posix()}?mode=ro", uri=True)
+    try:
+        return pd.read_sql_query(sql, c, params=params)
+    finally:
+        c.close()
+
+
 def q(sql: str, params: tuple = ()) -> pd.DataFrame:
-    return pd.read_sql_query(sql, conn(), params=params)
+    # the file signature is part of the cache key -> a new database invalidates every cached query at once
+    return _q(sql, params, db_signature())
+
+
+def to_ist(col: pd.Series) -> pd.Series:
+    """DB timestamps are UTC; show them in IST."""
+    t = pd.to_datetime(col, errors="coerce")
+    return t.dt.tz_localize("UTC").dt.tz_convert("Asia/Kolkata").dt.strftime("%d %b %Y, %H:%M IST")
 
 
 def badge(text: str, color: str) -> str:
@@ -94,7 +110,12 @@ if not DB.exists():
     st.stop()
 
 page = st.sidebar.radio("View", ["Overview", "Scholarships", "Changes", "Crawl runs", "Sources & discovery"])
-st.sidebar.caption(f"DB: {DB.name} · refreshed {datetime.now():%H:%M:%S}")
+_last = q("SELECT id, trigger, status, finished_at FROM crawl_runs WHERE finished_at IS NOT NULL ORDER BY id DESC LIMIT 1")
+if len(_last):
+    _r = _last.iloc[0]
+    st.sidebar.success(f"Data as of run #{_r.id} ({_r.trigger.lower()}, {_r.status})  \n"
+                       f"{to_ist(pd.Series([_r.finished_at])).iloc[0]}")
+st.sidebar.caption(f"DB: {DB.name} · page loaded {datetime.now():%H:%M:%S}")
 st.sidebar.markdown("Confidence is computed from evidence (9 signals + 5 gates). "
                     "**VERIFIED** only at ≥ 95% with all gates passing.")
 
@@ -141,7 +162,7 @@ if page == "Overview":
     runs = q("SELECT * FROM crawl_runs ORDER BY id DESC LIMIT 1")
     if len(runs):
         r = runs.iloc[0]
-        st.info(f"**Last run #{r.id}** ({r.trigger}) {r.started_at} → {r.finished_at or 'running'} · "
+        st.info(f"**Last run #{r.id}** ({r.trigger}) {to_ist(pd.Series([r.started_at])).iloc[0]} · "
                 f"pages fetched {r.pages_fetched} · new {r.new_count} · changed {r.changed_count} · "
                 f"unchanged {r.unchanged_count} · missing {r.missing_count} · expired {r.expired_count}")
 
@@ -345,7 +366,12 @@ elif page == "Crawl runs":
     st.title("Crawl runs")
     runs = q("SELECT id, trigger, mode, status, started_at, finished_at, pages_fetched, pages_not_modified, errors, "
              "new_count, changed_count, unchanged_count, missing_count, expired_count FROM crawl_runs ORDER BY id DESC")
-    st.dataframe(runs, hide_index=True, width="stretch")
+    st.caption("SCHEDULED = automatic nightly run on GitHub Actions (02:00 IST; GitHub may start it later) · "
+               "MANUAL = run by hand · DEMO = demo database. Times in IST.")
+    shown = runs.assign(started_at=to_ist(runs.started_at), finished_at=to_ist(runs.finished_at),
+                        duration_min=((pd.to_datetime(runs.finished_at) - pd.to_datetime(runs.started_at))
+                                      .dt.total_seconds() / 60).round(1))
+    st.dataframe(shown, hide_index=True, width="stretch")
     if len(runs):
         rid = st.selectbox("Run", runs.id.tolist())
         evs = q("SELECT e.event, s.name, e.detail_json, e.created_at FROM run_events e LEFT JOIN scholarships s "
