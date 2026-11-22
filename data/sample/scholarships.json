@@ -3906,7 +3906,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:33",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:50:03",
+    "last_checked_at": "2026-11-22 00:44:58",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -4031,7 +4031,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -6792,7 +6792,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:49",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:17",
+    "last_checked_at": "2026-11-22 00:47:39",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -6897,7 +6897,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -8575,261 +8575,6 @@
     }
   },
   {
-    "id": 87,
-    "fingerprint": "women in stem scholarships@imperial.ac.uk",
-    "name": "Women in STEM Scholarships",
-    "provider": "Imperial College London",
-    "funding_type": "SCHOLARSHIP",
-    "official_source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-    "official_source_page_id": 1841,
-    "official_source_tier": 2,
-    "source_id": 113,
-    "source_type": "UNIVERSITY",
-    "application_url": "https://www.imperial.ac.uk/study/apply/",
-    "application_mode": "ONLINE",
-    "amount_text": null,
-    "amount_min_inr": null,
-    "amount_max_inr": null,
-    "amount_period": null,
-    "eligibility_text": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
-    "education_levels": "[\"UG\"]",
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": null,
-    "income_text": null,
-    "age_min": null,
-    "age_max": null,
-    "gender": "FEMALE",
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": null,
-    "opening_date": null,
-    "closing_date": null,
-    "deadline_text": null,
-    "is_rolling": null,
-    "academic_year": "2027-28",
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": "UPCOMING",
-    "detail_doc_url": null,
-    "record_kind": "PAGE",
-    "status": "REVIEW_REQUIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 86.2,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "DISCOVERED_OUTLINK",
-    "first_seen_at": "2026-11-19 02:16:26",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:38:55",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 0.5,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "Women in STEM Scholarships",
-        "evidence": "Women in STEM Scholarships",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [7, 33]}"
-      },
-      {
-        "field": "provider",
-        "value": "Imperial College London",
-        "evidence": "Imperial College London",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [44, 67]}"
-      },
-      {
-        "field": "india_eligibility",
-        "value": true,
-        "evidence": "1. South Asia Women Cohort (Bangladesh, India, Nepal, Pakistan and Sri Lanka)",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [427, 504]}"
-      },
-      {
-        "field": "eligibility_text",
-        "value": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
-        "evidence": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [1012, 2434]}"
-      },
-      {
-        "field": "gender",
-        "value": "FEMALE",
-        "evidence": "Women in STEM Scholarships",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [7, 33]}"
-      },
-      {
-        "field": "education_levels",
-        "value": [
-          "UG"
-        ],
-        "evidence": "Preference will be given to candidates who have not had any significant international exposure or previously studied in the UK. This includes distance learning at UK universities or study at UK branch campuses abroad. We define significant experience as a period of study over one month, or enrolment on or completion of an international degree course. Short term visits such as study tours or conferences are permitted",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [2830, 3249]}"
-      },
-      {
-        "field": "academic_year",
-        "value": "2027-28",
-        "evidence": "For the 2027-28 academic year, the eligible countries will be for one of the following cohorts*.",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [330, 426]}"
-      },
-      {
-        "field": "page_status",
-        "value": "UPCOMING",
-        "evidence": "To Note: The scholarship application will open early/mid January. Please check this section again in January to apply for the scholarship.",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [8390, 8528]}"
-      },
-      {
-        "field": "application_url",
-        "value": {
-          "url": "https://www.imperial.ac.uk/study/apply/",
-          "mode": "ONLINE",
-          "route": "OFFICIAL"
-        },
-        "evidence": "[Apply] -> https://www.imperial.ac.uk/study/apply/",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{\"char\": [6963, 6968]}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/ on 2026-11-19 (snapshot a6de0e851f51)",
-        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
-        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 0.95,
-          "points": 23.75,
-          "reason": "imperial.ac.uk classified UNIVERSITY (tier 2); origin DISCOVERED_OUTLINK"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "'[Apply] -> https://www.imperial.ac.uk/study/apply/' (official)"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 0.8,
-          "points": 8.0,
-          "reason": "2 structured criteria with evidence (gender, education_levels)"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 0.4,
-          "points": 4.0,
-          "reason": "only cycle known (2027-28), no date"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "current cycle 2027-28 mentioned"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 0.5,
-          "points": 2.5,
-          "reason": "50% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 86.2,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
     "id": 85,
     "fingerprint": "british council english and school education scholarships scheme msc tesol online@stir.ac.uk",
     "name": "British Council English and School Education Scholarships Scheme - MSc TESOL (Online)",
@@ -9406,7 +9151,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:35",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:52:39",
+    "last_checked_at": "2026-11-22 00:45:45",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9502,7 +9247,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -10357,7 +10102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:13",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:17",
+    "last_checked_at": "2026-11-22 00:50:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10371,7 +10116,7 @@
         "value": "Commonwealth Shared Scholarships",
         "evidence": "Commonwealth Shared Scholarships",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{\"char\": [7, 39]}"
       },
       {
@@ -10379,7 +10124,7 @@
         "value": true,
         "evidence": "sh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana,India, Jamaica, Kenya, Kiribati ,Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint V",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{\"char\": [2250, 2550]}"
       },
       {
@@ -10387,7 +10132,7 @@
         "value": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "evidence": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{\"char\": [706, 2119]}"
       },
       {
@@ -10397,7 +10142,7 @@
         ],
         "evidence": "Have made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{\"char\": [1097, 1363]}"
       },
       {
@@ -10405,15 +10150,15 @@
         "value": "2026-12-08",
         "evidence": "Application deadline: Tuesday 8 December 2026",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{\"char\": [199, 244]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-21 (snapshot 3aa78563f52a)",
+        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-22 (snapshot b2562d376f72)",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "3aa78563f52a6dde9e617b7e10bf857e333144ab8bf9343bffea5f8691b55b86",
+        "snapshot_sha256": "b2562d376f721ccfe1955fd14c30f845f4e52615cef786d6de07536a964d2663",
         "locator": "{}"
       }
     ],
@@ -10433,7 +10178,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -10823,7 +10568,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-19 02:16:26",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:18",
+    "last_checked_at": "2026-11-22 00:50:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10837,7 +10582,7 @@
         "value": "GREAT Scholarship",
         "evidence": "GREAT Scholarship",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{\"char\": [7, 24]}"
       },
       {
@@ -10845,7 +10590,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{\"char\": [1131, 1136]}"
       },
       {
@@ -10853,7 +10598,7 @@
         "value": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "evidence": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{\"char\": [1093, 2585]}"
       },
       {
@@ -10863,7 +10608,7 @@
         ],
         "evidence": "Postgraduate",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{\"char\": [1173, 1185]}"
       },
       {
@@ -10871,15 +10616,15 @@
         "value": "2027-06-01",
         "evidence": "1 June 2027",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{\"char\": [299, 310]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-21 (snapshot f4a70be9b670)",
+        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-22 (snapshot 0f568cd8e42a)",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "f4a70be9b670f4a970c5700df17058fb6f4d6b0d6bad3699c6b1c7a34d4323e7",
+        "snapshot_sha256": "0f568cd8e42a732033bb475dc7717dcbca94053796c87454f05117a6c1e78832",
         "locator": "{}"
       }
     ],
@@ -10899,7 +10644,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -17302,7 +17047,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:16",
+    "last_checked_at": "2026-11-22 00:50:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -17316,7 +17061,7 @@
         "value": "Sightsavers India Fellowship Program",
         "evidence": "Sightsavers India Fellowship Program",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{\"char\": [7, 43]}"
       },
       {
@@ -17324,7 +17069,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{\"char\": [19, 24]}"
       },
       {
@@ -17332,7 +17077,7 @@
         "value": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "evidence": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{\"char\": [1942, 2287]}"
       },
       {
@@ -17340,7 +17085,7 @@
         "value": "2026-07-31",
         "evidence": "Last date of application: 31st July 2026",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{\"char\": [2741, 2781]}"
       },
       {
@@ -17352,15 +17097,15 @@
         },
         "evidence": "[Apply for the program] -> https://indiafellowshipprogram.sightsaversindia.org/verify",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{\"char\": [184, 205]}"
       },
       {
         "field": "official_source_url",
         "value": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-21 (snapshot 6c714ddd194d)",
+        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-22 (snapshot 2c095d228b43)",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "6c714ddd194d479eabadf9ce1fcb78e3c3ae54cd0f98d2c1567de71cfdc1aebd",
+        "snapshot_sha256": "2c095d228b43bee414135a491b9ab1f5d4a223b512415f588c45ecd46b51ec30",
         "locator": "{}"
       }
     ],
@@ -17380,7 +17125,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -18232,6 +17977,261 @@
     }
   },
   {
+    "id": 87,
+    "fingerprint": "women in stem scholarships@imperial.ac.uk",
+    "name": "Women in STEM Scholarships",
+    "provider": "Imperial College London",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+    "official_source_page_id": 1841,
+    "official_source_tier": 2,
+    "source_id": 113,
+    "source_type": "UNIVERSITY",
+    "application_url": "https://www.imperial.ac.uk/study/apply/",
+    "application_mode": "ONLINE",
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
+    "education_levels": "[\"UG\"]",
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": null,
+    "income_text": null,
+    "age_min": null,
+    "age_max": null,
+    "gender": "FEMALE",
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": null,
+    "deadline_text": null,
+    "is_rolling": null,
+    "academic_year": "2027-28",
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": "UPCOMING",
+    "detail_doc_url": null,
+    "record_kind": "PAGE",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 71.2,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "DISCOVERED_OUTLINK",
+    "first_seen_at": "2026-11-19 02:16:26",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-21 01:38:55",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "MISSING",
+    "name_match_score": 0.0,
+    "consistency_ratio": 0.5,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "Women in STEM Scholarships",
+        "evidence": "Women in STEM Scholarships",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [7, 33]}"
+      },
+      {
+        "field": "provider",
+        "value": "Imperial College London",
+        "evidence": "Imperial College London",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [44, 67]}"
+      },
+      {
+        "field": "india_eligibility",
+        "value": true,
+        "evidence": "1. South Asia Women Cohort (Bangladesh, India, Nepal, Pakistan and Sri Lanka)",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [427, 504]}"
+      },
+      {
+        "field": "eligibility_text",
+        "value": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
+        "evidence": "Be a woman, as defined under UK legislation (* Applicants must be able to confirm their legal sex as female, evidenced by passport or other official. If you are awarded the scholarship, this will be a condition of acceptance)\nBe a permanent resident of, and hold a valid passport or recognised international travel document from one of the eligible countries listed, and being able to obtain a UK visa using the documentation they hold\nAgree to return to the country of your citizenship or residence for a minimum of two after the scholarship ends, except in very exceptional circumstances where return would be impossible or unsafe\nMeet the English language requirement for your programme at Imperial College London. Applicants who are awarded this scholarship will be required to have met College English entry requirements (Pre-sessional English courses are not supported by this programme) by 30 June 2027\nHave applied to study at Imperial College London before your scholarship application can be considered and have received an offer of admissions to study for one of the eligible courses by 5 pm (UK local time) by 3 March 2027\nHave completed your degree or have all components of your degree that will enable you to gain entry onto a postgraduate programme at Imperial College London in the Autumn 2027-28. Applicants must meet the academic entry requirement for admissions before the start of the UK academic year",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [1012, 2434]}"
+      },
+      {
+        "field": "gender",
+        "value": "FEMALE",
+        "evidence": "Women in STEM Scholarships",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [7, 33]}"
+      },
+      {
+        "field": "education_levels",
+        "value": [
+          "UG"
+        ],
+        "evidence": "Preference will be given to candidates who have not had any significant international exposure or previously studied in the UK. This includes distance learning at UK universities or study at UK branch campuses abroad. We define significant experience as a period of study over one month, or enrolment on or completion of an international degree course. Short term visits such as study tours or conferences are permitted",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [2830, 3249]}"
+      },
+      {
+        "field": "academic_year",
+        "value": "2027-28",
+        "evidence": "For the 2027-28 academic year, the eligible countries will be for one of the following cohorts*.",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [330, 426]}"
+      },
+      {
+        "field": "page_status",
+        "value": "UPCOMING",
+        "evidence": "To Note: The scholarship application will open early/mid January. Please check this section again in January to apply for the scholarship.",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [8390, 8528]}"
+      },
+      {
+        "field": "application_url",
+        "value": {
+          "url": "https://www.imperial.ac.uk/study/apply/",
+          "mode": "ONLINE",
+          "route": "OFFICIAL"
+        },
+        "evidence": "[Apply] -> https://www.imperial.ac.uk/study/apply/",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{\"char\": [6963, 6968]}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/ on 2026-11-19 (snapshot a6de0e851f51)",
+        "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/postgraduate-taught/grants-scholarships/international-scholarship-collaborations/asean-uk-sage/",
+        "snapshot_sha256": "a6de0e851f51b7e31155393b6feb219b170d5bb2871817ef650f90398aa16e41",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "imperial.ac.uk classified UNIVERSITY (tier 2); origin DISCOVERED_OUTLINK"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "scholarship name not found on official page (match 0)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "'[Apply] -> https://www.imperial.ac.uk/study/apply/' (official)"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.8,
+          "points": 8.0,
+          "reason": "2 structured criteria with evidence (gender, education_levels)"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 0.4,
+          "points": 4.0,
+          "reason": "only cycle known (2027-28), no date"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "current cycle 2027-28 mentioned"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 0.5,
+          "points": 2.5,
+          "reason": "50% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 71.2,
+      "capped": true,
+      "scoring_version": "1.0"
+    }
+  },
+  {
     "id": 9,
     "fingerprint": "golden jubilee scholarship scheme@licindia.in",
     "name": "Golden Jubilee Scholarship Scheme- 2024",
@@ -18529,7 +18529,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:15",
+    "last_checked_at": "2026-11-22 00:50:11",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18543,7 +18543,7 @@
         "value": "Goonj Setu Fellowship 2024 -25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18551,7 +18551,7 @@
         "value": "Goonj",
         "evidence": "Goonj",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [7, 12]}"
       },
       {
@@ -18559,7 +18559,7 @@
         "value": true,
         "evidence": "n empathy, dignity, and action, our fellowships are immersive, year-long journeys into the heart of India's rural and urban landscapes. Our fellows walk with the communities, co-create solutions, and build leadership from the ground up.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [410, 646]}"
       },
       {
@@ -18572,7 +18572,7 @@
         },
         "evidence": "Yes, fellows receive a monthly stipend of Rs. 10,000/- if placed in the native district. A stipend of Rs.12,000/- would be given to those who are placed outside their native district.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [8843, 9026]}"
       },
       {
@@ -18580,7 +18580,7 @@
         "value": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "evidence": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [3888, 4932]}"
       },
       {
@@ -18591,7 +18591,7 @@
         },
         "evidence": "Age - you ought to be 21 to 40 years by 31st December, 2024",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [3919, 3978]}"
       },
       {
@@ -18599,7 +18599,7 @@
         "value": "2024-25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18607,7 +18607,7 @@
         "value": "OPEN",
         "evidence": "Application Open Now",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{\"char\": [123, 143]}"
       },
       {
@@ -18619,15 +18619,15 @@
         },
         "evidence": "[REGISTER HERE] -> https://crm.goonj.org/collection-camp/",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{}"
       },
       {
         "field": "official_source_url",
         "value": "https://goonj.org/goonj-fellowship/",
-        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-21 (snapshot ebc010343aa8)",
+        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-22 (snapshot 24211802f051)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "ebc010343aa876a836f434d5abb686b881a3059fdfbead9f278706826dea0526",
+        "snapshot_sha256": "24211802f0518f32d01e202d4c21e5bbd5aafa7e891e38f75b8e761cdc22134c",
         "locator": "{}"
       }
     ],
@@ -18647,7 +18647,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -19004,7 +19004,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:04",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:50:00",
+    "last_checked_at": "2026-11-22 00:44:55",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19074,7 +19074,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -20102,7 +20102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:17",
+    "last_checked_at": "2026-11-22 00:43:18",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20160,7 +20160,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -20303,7 +20303,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:31",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:57:14",
+    "last_checked_at": "2026-11-22 00:50:10",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20317,7 +20317,7 @@
         "value": "Sage IT India Scholarship 2026",
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "54cf300d4864c961555c88dc12094ef2b63f40ac8eb1eccd2090b5e147bfd894",
+        "snapshot_sha256": "77ccc2de442ff904ea677ba004e6daa3c0d90aeb89ffe878c2bca18960256177",
         "locator": "{\"char\": [60, 90]}"
       },
       {
@@ -20325,7 +20325,7 @@
         "value": "2026-11-15",
         "evidence": "Submission Deadline:\n 15th November 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "54cf300d4864c961555c88dc12094ef2b63f40ac8eb1eccd2090b5e147bfd894",
+        "snapshot_sha256": "77ccc2de442ff904ea677ba004e6daa3c0d90aeb89ffe878c2bca18960256177",
         "locator": "{\"char\": [413, 453]}"
       },
       {
@@ -20333,15 +20333,15 @@
         "value": true,
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "54cf300d4864c961555c88dc12094ef2b63f40ac8eb1eccd2090b5e147bfd894",
+        "snapshot_sha256": "77ccc2de442ff904ea677ba004e6daa3c0d90aeb89ffe878c2bca18960256177",
         "locator": "{\"char\": [60, 90]}"
       },
       {
         "field": "official_source_url",
         "value": "https://sageitinc.com/scholarship/india",
-        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-21 (snapshot 54cf300d4864)",
+        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-22 (snapshot 77ccc2de442f)",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "54cf300d4864c961555c88dc12094ef2b63f40ac8eb1eccd2090b5e147bfd894",
+        "snapshot_sha256": "77ccc2de442ff904ea677ba004e6daa3c0d90aeb89ffe878c2bca18960256177",
         "locator": "{}"
       }
     ],
@@ -20361,7 +20361,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-22, name match 100"
         },
         {
           "id": "S3",
@@ -20718,10 +20718,10 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:50:49",
+    "last_checked_at": "2026-11-22 00:45:35",
     "last_changed_at": null,
     "version": 1,
-    "consecutive_misses": 5,
+    "consecutive_misses": 6,
     "live_status": "MISSING",
     "name_match_score": 0.0,
     "consistency_ratio": 1.0,
