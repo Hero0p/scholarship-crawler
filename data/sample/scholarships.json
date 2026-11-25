@@ -3906,7 +3906,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:33",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:05:41",
+    "last_checked_at": "2026-11-25 03:48:23",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -4031,7 +4031,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -6792,7 +6792,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:49",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 04:54:47",
+    "last_checked_at": "2026-11-25 03:54:47",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -6806,7 +6806,7 @@
         "value": "Commonwealth Shared Scholarship Scheme",
         "evidence": "Commonwealth Shared Scholarship Scheme",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [7, 45]}"
       },
       {
@@ -6814,7 +6814,7 @@
         "value": "University of Birmingham",
         "evidence": "University of Birmingham",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [48, 72]}"
       },
       {
@@ -6822,7 +6822,7 @@
         "value": true,
         "evidence": "Bangladesh, Botswana, Belize, Cameroon, Ghana, Dominica, Fiji, Gabon, Gambia, Grenada, Guyana, India, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [2867, 3167]}"
       },
       {
@@ -6830,7 +6830,7 @@
         "value": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "evidence": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [1435, 2866]}"
       },
       {
@@ -6841,7 +6841,7 @@
         ],
         "evidence": "agree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [1815, 2068]}"
       },
       {
@@ -6849,7 +6849,7 @@
         "value": "2026-12-08",
         "evidence": "8 December 2026",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [435, 450]}"
       },
       {
@@ -6857,7 +6857,7 @@
         "value": "2026-11-10",
         "evidence": "Applications for 2027 entry open on 10 November 2026 and close on 8 December 2026 at 16:00 (GMT); we strongly encourage you to check the Commonwealth Shared Scholarships webpage for more information: Commonwealth Shared Scholarships - Commonwealth Scholarship Commission in the UK",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [878, 1158]}"
       },
       {
@@ -6869,15 +6869,15 @@
         },
         "evidence": "[Apply now] -> https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{\"char\": [291, 300]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-23 (snapshot 97bd3649fbc2)",
+        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-25 (snapshot 4c0f4b8e7d30)",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "97bd3649fbc28fcc86d3fb210da4c3e031da1fcb585ad45eb75cfa1610ef390d",
+        "snapshot_sha256": "4c0f4b8e7d3018ad5a3ab079911af32f8ea5f65803ff48d5fbc8a717c8a3de9e",
         "locator": "{}"
       }
     ],
@@ -6897,7 +6897,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -9151,7 +9151,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:35",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:08:19",
+    "last_checked_at": "2026-11-25 03:50:17",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9247,7 +9247,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -9390,7 +9390,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:44",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:38:53",
+    "last_checked_at": "2026-11-25 03:38:49",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9525,7 +9525,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -9668,7 +9668,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:40:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-23 01:00:36",
+    "last_checked_at": "2026-11-25 03:38:50",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9728,7 +9728,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-23, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -9871,7 +9871,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:57:06",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-23 01:00:37",
+    "last_checked_at": "2026-11-25 03:38:48",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9959,7 +9959,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-23, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -10102,7 +10102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:13",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:54",
+    "last_checked_at": "2026-11-25 03:54:47",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10116,7 +10116,7 @@
         "value": "Commonwealth Shared Scholarships",
         "evidence": "Commonwealth Shared Scholarships",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{\"char\": [7, 39]}"
       },
       {
@@ -10124,7 +10124,7 @@
         "value": true,
         "evidence": "sh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana,India, Jamaica, Kenya, Kiribati ,Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint V",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{\"char\": [2250, 2550]}"
       },
       {
@@ -10132,7 +10132,7 @@
         "value": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "evidence": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{\"char\": [706, 2119]}"
       },
       {
@@ -10142,7 +10142,7 @@
         ],
         "evidence": "Have made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{\"char\": [1097, 1363]}"
       },
       {
@@ -10150,15 +10150,15 @@
         "value": "2026-12-08",
         "evidence": "Application deadline: Tuesday 8 December 2026",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{\"char\": [199, 244]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-24 (snapshot e3e777eff649)",
+        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-25 (snapshot 76e29e16c13c)",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "e3e777eff6490b3088a70d647116997f0e756a26f2841506923a838c5d910eeb",
+        "snapshot_sha256": "76e29e16c13c80803da88db38e8e329929e71efb609533c0e99f608c21be3769",
         "locator": "{}"
       }
     ],
@@ -10178,7 +10178,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -10321,7 +10321,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-19 02:16:26",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-23 01:00:39",
+    "last_checked_at": "2026-11-25 03:38:52",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10425,7 +10425,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-23, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -10568,7 +10568,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-19 02:16:26",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:55",
+    "last_checked_at": "2026-11-25 03:54:48",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10582,7 +10582,7 @@
         "value": "GREAT Scholarship",
         "evidence": "GREAT Scholarship",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{\"char\": [7, 24]}"
       },
       {
@@ -10590,7 +10590,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{\"char\": [1131, 1136]}"
       },
       {
@@ -10598,7 +10598,7 @@
         "value": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "evidence": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{\"char\": [1093, 2585]}"
       },
       {
@@ -10608,7 +10608,7 @@
         ],
         "evidence": "Postgraduate",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{\"char\": [1173, 1185]}"
       },
       {
@@ -10616,15 +10616,15 @@
         "value": "2027-06-01",
         "evidence": "1 June 2027",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{\"char\": [299, 310]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-24 (snapshot d1854b9296ad)",
+        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-25 (snapshot 07b38224ef74)",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "d1854b9296ad6e94a64a27e1875f477ed21487c8fff3bc2cf1f83c76ae537b34",
+        "snapshot_sha256": "07b38224ef7414f49a7254806846214fb689c46bc10ff07ddd8713c91caf1930",
         "locator": "{}"
       }
     ],
@@ -10644,7 +10644,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -11836,7 +11836,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:40:03",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:38:55",
+    "last_checked_at": "2026-11-25 03:38:51",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -11963,7 +11963,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -12106,7 +12106,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:40:11",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-21 01:38:57",
+    "last_checked_at": "2026-11-25 03:38:54",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -12235,7 +12235,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-21, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -17047,7 +17047,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:54",
+    "last_checked_at": "2026-11-25 03:54:46",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -17061,7 +17061,7 @@
         "value": "Sightsavers India Fellowship Program",
         "evidence": "Sightsavers India Fellowship Program",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{\"char\": [7, 43]}"
       },
       {
@@ -17069,7 +17069,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{\"char\": [19, 24]}"
       },
       {
@@ -17077,7 +17077,7 @@
         "value": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "evidence": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{\"char\": [1942, 2287]}"
       },
       {
@@ -17085,7 +17085,7 @@
         "value": "2026-07-31",
         "evidence": "Last date of application: 31st July 2026",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{\"char\": [2741, 2781]}"
       },
       {
@@ -17097,15 +17097,15 @@
         },
         "evidence": "[Apply for the program] -> https://indiafellowshipprogram.sightsaversindia.org/verify",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{\"char\": [184, 205]}"
       },
       {
         "field": "official_source_url",
         "value": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-24 (snapshot c5b0e1fa2321)",
+        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-25 (snapshot 17bd8d4b2b4c)",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "c5b0e1fa2321b4e0d1c96e2aed45dab0a13c7a83f59b00f0e025cab36bfdca3b",
+        "snapshot_sha256": "17bd8d4b2b4ccfaebabbeed9a2840394878d3f8832754358b3b68744ed5c2a33",
         "locator": "{}"
       }
     ],
@@ -17125,7 +17125,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -18018,7 +18018,7 @@
     "page_status_text": "UPCOMING",
     "detail_doc_url": null,
     "record_kind": "PAGE",
-    "status": "REVIEW_REQUIRED",
+    "status": "NO_LONGER_VERIFIABLE",
     "verification_status": "REVIEW_REQUIRED",
     "confidence": 71.2,
     "scoring_version": "1.0",
@@ -18026,10 +18026,10 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-19 02:16:26",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-23 01:00:37",
+    "last_checked_at": "2026-11-25 03:38:49",
     "last_changed_at": null,
     "version": 1,
-    "consecutive_misses": 1,
+    "consecutive_misses": 2,
     "live_status": "MISSING",
     "name_match_score": 0.0,
     "consistency_ratio": 0.5,
@@ -18529,7 +18529,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:53",
+    "last_checked_at": "2026-11-25 03:54:46",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18543,7 +18543,7 @@
         "value": "Goonj Setu Fellowship 2024 -25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18551,7 +18551,7 @@
         "value": "Goonj",
         "evidence": "Goonj",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [7, 12]}"
       },
       {
@@ -18559,7 +18559,7 @@
         "value": true,
         "evidence": "n empathy, dignity, and action, our fellowships are immersive, year-long journeys into the heart of India's rural and urban landscapes. Our fellows walk with the communities, co-create solutions, and build leadership from the ground up.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [410, 646]}"
       },
       {
@@ -18572,7 +18572,7 @@
         },
         "evidence": "Yes, fellows receive a monthly stipend of Rs. 10,000/- if placed in the native district. A stipend of Rs.12,000/- would be given to those who are placed outside their native district.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [8843, 9026]}"
       },
       {
@@ -18580,7 +18580,7 @@
         "value": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "evidence": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [3888, 4932]}"
       },
       {
@@ -18591,7 +18591,7 @@
         },
         "evidence": "Age - you ought to be 21 to 40 years by 31st December, 2024",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [3919, 3978]}"
       },
       {
@@ -18599,7 +18599,7 @@
         "value": "2024-25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18607,7 +18607,7 @@
         "value": "OPEN",
         "evidence": "Application Open Now",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{\"char\": [123, 143]}"
       },
       {
@@ -18619,15 +18619,15 @@
         },
         "evidence": "[REGISTER HERE] -> https://crm.goonj.org/collection-camp/",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{}"
       },
       {
         "field": "official_source_url",
         "value": "https://goonj.org/goonj-fellowship/",
-        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-24 (snapshot 1f5cbbf1a692)",
+        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-25 (snapshot 4f1bd7635a80)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "1f5cbbf1a6920cdde4181ebddf33f60b7118bae6d0dbe1d9c7696d8020844c4e",
+        "snapshot_sha256": "4f1bd7635a80d6e9b629f4028e8c6e9a428e6f4ee618f24b3760cbc29c792f63",
         "locator": "{}"
       }
     ],
@@ -18647,7 +18647,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -19004,7 +19004,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:04",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:05:40",
+    "last_checked_at": "2026-11-25 03:48:16",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19074,7 +19074,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -20102,7 +20102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:55",
+    "last_checked_at": "2026-11-25 03:47:44",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20160,7 +20160,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -20303,7 +20303,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:31",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:12:52",
+    "last_checked_at": "2026-11-25 03:54:45",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20317,7 +20317,7 @@
         "value": "Sage IT India Scholarship 2026",
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "802719d3cbbf1b79b88599eb97324347305f2e91e3fb71bb59913ebc1d7c8051",
+        "snapshot_sha256": "57a0cb492d70ec4bbd32f1b21d04ec915852d8823fac6c8c61626bcdddcdd627",
         "locator": "{\"char\": [60, 90]}"
       },
       {
@@ -20325,7 +20325,7 @@
         "value": "2026-11-15",
         "evidence": "Submission Deadline:\n 15th November 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "802719d3cbbf1b79b88599eb97324347305f2e91e3fb71bb59913ebc1d7c8051",
+        "snapshot_sha256": "57a0cb492d70ec4bbd32f1b21d04ec915852d8823fac6c8c61626bcdddcdd627",
         "locator": "{\"char\": [413, 453]}"
       },
       {
@@ -20333,15 +20333,15 @@
         "value": true,
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "802719d3cbbf1b79b88599eb97324347305f2e91e3fb71bb59913ebc1d7c8051",
+        "snapshot_sha256": "57a0cb492d70ec4bbd32f1b21d04ec915852d8823fac6c8c61626bcdddcdd627",
         "locator": "{\"char\": [60, 90]}"
       },
       {
         "field": "official_source_url",
         "value": "https://sageitinc.com/scholarship/india",
-        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-24 (snapshot 802719d3cbbf)",
+        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-25 (snapshot 57a0cb492d70)",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "802719d3cbbf1b79b88599eb97324347305f2e91e3fb71bb59913ebc1d7c8051",
+        "snapshot_sha256": "57a0cb492d70ec4bbd32f1b21d04ec915852d8823fac6c8c61626bcdddcdd627",
         "locator": "{}"
       }
     ],
@@ -20361,7 +20361,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-24, name match 100"
+          "reason": "HTTP 200 on 2026-11-25, name match 100"
         },
         {
           "id": "S3",
@@ -20718,12 +20718,12 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-24 05:06:23",
+    "last_checked_at": "2026-11-25 03:49:48",
     "last_changed_at": null,
     "version": 1,
-    "consecutive_misses": 8,
+    "consecutive_misses": 9,
     "live_status": "MISSING",
-    "name_match_score": 55.81395348837209,
+    "name_match_score": 0.0,
     "consistency_ratio": 1.0,
     "is_active_record": true,
     "evidence": [
@@ -20776,7 +20776,7 @@
           "weight": 15,
           "value": 0.0,
           "points": 0.0,
-          "reason": "scholarship name not found on official page (match 56)"
+          "reason": "scholarship name not found on official page (match 0)"
         },
         {
           "id": "S3",
