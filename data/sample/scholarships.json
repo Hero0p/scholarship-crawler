@@ -3906,7 +3906,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:33",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:07:52",
+    "last_checked_at": "2026-11-27 03:10:43",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -4031,7 +4031,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -6487,262 +6487,6 @@
     }
   },
   {
-    "id": 52,
-    "fingerprint": "young india fellowship@ashoka.edu.in",
-    "name": "Young India Fellowship",
-    "provider": "Ashoka University",
-    "funding_type": "FELLOWSHIP",
-    "official_source_url": "https://www.ashoka.edu.in/yif-admissions/",
-    "official_source_page_id": 507,
-    "official_source_tier": 2,
-    "source_id": 37,
-    "source_type": "UNIVERSITY",
-    "application_url": "https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
-    "application_mode": "ONLINE",
-    "amount_text": null,
-    "amount_min_inr": null,
-    "amount_max_inr": null,
-    "amount_period": null,
-    "eligibility_text": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
-    "education_levels": null,
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": null,
-    "income_text": null,
-    "age_min": 20,
-    "age_max": 33,
-    "gender": null,
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
-    "opening_date": null,
-    "closing_date": "2026-11-29",
-    "deadline_text": "Priority Deadline: November 29, 2026",
-    "is_rolling": true,
-    "academic_year": "2025-26",
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": null,
-    "detail_doc_url": null,
-    "record_kind": "PAGE",
-    "status": "REVIEW_REQUIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 92.2,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "SEED",
-    "first_seen_at": "2026-11-12 23:40:46",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:40:46",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 0.5,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "Young India Fellowship",
-        "evidence": "Young India Fellowship",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [16, 38]}"
-      },
-      {
-        "field": "provider",
-        "value": "Ashoka University",
-        "evidence": "Ashoka University",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [482, 499]}"
-      },
-      {
-        "field": "eligibility_text",
-        "value": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
-        "evidence": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [2219, 2921]}"
-      },
-      {
-        "field": "age",
-        "value": {
-          "min": 20,
-          "max": 33
-        },
-        "evidence": "There is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [2812, 2921]}"
-      },
-      {
-        "field": "institution_text",
-        "value": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
-        "evidence": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [2422, 2811]}"
-      },
-      {
-        "field": "closing_date",
-        "value": "2026-11-29",
-        "evidence": "Priority Deadline: November 29, 2026",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [8640, 8676]}"
-      },
-      {
-        "field": "is_rolling",
-        "value": true,
-        "evidence": "Applications are assessed on a rolling basis, meaning they are reviewed as they are received.",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [7778, 7871]}"
-      },
-      {
-        "field": "academic_year",
-        "value": "2025-26",
-        "evidence": "Thanks to generous philanthropic support, primarily from HDFC Bank, we have been able to significantly increase funding for Fellows. We are proud to share that all Fellows in the Class of 2025-26 have received partial or full financial support. Explore the various funding options available to you:",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [7162, 7460]}"
-      },
-      {
-        "field": "application_url",
-        "value": {
-          "url": "https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
-          "mode": "ONLINE",
-          "route": "OFFICIAL"
-        },
-        "evidence": "[Register Now] -> https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{\"char\": [9322, 9334]}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.ashoka.edu.in/yif-admissions/",
-        "evidence": "HTTP 200 from https://www.ashoka.edu.in/yif-admissions/ on 2026-11-12 (snapshot 16b40b6348c5)",
-        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
-        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 0.95,
-          "points": 23.75,
-          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "'[Register Now] -> https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=' (official)"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 0.8,
-          "points": 8.0,
-          "reason": "2 structured criteria with evidence (age, institution_text)"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2026-11-29 with evidence"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2026-11-29 is current"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 0.5,
-          "points": 2.5,
-          "reason": "50% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 92.2,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
     "id": 77,
     "fingerprint": "commonwealth shared scholarship scheme@birmingham.ac.uk",
     "name": "Commonwealth Shared Scholarship Scheme",
@@ -6792,7 +6536,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:49",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:52",
+    "last_checked_at": "2026-11-27 03:22:48",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -6806,7 +6550,7 @@
         "value": "Commonwealth Shared Scholarship Scheme",
         "evidence": "Commonwealth Shared Scholarship Scheme",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [7, 45]}"
       },
       {
@@ -6814,7 +6558,7 @@
         "value": "University of Birmingham",
         "evidence": "University of Birmingham",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [48, 72]}"
       },
       {
@@ -6822,7 +6566,7 @@
         "value": true,
         "evidence": "Bangladesh, Botswana, Belize, Cameroon, Ghana, Dominica, Fiji, Gabon, Gambia, Grenada, Guyana, India, Kenya, Kiribati, Lesotho, Malawi, Malaysia, Maldives, Mauritius, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Sierra",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [2867, 3167]}"
       },
       {
@@ -6830,7 +6574,7 @@
         "value": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "evidence": "Candidates should be commencing a course in September 2027.\nCandidates must also certify that they:\nare nationals of a Commonwealth developing country, and not at present living or studying in a developed country;\nhave not undertaken studies lasting one year or more in a developed country;\nare themselves, or through their families, unable to pay to study in the United Kingdom;\nagree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.\nDFID requires that the University certifies when submitting its shortlist of candidates that they are sufficiently proficient in the English language to cope with the course for which they have applied. This will normally mean that you will have to have satisfied any requirements concerning competence in the English language which are a condition of your offer of admission.\nYou can read more about the eligibility criteria by visiting the Commonwealth Scholarship Comission's website.\nCandidates must also have been offered a place at the University of Birmingham on one of the following postgraduate programmes:\nMSc Environment, Development and Politics\nMSc International Development\nMSc Respiratory Medicine\nMSc Conflict, Security and Development\nMSc Clinical Oncology\nEligible nationalities:",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [1435, 2866]}"
       },
       {
@@ -6841,7 +6585,7 @@
         ],
         "evidence": "agree to return to their own country to work or study as soon as the award ends. The commission will only consider requests to extend leave to remain in the UK post-award for those wishing to move from Masters to PhD study. Strict conditions will apply.",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [1815, 2068]}"
       },
       {
@@ -6849,7 +6593,7 @@
         "value": "2026-12-08",
         "evidence": "8 December 2026",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [435, 450]}"
       },
       {
@@ -6857,7 +6601,7 @@
         "value": "2026-11-10",
         "evidence": "Applications for 2027 entry open on 10 November 2026 and close on 8 December 2026 at 16:00 (GMT); we strongly encourage you to check the Commonwealth Shared Scholarships webpage for more information: Commonwealth Shared Scholarships - Commonwealth Scholarship Commission in the UK",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [878, 1158]}"
       },
       {
@@ -6869,15 +6613,15 @@
         },
         "evidence": "[Apply now] -> https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{\"char\": [291, 300]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-26 (snapshot 0c7ccef23095)",
+        "evidence": "HTTP 200 from https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1 on 2026-11-27 (snapshot 352806136f14)",
         "source_url": "https://www.birmingham.ac.uk/study/scholarships-funding/commonwealth-shared-scholarship-scheme-1",
-        "snapshot_sha256": "0c7ccef230955439b03c62ee71525fd782ba2b69cd44af16f0a21d5d06470564",
+        "snapshot_sha256": "352806136f143327b3bd35651e5e7dcd15ebc3c8ba19ebf636eaec4e4e442bf2",
         "locator": "{}"
       }
     ],
@@ -6897,7 +6641,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -6953,7 +6697,7 @@
           "weight": 5,
           "value": 1.0,
           "points": 5.0,
-          "reason": "also named on official domain(s): kcl.ac.uk, st-andrews.ac.uk"
+          "reason": "also named on official domain(s): kcl.ac.uk, shu.ac.uk, st-andrews.ac.uk"
         }
       ],
       "gates": [
@@ -6986,264 +6730,6 @@
       "penalty": 0,
       "conflicts": [],
       "raw_score": 91.2,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
-    "id": 70,
-    "fingerprint": "arunkumar ramniklal mehta scholarship arra@ashoka.edu.in",
-    "name": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
-    "provider": "Ashoka University",
-    "funding_type": "SCHOLARSHIP",
-    "official_source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-    "official_source_page_id": 813,
-    "official_source_tier": 2,
-    "source_id": 37,
-    "source_type": "UNIVERSITY",
-    "application_url": "https://apply.ashoka.edu.in/",
-    "application_mode": "ONLINE",
-    "amount_text": null,
-    "amount_min_inr": null,
-    "amount_max_inr": null,
-    "amount_period": null,
-    "eligibility_text": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
-    "education_levels": "[\"CLASS_11_12\"]",
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": 3500000,
-    "income_text": "The annual household income of the applicant should be below INR 35 lacs (pre tax)",
-    "age_min": 17,
-    "age_max": 25,
-    "gender": null,
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": null,
-    "opening_date": null,
-    "closing_date": "2025-10-05",
-    "deadline_text": "This application form will be open till 5th October 2025.",
-    "is_rolling": null,
-    "academic_year": "2025-26",
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": null,
-    "detail_doc_url": null,
-    "record_kind": "PAGE",
-    "status": "EXPIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 88.2,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "SEED",
-    "first_seen_at": "2026-11-12 23:42:22",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:42:22",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 0.5,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
-        "evidence": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [7, 53]}"
-      },
-      {
-        "field": "provider",
-        "value": "Ashoka University",
-        "evidence": "Ashoka University",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [56, 73]}"
-      },
-      {
-        "field": "eligibility_text",
-        "value": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
-        "evidence": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [661, 1479]}"
-      },
-      {
-        "field": "income_limit",
-        "value": 3500000,
-        "evidence": "The annual household income of the applicant should be below INR 35 lacs (pre tax)",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [1049, 1131]}"
-      },
-      {
-        "field": "age",
-        "value": {
-          "min": 17,
-          "max": 25
-        },
-        "evidence": "Applicant should be between the ages of 17 - 25 years",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [1426, 1479]}"
-      },
-      {
-        "field": "education_levels",
-        "value": [
-          "CLASS_11_12"
-        ],
-        "evidence": "To avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [778, 915]}"
-      },
-      {
-        "field": "closing_date",
-        "value": "2025-10-05",
-        "evidence": "This application form will be open till 5th October 2025.",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [1790, 1847]}"
-      },
-      {
-        "field": "academic_year",
-        "value": "2025-26",
-        "evidence": "or students who have been admitted in the undergraduate programme for the current academic year (AY 2025-26).",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{\"char\": [332, 441]}"
-      },
-      {
-        "field": "application_url",
-        "value": {
-          "url": "https://apply.ashoka.edu.in/",
-          "mode": "ONLINE",
-          "route": "OFFICIAL"
-        },
-        "evidence": "[Apply] -> https://apply.ashoka.edu.in/",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "evidence": "HTTP 200 from https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/ on 2026-11-12 (snapshot 082afc6478e1)",
-        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
-        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 0.95,
-          "points": 23.75,
-          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "'[Apply] -> https://apply.ashoka.edu.in/' (official)"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "3 structured criteria with evidence (income_limit, age, education_levels)"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2025-10-05 with evidence"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 0.4,
-          "points": 4.0,
-          "reason": "closing date 2025-10-05 is from the previous cycle"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 0.5,
-          "points": 2.5,
-          "reason": "50% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 88.2,
       "capped": false,
       "scoring_version": "1.0"
     }
@@ -8814,6 +8300,262 @@
     }
   },
   {
+    "id": 52,
+    "fingerprint": "young india fellowship@ashoka.edu.in",
+    "name": "Young India Fellowship",
+    "provider": "Ashoka University",
+    "funding_type": "FELLOWSHIP",
+    "official_source_url": "https://www.ashoka.edu.in/yif-admissions/",
+    "official_source_page_id": 507,
+    "official_source_tier": 2,
+    "source_id": 37,
+    "source_type": "UNIVERSITY",
+    "application_url": "https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
+    "application_mode": "ONLINE",
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
+    "education_levels": null,
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": null,
+    "income_text": null,
+    "age_min": 20,
+    "age_max": 33,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
+    "opening_date": null,
+    "closing_date": "2026-11-29",
+    "deadline_text": "Priority Deadline: November 29, 2026",
+    "is_rolling": true,
+    "academic_year": "2025-26",
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "PAGE",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 84.8,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "SEED",
+    "first_seen_at": "2026-11-12 23:40:46",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-12 23:40:46",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 0.5,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "Young India Fellowship",
+        "evidence": "Young India Fellowship",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [16, 38]}"
+      },
+      {
+        "field": "provider",
+        "value": "Ashoka University",
+        "evidence": "Ashoka University",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [482, 499]}"
+      },
+      {
+        "field": "eligibility_text",
+        "value": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
+        "evidence": "In addition to demonstrating potential for leadership, emotional maturity, strong intellectual ability, and a commitment to improving the state of the world, candidates must meet the following criteria.\nApplicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.\nThere is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [2219, 2921]}"
+      },
+      {
+        "field": "age",
+        "value": {
+          "min": 20,
+          "max": 33
+        },
+        "evidence": "There is no age limit for applying to the YIF. Fellows in the Class of 2027 range in age from 20 to 33 years.",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [2812, 2921]}"
+      },
+      {
+        "field": "institution_text",
+        "value": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
+        "evidence": "Applicants should have completed a recognised undergraduate degree or equivalent in any discipline. Final year undergraduate students who will complete their degree or equivalent in the summer of 2027 are also eligible to apply. Having work experience (either full-time, entrepreneurship, freelancing or internships) may be advantageous. Many Fellows have postgraduate credentials as well.",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [2422, 2811]}"
+      },
+      {
+        "field": "closing_date",
+        "value": "2026-11-29",
+        "evidence": "Priority Deadline: November 29, 2026",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [8640, 8676]}"
+      },
+      {
+        "field": "is_rolling",
+        "value": true,
+        "evidence": "Applications are assessed on a rolling basis, meaning they are reviewed as they are received.",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [7778, 7871]}"
+      },
+      {
+        "field": "academic_year",
+        "value": "2025-26",
+        "evidence": "Thanks to generous philanthropic support, primarily from HDFC Bank, we have been able to significantly increase funding for Fellows. We are proud to share that all Fellows in the Class of 2025-26 have received partial or full financial support. Explore the various funding options available to you:",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [7162, 7460]}"
+      },
+      {
+        "field": "application_url",
+        "value": {
+          "url": "https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
+          "mode": "ONLINE",
+          "route": "OFFICIAL"
+        },
+        "evidence": "[Register Now] -> https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=apply_now&utm_campaign=YIF28",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{\"char\": [9322, 9334]}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.ashoka.edu.in/yif-admissions/",
+        "evidence": "HTTP 200 from https://www.ashoka.edu.in/yif-admissions/ on 2026-11-12 (snapshot 16b40b6348c5)",
+        "source_url": "https://www.ashoka.edu.in/yif-admissions/",
+        "snapshot_sha256": "16b40b6348c587bd97949a10e862bd9482641bdc898217289b8ddf1d976a1f45",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.5,
+          "points": 7.5,
+          "reason": "HTTP 200 on 2026-11-12, name match 100; last successful check older than 14 days (x0.5)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "'[Register Now] -> https://yifapplication.ashoka.edu.in/?utm_source=yif_website&utm_medium=' (official)"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.8,
+          "points": 8.0,
+          "reason": "2 structured criteria with evidence (age, institution_text)"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2026-11-29 with evidence"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2026-11-29 is current"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 0.5,
+          "points": 2.5,
+          "reason": "50% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 84.8,
+      "capped": true,
+      "scoring_version": "1.0"
+    }
+  },
+  {
     "id": 15,
     "fingerprint": "scholarship scheme for state minority communities pursuing higher professional education all post h s c courses part i technical course dte@maharashtra.gov.in",
     "name": "Scholarship Scheme for State Minority Communities Pursuing Higher Professional Education/All Post H.S.C Courses.(Part-I{(Technical Course(DTE)}",
@@ -9151,7 +8893,7 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:35",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:11:06",
+    "last_checked_at": "2026-11-27 03:12:42",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -9247,7 +8989,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -10102,7 +9844,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:13",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:52",
+    "last_checked_at": "2026-11-27 03:22:47",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10116,7 +9858,7 @@
         "value": "Commonwealth Shared Scholarships",
         "evidence": "Commonwealth Shared Scholarships",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{\"char\": [7, 39]}"
       },
       {
@@ -10124,7 +9866,7 @@
         "value": true,
         "evidence": "sh, Belize, Botswana, Cameroon, Dominica, Eswatini, Fiji, Gabon, The Gambia, Ghana, Grenada, Guyana,India, Jamaica, Kenya, Kiribati ,Lesotho, Malawi, Malaysia, Maldives, Mauritius, Montserrat, Mozambique, Namibia, Nauru, Nigeria, Pakistan, Papua New Guinea, Rwanda, Saint Helena, Saint Lucia, Saint V",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{\"char\": [2250, 2550]}"
       },
       {
@@ -10132,7 +9874,7 @@
         "value": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "evidence": "To apply for this scholarship, you must:\nBe a citizen of or have been granted refugee status by an eligible Commonwealth country.\nBe permanently resident in an eligible Commonwealth country (see below).\nBe available to start your academic studies in the UK by the start of the academic year in September 2027.\nMeet the entry requirements for the specific course, as detailed on our website.\nHave made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).\nNot have studied or worked for more than one (academic) year or more in a high-income country.\nBe unable to afford to study in the UK without this scholarship.\nYou must also ensure that you have an offer to study at the University of Nottingham on a relevant course. Please ensure that you make your academic application as early as possible to ensure there is time for your academic application to be considered, As a guide, we recommend that you allow at least 6 weeks for your academic application to be considered.\nEligible courses\nMA Global Social and Public Policy\nMSc AI and Digital Chemistry\nMSc Drug Discovery\nMSc Entrepreneurship, Innovation and Management\nMSc Quantum Science and Technology\nMSc Sustainable Energy Engineering\nEligible countries",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{\"char\": [706, 2119]}"
       },
       {
@@ -10142,7 +9884,7 @@
         ],
         "evidence": "Have made a complete academic application to study for one of the approved courses at the University of Nottingham by the Commonwealth Shared Scholarship Application deadline (please note, only students with offers for the relevant degree course can be shortlisted).",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{\"char\": [1097, 1363]}"
       },
       {
@@ -10150,15 +9892,15 @@
         "value": "2026-12-08",
         "evidence": "Application deadline: Tuesday 8 December 2026",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{\"char\": [199, 244]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-26 (snapshot c025dd44a00f)",
+        "evidence": "HTTP 200 from https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship on 2026-11-27 (snapshot e80c54dc694c)",
         "source_url": "https://www.nottingham.ac.uk/pgstudy/funding/commonwealth-shared-scholarship",
-        "snapshot_sha256": "c025dd44a00f1f3b64120f9a8ace6d8a0eaca4f55ca55f41f30c5be478430454",
+        "snapshot_sha256": "e80c54dc694cf2c0adb5e8b8039a97fd4eb87c14f4cb364c92fba920510d723a",
         "locator": "{}"
       }
     ],
@@ -10178,7 +9920,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -10267,6 +10009,264 @@
       "penalty": 0,
       "conflicts": [],
       "raw_score": 81.2,
+      "capped": true,
+      "scoring_version": "1.0"
+    }
+  },
+  {
+    "id": 70,
+    "fingerprint": "arunkumar ramniklal mehta scholarship arra@ashoka.edu.in",
+    "name": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
+    "provider": "Ashoka University",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+    "official_source_page_id": 813,
+    "official_source_tier": 2,
+    "source_id": 37,
+    "source_type": "UNIVERSITY",
+    "application_url": "https://apply.ashoka.edu.in/",
+    "application_mode": "ONLINE",
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
+    "education_levels": "[\"CLASS_11_12\"]",
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": 3500000,
+    "income_text": "The annual household income of the applicant should be below INR 35 lacs (pre tax)",
+    "age_min": 17,
+    "age_max": 25,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": "2025-10-05",
+    "deadline_text": "This application form will be open till 5th October 2025.",
+    "is_rolling": null,
+    "academic_year": "2025-26",
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "PAGE",
+    "status": "EXPIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 80.8,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "SEED",
+    "first_seen_at": "2026-11-12 23:42:22",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-12 23:42:22",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 0.5,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
+        "evidence": "Arunkumar & Ramniklal Mehta Scholarship (ARRA)",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [7, 53]}"
+      },
+      {
+        "field": "provider",
+        "value": "Ashoka University",
+        "evidence": "Ashoka University",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [56, 73]}"
+      },
+      {
+        "field": "eligibility_text",
+        "value": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
+        "evidence": "Below are the academic and non-academic criteria for eligibility to apply to the ARRA Scholarship:\nAcademic Criteria\nTo avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:\nCBSE/ISC/State Board (Indian): >/=97%\nIB: 40/42 (not including marks for Theory of Knowledge)\nCambridge: A*A A\nNon Academic Criteria\nThe annual household income of the applicant should be below INR 35 lacs (pre tax)\nApplicant must have an offer of admission from Ashoka and should have applied for need-based scholarship\nApplicant should be of Indian origin and have completed high school in India\nApplicant must demonstrate involvement in clubs, sports, community service, or other extracurricular activities\nApplicant should be between the ages of 17 - 25 years",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [661, 1479]}"
+      },
+      {
+        "field": "income_limit",
+        "value": 3500000,
+        "evidence": "The annual household income of the applicant should be below INR 35 lacs (pre tax)",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [1049, 1131]}"
+      },
+      {
+        "field": "age",
+        "value": {
+          "min": 17,
+          "max": 25
+        },
+        "evidence": "Applicant should be between the ages of 17 - 25 years",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [1426, 1479]}"
+      },
+      {
+        "field": "education_levels",
+        "value": [
+          "CLASS_11_12"
+        ],
+        "evidence": "To avail this scholarship, the student should have any one of the following academic cut-offs based on their Class XII Board Examination:",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [778, 915]}"
+      },
+      {
+        "field": "closing_date",
+        "value": "2025-10-05",
+        "evidence": "This application form will be open till 5th October 2025.",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [1790, 1847]}"
+      },
+      {
+        "field": "academic_year",
+        "value": "2025-26",
+        "evidence": "or students who have been admitted in the undergraduate programme for the current academic year (AY 2025-26).",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{\"char\": [332, 441]}"
+      },
+      {
+        "field": "application_url",
+        "value": {
+          "url": "https://apply.ashoka.edu.in/",
+          "mode": "ONLINE",
+          "route": "OFFICIAL"
+        },
+        "evidence": "[Apply] -> https://apply.ashoka.edu.in/",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "evidence": "HTTP 200 from https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/ on 2026-11-12 (snapshot 082afc6478e1)",
+        "source_url": "https://www.ashoka.edu.in/https-www-ashoka-edu-in-arunkumar-ramniklal-mehta-scholarship-arra/",
+        "snapshot_sha256": "082afc6478e15c4190a6e14cf86973ade601baa699ff88c2efbc1c17a3b25e03",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.5,
+          "points": 7.5,
+          "reason": "HTTP 200 on 2026-11-12, name match 100; last successful check older than 14 days (x0.5)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "'[Apply] -> https://apply.ashoka.edu.in/' (official)"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "3 structured criteria with evidence (income_limit, age, education_levels)"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2025-10-05 with evidence"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 0.4,
+          "points": 4.0,
+          "reason": "closing date 2025-10-05 is from the previous cycle"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "10/10 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 0.5,
+          "points": 2.5,
+          "reason": "50% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 80.8,
       "capped": true,
       "scoring_version": "1.0"
     }
@@ -10568,7 +10568,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-19 02:16:26",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:52",
+    "last_checked_at": "2026-11-27 03:22:52",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -10582,7 +10582,7 @@
         "value": "GREAT Scholarship",
         "evidence": "GREAT Scholarship",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{\"char\": [7, 24]}"
       },
       {
@@ -10590,7 +10590,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{\"char\": [1131, 1136]}"
       },
       {
@@ -10598,7 +10598,7 @@
         "value": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "evidence": "Eligible Countries of Residence\nEgypt\nIndia\nKenya\nEligible Courses\nCourse Level\nPostgraduate\nMode of Attendance\nFull Time\nMode of Study\nOn Campus\nSubject Area\nAll Subjects\nOther Requirements\nTo be eligible, students must be a citizen from Egypt, India or Kenya\nTo be eligible, applicants must have met all conditions (excluding deposit payment) by the application submission deadline\nHave an undergraduate degree that will enable you to gain entry onto a postgraduate programme at a UK university\nMotivated and academically able to follow and benefit from a UK postgraduate taught course\nActive in the field with work experience or with a proven interest in the proposed subject area\nMeet the English language requirement of the UK Higher Education Institution\nWilling to embody the UK Higher Education experience, by attending lectures and tutorials and engaging with extra-curricular activities, and act as an ambassador for UK Higher Education, by promoting the value of studying at a UK HEI\nWilling to establish an engagement with the UK as a scholar, through personal and academic fulfilment\nRepresent the high standards of the GREAT brand by becoming an advocate for scholarships\nWilling to attend a networking event of all UK-based GREAT scholars, to discuss experiences and capture perceptions of studying in the UK\nWhere other scholarships have been awarded, the higher of the sum of the financial award, scholarship or discount, will be applied. Only one award can be held per offer",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{\"char\": [1093, 2585]}"
       },
       {
@@ -10608,7 +10608,7 @@
         ],
         "evidence": "Postgraduate",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{\"char\": [1173, 1185]}"
       },
       {
@@ -10616,15 +10616,15 @@
         "value": "2027-06-01",
         "evidence": "1 June 2027",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{\"char\": [299, 310]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-26 (snapshot 64662fc52cdf)",
+        "evidence": "HTTP 200 from https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship on 2026-11-27 (snapshot 1aa2eff545e4)",
         "source_url": "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/great-scholarship",
-        "snapshot_sha256": "64662fc52cdf5a4df8f35be530b1e4bd5264d1ac659668e1de412f853b59941d",
+        "snapshot_sha256": "1aa2eff545e467c8598a849301ceed2d39345eed3753ce7f712e258899195d76",
         "locator": "{}"
       }
     ],
@@ -10644,7 +10644,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -13582,408 +13582,6 @@
       "penalty": 0,
       "conflicts": [],
       "raw_score": 77.0,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
-    "id": 80,
-    "fingerprint": "call for applications joint scholarship programme of the south asia institute and max weber forum for south asian studies delhi summer@ashoka.edu.in",
-    "name": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
-    "provider": "Ashoka University",
-    "funding_type": "SCHOLARSHIP",
-    "official_source_url": "https://www.ashoka.edu.in/research-funding/",
-    "official_source_page_id": 1147,
-    "official_source_tier": 2,
-    "source_id": 37,
-    "source_type": "UNIVERSITY",
-    "application_url": null,
-    "application_mode": null,
-    "amount_text": null,
-    "amount_min_inr": null,
-    "amount_max_inr": null,
-    "amount_period": null,
-    "eligibility_text": null,
-    "education_levels": null,
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": null,
-    "income_text": null,
-    "age_min": null,
-    "age_max": null,
-    "gender": null,
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": null,
-    "opening_date": null,
-    "closing_date": "2026-12-01",
-    "deadline_text": "el, rental costs and EUR 1,200 per month. Applicants must provide a doctoral certificate and project plan. Online applications close 1 December 2026 at 23:59 CET.",
-    "is_rolling": null,
-    "academic_year": null,
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": null,
-    "detail_doc_url": null,
-    "record_kind": "CARD",
-    "status": "REVIEW_REQUIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 76.8,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "SEED",
-    "first_seen_at": "2026-11-12 23:44:41",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:44:41",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 1.0,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
-        "evidence": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{\"char\": [408, 550]}"
-      },
-      {
-        "field": "closing_date",
-        "value": "2026-12-01",
-        "evidence": "el, rental costs and EUR 1,200 per month. Applicants must provide a doctoral certificate and project plan. Online applications close 1 December 2026 at 23:59 CET.",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{\"char\": [1015, 1177]}"
-      },
-      {
-        "field": "provider",
-        "value": "Ashoka University",
-        "evidence": "Source registry entry: Ashoka University -> Ashoka University",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.ashoka.edu.in/research-funding/",
-        "evidence": "HTTP 200 from https://www.ashoka.edu.in/research-funding/ on 2026-11-12 (snapshot c4b4aa442ae7)",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 0.95,
-          "points": 23.75,
-          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no application link found on the official page"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no eligibility evidence"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2026-12-01 with evidence"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2026-12-01 is current"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "4/4 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 1.0,
-          "points": 5.0,
-          "reason": "100% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 76.8,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
-    "id": 81,
-    "fingerprint": "u of t india foundation research catalyst grants@ashoka.edu.in",
-    "name": "U of T India Foundation Research Catalyst Grants 2027-28",
-    "provider": "Ashoka University",
-    "funding_type": "SCHOLARSHIP",
-    "official_source_url": "https://www.ashoka.edu.in/research-funding/",
-    "official_source_page_id": 1147,
-    "official_source_tier": 2,
-    "source_id": 37,
-    "source_type": "UNIVERSITY",
-    "application_url": null,
-    "application_mode": null,
-    "amount_text": null,
-    "amount_min_inr": null,
-    "amount_max_inr": null,
-    "amount_period": null,
-    "eligibility_text": null,
-    "education_levels": null,
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": null,
-    "income_text": null,
-    "age_min": null,
-    "age_max": null,
-    "gender": null,
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": null,
-    "opening_date": null,
-    "closing_date": "2027-02-15",
-    "deadline_text": "ased nonprofit partner co-PI. Eight to ten projects will receive INR 9-15 lakh for April 2027 through March 2028. Applications close 15 February 2027 at 11:59 PM IST.",
-    "is_rolling": null,
-    "academic_year": null,
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": null,
-    "detail_doc_url": null,
-    "record_kind": "CARD",
-    "status": "REVIEW_REQUIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 76.8,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "SEED",
-    "first_seen_at": "2026-11-12 23:44:41",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:44:41",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 1.0,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "U of T India Foundation Research Catalyst Grants 2027-28",
-        "evidence": "U of T India Foundation Research Catalyst Grants 2027-28",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{\"char\": [41542, 41598]}"
-      },
-      {
-        "field": "closing_date",
-        "value": "2027-02-15",
-        "evidence": "ased nonprofit partner co-PI. Eight to ten projects will receive INR 9-15 lakh for April 2027 through March 2028. Applications close 15 February 2027 at 11:59 PM IST.",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{\"char\": [41985, 42151]}"
-      },
-      {
-        "field": "provider",
-        "value": "Ashoka University",
-        "evidence": "Source registry entry: Ashoka University -> Ashoka University",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.ashoka.edu.in/research-funding/",
-        "evidence": "HTTP 200 from https://www.ashoka.edu.in/research-funding/ on 2026-11-12 (snapshot c4b4aa442ae7)",
-        "source_url": "https://www.ashoka.edu.in/research-funding/",
-        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 0.95,
-          "points": 23.75,
-          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no application link found on the official page"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no eligibility evidence"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2027-02-15 with evidence"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "closing date 2027-02-15 is current"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "4/4 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 1.0,
-          "points": 5.0,
-          "reason": "100% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 76.8,
       "capped": false,
       "scoring_version": "1.0"
     }
@@ -17047,7 +16645,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:51",
+    "last_checked_at": "2026-11-27 03:22:45",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -17061,7 +16659,7 @@
         "value": "Sightsavers India Fellowship Program",
         "evidence": "Sightsavers India Fellowship Program",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{\"char\": [7, 43]}"
       },
       {
@@ -17069,7 +16667,7 @@
         "value": true,
         "evidence": "India",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{\"char\": [19, 24]}"
       },
       {
@@ -17077,7 +16675,7 @@
         "value": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "evidence": "The individual should be a post-graduate or a diploma holder in ophthalmology (MS/DNB/DO) from any\n recognized institute/university in India (current year pass outs are eligible to apply), having sound\n knowledge on clinical ophthalmology.\nDESIRED ATTRIBUTES\nHigh learning orientation, adaptability, professional ethics and emotional resilience.",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{\"char\": [1942, 2287]}"
       },
       {
@@ -17085,7 +16683,7 @@
         "value": "2026-07-31",
         "evidence": "Last date of application: 31st July 2026",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{\"char\": [2741, 2781]}"
       },
       {
@@ -17097,15 +16695,15 @@
         },
         "evidence": "[Apply for the program] -> https://indiafellowshipprogram.sightsaversindia.org/verify",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{\"char\": [184, 205]}"
       },
       {
         "field": "official_source_url",
         "value": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-26 (snapshot 9729ded30f4e)",
+        "evidence": "HTTP 200 from https://indiafellowshipprogram.sightsaversindia.org/ on 2026-11-27 (snapshot 5e7273a61e67)",
         "source_url": "https://indiafellowshipprogram.sightsaversindia.org/",
-        "snapshot_sha256": "9729ded30f4e9b50cc65b0074a01cb382572f33718fd65e9c02f9347e19a235e",
+        "snapshot_sha256": "5e7273a61e6783fbd5b27967788d3d1b8f5edabf990f691e74f4b35fb1bd9edb",
         "locator": "{}"
       }
     ],
@@ -17125,7 +16723,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -18529,7 +18127,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:51",
+    "last_checked_at": "2026-11-27 03:22:45",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -18543,7 +18141,7 @@
         "value": "Goonj Setu Fellowship 2024 -25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18551,7 +18149,7 @@
         "value": "Goonj",
         "evidence": "Goonj",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [7, 12]}"
       },
       {
@@ -18559,7 +18157,7 @@
         "value": true,
         "evidence": "n empathy, dignity, and action, our fellowships are immersive, year-long journeys into the heart of India's rural and urban landscapes. Our fellows walk with the communities, co-create solutions, and build leadership from the ground up.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [410, 646]}"
       },
       {
@@ -18572,7 +18170,7 @@
         },
         "evidence": "Yes, fellows receive a monthly stipend of Rs. 10,000/- if placed in the native district. A stipend of Rs.12,000/- would be given to those who are placed outside their native district.",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [8843, 9026]}"
       },
       {
@@ -18580,7 +18178,7 @@
         "value": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "evidence": "Criteria & application process\nAge - you ought to be 21 to 40 years by 31st December, 2024\nEducation - we expect you to have matriculated by 31st July, 2024\nLanguages known - basic understanding of English / Hindi\nAdept with technology - basic computer knowledge: Ms Office and other tools\nGoonj Fellowship was a great learning experience for me. The opportunity to work in a lot of different settings and capacities allowed me to explore the work Goonj is engaged in across the country. I really enjoyed working with Team Anshu and the Gram Swabhimaan movement. The field immersions in Bundelkhand and Latur remain one of the most cherished memories of the\nTripti\n(Batch 2021-2022)\nEngaged in Rahat Work amidst Covid and Cyclone Amphan in West Bengal, my experience was enriching. Delving into the raw field, I found fulfillment in contributing to relief efforts. Despite the challenges, I enjoyed the opportunity to make a meaningful impact. It was a unique and gratifying experience that left a lasting impression.\nSurendra\n(Batch 2019-2020)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [3888, 4932]}"
       },
       {
@@ -18591,7 +18189,7 @@
         },
         "evidence": "Age - you ought to be 21 to 40 years by 31st December, 2024",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [3919, 3978]}"
       },
       {
@@ -18599,7 +18197,7 @@
         "value": "2024-25",
         "evidence": "Goonj Setu Fellowship 2024 -25",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [33, 63]}"
       },
       {
@@ -18607,7 +18205,7 @@
         "value": "OPEN",
         "evidence": "Application Open Now",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{\"char\": [123, 143]}"
       },
       {
@@ -18619,15 +18217,15 @@
         },
         "evidence": "[REGISTER HERE] -> https://crm.goonj.org/collection-camp/",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{}"
       },
       {
         "field": "official_source_url",
         "value": "https://goonj.org/goonj-fellowship/",
-        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-26 (snapshot 2e1374705159)",
+        "evidence": "HTTP 200 from https://goonj.org/goonj-fellowship/ on 2026-11-27 (snapshot 7fa570078971)",
         "source_url": "https://goonj.org/goonj-fellowship/",
-        "snapshot_sha256": "2e1374705159cc37703b1028c00c2afbd2b437ab71f905c32fa1176228c568e4",
+        "snapshot_sha256": "7fa5700789713b8d8faf33b81e49c142a8db09087c0c1d506506c90ac82f644b",
         "locator": "{}"
       }
     ],
@@ -18647,7 +18245,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -19004,7 +18602,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:04",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:52",
+    "last_checked_at": "2026-11-27 03:10:38",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -19074,7 +18672,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -19391,6 +18989,408 @@
       "conflicts": [],
       "raw_score": 69.5,
       "capped": false,
+      "scoring_version": "1.0"
+    }
+  },
+  {
+    "id": 80,
+    "fingerprint": "call for applications joint scholarship programme of the south asia institute and max weber forum for south asian studies delhi summer@ashoka.edu.in",
+    "name": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
+    "provider": "Ashoka University",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.ashoka.edu.in/research-funding/",
+    "official_source_page_id": 1147,
+    "official_source_tier": 2,
+    "source_id": 37,
+    "source_type": "UNIVERSITY",
+    "application_url": null,
+    "application_mode": null,
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": null,
+    "education_levels": null,
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": null,
+    "income_text": null,
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": "2026-12-01",
+    "deadline_text": "el, rental costs and EUR 1,200 per month. Applicants must provide a doctoral certificate and project plan. Online applications close 1 December 2026 at 23:59 CET.",
+    "is_rolling": null,
+    "academic_year": null,
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "CARD",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 69.2,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "SEED",
+    "first_seen_at": "2026-11-12 23:44:41",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-12 23:44:41",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 1.0,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
+        "evidence": "Call for Applications: Joint Scholarship Programme of the South Asia Institute and Max Weber Forum for South Asian Studies Delhi - Summer 2027",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{\"char\": [408, 550]}"
+      },
+      {
+        "field": "closing_date",
+        "value": "2026-12-01",
+        "evidence": "el, rental costs and EUR 1,200 per month. Applicants must provide a doctoral certificate and project plan. Online applications close 1 December 2026 at 23:59 CET.",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{\"char\": [1015, 1177]}"
+      },
+      {
+        "field": "provider",
+        "value": "Ashoka University",
+        "evidence": "Source registry entry: Ashoka University -> Ashoka University",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.ashoka.edu.in/research-funding/",
+        "evidence": "HTTP 200 from https://www.ashoka.edu.in/research-funding/ on 2026-11-12 (snapshot c4b4aa442ae7)",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.5,
+          "points": 7.5,
+          "reason": "HTTP 200 on 2026-11-12, name match 100; last successful check older than 14 days (x0.5)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no application link found on the official page"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no eligibility evidence"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2026-12-01 with evidence"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2026-12-01 is current"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "4/4 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 1.0,
+          "points": 5.0,
+          "reason": "100% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 69.2,
+      "capped": true,
+      "scoring_version": "1.0"
+    }
+  },
+  {
+    "id": 81,
+    "fingerprint": "u of t india foundation research catalyst grants@ashoka.edu.in",
+    "name": "U of T India Foundation Research Catalyst Grants 2027-28",
+    "provider": "Ashoka University",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.ashoka.edu.in/research-funding/",
+    "official_source_page_id": 1147,
+    "official_source_tier": 2,
+    "source_id": 37,
+    "source_type": "UNIVERSITY",
+    "application_url": null,
+    "application_mode": null,
+    "amount_text": null,
+    "amount_min_inr": null,
+    "amount_max_inr": null,
+    "amount_period": null,
+    "eligibility_text": null,
+    "education_levels": null,
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": null,
+    "income_text": null,
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": "2027-02-15",
+    "deadline_text": "ased nonprofit partner co-PI. Eight to ten projects will receive INR 9-15 lakh for April 2027 through March 2028. Applications close 15 February 2027 at 11:59 PM IST.",
+    "is_rolling": null,
+    "academic_year": null,
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "CARD",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 69.2,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "SEED",
+    "first_seen_at": "2026-11-12 23:44:41",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-12 23:44:41",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 1.0,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "U of T India Foundation Research Catalyst Grants 2027-28",
+        "evidence": "U of T India Foundation Research Catalyst Grants 2027-28",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{\"char\": [41542, 41598]}"
+      },
+      {
+        "field": "closing_date",
+        "value": "2027-02-15",
+        "evidence": "ased nonprofit partner co-PI. Eight to ten projects will receive INR 9-15 lakh for April 2027 through March 2028. Applications close 15 February 2027 at 11:59 PM IST.",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{\"char\": [41985, 42151]}"
+      },
+      {
+        "field": "provider",
+        "value": "Ashoka University",
+        "evidence": "Source registry entry: Ashoka University -> Ashoka University",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.ashoka.edu.in/research-funding/",
+        "evidence": "HTTP 200 from https://www.ashoka.edu.in/research-funding/ on 2026-11-12 (snapshot c4b4aa442ae7)",
+        "source_url": "https://www.ashoka.edu.in/research-funding/",
+        "snapshot_sha256": "c4b4aa442ae7ea0604726c692fce326e471e967d94f389bf32bd6132673678d5",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 0.95,
+          "points": 23.75,
+          "reason": "ashoka.edu.in classified UNIVERSITY (tier 2); origin SEED"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.5,
+          "points": 7.5,
+          "reason": "HTTP 200 on 2026-11-12, name match 100; last successful check older than 14 days (x0.5)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no application link found on the official page"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no eligibility evidence"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2027-02-15 with evidence"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "closing date 2027-02-15 is current"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "4/4 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 1.0,
+          "points": 5.0,
+          "reason": "100% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 69.2,
+      "capped": true,
       "scoring_version": "1.0"
     }
   },
@@ -20102,7 +20102,7 @@
     "discovered_via": "DISCOVERED_OUTLINK",
     "first_seen_at": "2026-11-12 23:43:19",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:52",
+    "last_checked_at": "2026-11-27 03:22:47",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20116,31 +20116,31 @@
         "value": "India Future Leaders Scholarship",
         "evidence": "India Future Leaders Scholarship",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "c6f94c13bfeb95aa7f1db2b95efab4fe0393e72d0cc0a2ff7e722314565fc312",
-        "locator": "{\"char\": [34316, 34348]}"
+        "snapshot_sha256": "485a3898d4e78bfc25a2df2baf702be7222c668b37bc527f69676e0ca9f09b5c",
+        "locator": "{\"char\": [35260, 35292]}"
       },
       {
         "field": "closing_date",
         "value": "2025-04-07",
         "evidence": "07/04/2025 Closed",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "c6f94c13bfeb95aa7f1db2b95efab4fe0393e72d0cc0a2ff7e722314565fc312",
-        "locator": "{\"char\": [34468, 34485]}"
+        "snapshot_sha256": "485a3898d4e78bfc25a2df2baf702be7222c668b37bc527f69676e0ca9f09b5c",
+        "locator": "{\"char\": [35412, 35429]}"
       },
       {
         "field": "india_eligibility",
         "value": true,
         "evidence": "India Future Leaders Scholarship",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "c6f94c13bfeb95aa7f1db2b95efab4fe0393e72d0cc0a2ff7e722314565fc312",
-        "locator": "{\"char\": [34316, 34348]}"
+        "snapshot_sha256": "485a3898d4e78bfc25a2df2baf702be7222c668b37bc527f69676e0ca9f09b5c",
+        "locator": "{\"char\": [35260, 35292]}"
       },
       {
         "field": "official_source_url",
         "value": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/ on 2026-11-26 (snapshot c6f94c13bfeb)",
+        "evidence": "HTTP 200 from https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/ on 2026-11-27 (snapshot 485a3898d4e7)",
         "source_url": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/",
-        "snapshot_sha256": "c6f94c13bfeb95aa7f1db2b95efab4fe0393e72d0cc0a2ff7e722314565fc312",
+        "snapshot_sha256": "485a3898d4e78bfc25a2df2baf702be7222c668b37bc527f69676e0ca9f09b5c",
         "locator": "{}"
       }
     ],
@@ -20160,7 +20160,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -20303,7 +20303,7 @@
     "discovered_via": "DISCOVERED_AGGREGATOR",
     "first_seen_at": "2026-11-12 23:39:31",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:15:50",
+    "last_checked_at": "2026-11-27 03:22:43",
     "last_changed_at": null,
     "version": 1,
     "consecutive_misses": 0,
@@ -20317,7 +20317,7 @@
         "value": "Sage IT India Scholarship 2026",
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "854d58060a22b87da08a0c3147a127ca3110759c92740c3969c38fdb2893fa82",
+        "snapshot_sha256": "f6e0a5aa8f063133302c0acb36336f9ab693961cedc03e667fc5ac45a5783cb6",
         "locator": "{\"char\": [60, 90]}"
       },
       {
@@ -20325,7 +20325,7 @@
         "value": "2026-11-15",
         "evidence": "Submission Deadline:\n 15th November 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "854d58060a22b87da08a0c3147a127ca3110759c92740c3969c38fdb2893fa82",
+        "snapshot_sha256": "f6e0a5aa8f063133302c0acb36336f9ab693961cedc03e667fc5ac45a5783cb6",
         "locator": "{\"char\": [413, 453]}"
       },
       {
@@ -20333,15 +20333,15 @@
         "value": true,
         "evidence": "Sage IT India Scholarship 2026",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "854d58060a22b87da08a0c3147a127ca3110759c92740c3969c38fdb2893fa82",
+        "snapshot_sha256": "f6e0a5aa8f063133302c0acb36336f9ab693961cedc03e667fc5ac45a5783cb6",
         "locator": "{\"char\": [60, 90]}"
       },
       {
         "field": "official_source_url",
         "value": "https://sageitinc.com/scholarship/india",
-        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-26 (snapshot 854d58060a22)",
+        "evidence": "HTTP 200 from https://sageitinc.com/scholarship/india on 2026-11-27 (snapshot f6e0a5aa8f06)",
         "source_url": "https://sageitinc.com/scholarship/india",
-        "snapshot_sha256": "854d58060a22b87da08a0c3147a127ca3110759c92740c3969c38fdb2893fa82",
+        "snapshot_sha256": "f6e0a5aa8f063133302c0acb36336f9ab693961cedc03e667fc5ac45a5783cb6",
         "locator": "{}"
       }
     ],
@@ -20361,7 +20361,7 @@
           "weight": 15,
           "value": 1.0,
           "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-26, name match 100"
+          "reason": "HTTP 200 on 2026-11-27, name match 100"
         },
         {
           "id": "S3",
@@ -20455,220 +20455,6 @@
     }
   },
   {
-    "id": 83,
-    "fingerprint": "swanath scholarship@aicte.gov.in",
-    "name": "SWANATH SCHOLARSHIP",
-    "provider": "All India Council for Technical Education (AICTE)",
-    "funding_type": "SCHOLARSHIP",
-    "official_source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-    "official_source_page_id": 1372,
-    "official_source_tier": 1,
-    "source_id": 4,
-    "source_type": "REGULATOR",
-    "application_url": null,
-    "application_mode": null,
-    "amount_text": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",
-    "amount_min_inr": 50000,
-    "amount_max_inr": 50000,
-    "amount_period": "YEAR",
-    "eligibility_text": null,
-    "education_levels": null,
-    "min_percentage": null,
-    "min_cgpa": null,
-    "academic_text": null,
-    "income_limit_inr": 800000,
-    "income_text": "2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial",
-    "age_min": null,
-    "age_max": null,
-    "gender": null,
-    "categories": null,
-    "disability_min_percent": null,
-    "domicile_states": null,
-    "institution_text": null,
-    "opening_date": null,
-    "closing_date": null,
-    "deadline_text": null,
-    "is_rolling": null,
-    "academic_year": null,
-    "documents_required": null,
-    "selection_process": null,
-    "renewal_text": null,
-    "page_status_text": null,
-    "detail_doc_url": null,
-    "record_kind": "PAGE",
-    "status": "REVIEW_REQUIRED",
-    "verification_status": "REVIEW_REQUIRED",
-    "confidence": 61.5,
-    "scoring_version": "1.0",
-    "india_eligible": true,
-    "discovered_via": "SEED",
-    "first_seen_at": "2026-11-12 23:46:53",
-    "last_verified_at": null,
-    "last_checked_at": "2026-11-12 23:46:53",
-    "last_changed_at": null,
-    "version": 1,
-    "consecutive_misses": 0,
-    "live_status": "LIVE",
-    "name_match_score": 100.0,
-    "consistency_ratio": 0.5,
-    "is_active_record": true,
-    "evidence": [
-      {
-        "field": "name",
-        "value": "SWANATH SCHOLARSHIP",
-        "evidence": "SWANATH SCHOLARSHIP",
-        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
-        "locator": "{\"char\": [17, 36], \"pdf_page\": 1}"
-      },
-      {
-        "field": "provider",
-        "value": "All India Council for Technical Education (AICTE)",
-        "evidence": "All India Council for Technical Education",
-        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
-        "locator": "{\"char\": [89, 130], \"pdf_page\": 1}"
-      },
-      {
-        "field": "amount",
-        "value": {
-          "min": 50000,
-          "max": 50000,
-          "period": "YEAR",
-          "text": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree"
-        },
-        "evidence": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",
-        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
-        "locator": "{\"char\": [1908, 2016], \"pdf_page\": 2}"
-      },
-      {
-        "field": "income_limit",
-        "value": 800000,
-        "evidence": "2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial",
-        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
-        "locator": "{\"char\": [1103, 1202], \"pdf_page\": 2}"
-      },
-      {
-        "field": "official_source_url",
-        "value": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "evidence": "HTTP 200 from https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf on 2026-11-12 (snapshot d9986d39167b)",
-        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
-        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
-        "locator": "{}"
-      }
-    ],
-    "confidence_breakdown": {
-      "signals": [
-        {
-          "id": "S1",
-          "label": "Official source",
-          "weight": 25,
-          "value": 1.0,
-          "points": 25.0,
-          "reason": "aicte.gov.in classified REGULATOR (tier 1); origin SEED"
-        },
-        {
-          "id": "S2",
-          "label": "Live on official source",
-          "weight": 15,
-          "value": 1.0,
-          "points": 15.0,
-          "reason": "HTTP 200 on 2026-11-12, name match 100"
-        },
-        {
-          "id": "S3",
-          "label": "Official application route",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no application link found on the official page"
-        },
-        {
-          "id": "S4",
-          "label": "Eligibility supported",
-          "weight": 10,
-          "value": 0.5,
-          "points": 5.0,
-          "reason": "1 structured criteria with evidence (income_limit)"
-        },
-        {
-          "id": "S5",
-          "label": "Deadline supported",
-          "weight": 10,
-          "value": 0.0,
-          "points": 0.0,
-          "reason": "no deadline on official source"
-        },
-        {
-          "id": "S6",
-          "label": "Information current",
-          "weight": 10,
-          "value": 0.1,
-          "points": 1.0,
-          "reason": "no date evidence of currency"
-        },
-        {
-          "id": "S7",
-          "label": "Fields traceable to evidence",
-          "weight": 10,
-          "value": 1.0,
-          "points": 10.0,
-          "reason": "5/5 evidence snippets re-verified verbatim in stored snapshot"
-        },
-        {
-          "id": "S8",
-          "label": "Extraction consistency",
-          "weight": 5,
-          "value": 0.5,
-          "points": 2.5,
-          "reason": "50% of key fields identical in section-scoped and full-text passes"
-        },
-        {
-          "id": "S9",
-          "label": "Corroboration",
-          "weight": 5,
-          "value": 0.6,
-          "points": 3.0,
-          "reason": "single official source, no conflicts found"
-        }
-      ],
-      "gates": [
-        {
-          "id": "G1",
-          "label": "Official source",
-          "passed": true
-        },
-        {
-          "id": "G2",
-          "label": "Live on official source now",
-          "passed": true
-        },
-        {
-          "id": "G3",
-          "label": "All fields traceable",
-          "passed": true
-        },
-        {
-          "id": "G4",
-          "label": "No open conflicts",
-          "passed": true
-        },
-        {
-          "id": "G5",
-          "label": "Name, provider & official URL present",
-          "passed": true
-        }
-      ],
-      "penalty": 0,
-      "conflicts": [],
-      "raw_score": 61.5,
-      "capped": false,
-      "scoring_version": "1.0"
-    }
-  },
-  {
     "id": 5,
     "fingerprint": "the inlaks fellowship for social engagement@inlaksfoundation.org",
     "name": "The Inlaks Fellowship for Social Engagement",
@@ -20718,10 +20504,10 @@
     "discovered_via": "SEED",
     "first_seen_at": "2026-11-12 23:39:34",
     "last_verified_at": null,
-    "last_checked_at": "2026-11-26 03:09:48",
+    "last_checked_at": "2026-11-27 03:12:14",
     "last_changed_at": null,
     "version": 1,
-    "consecutive_misses": 10,
+    "consecutive_misses": 11,
     "live_status": "MISSING",
     "name_match_score": 0.0,
     "consistency_ratio": 1.0,
@@ -21116,6 +20902,220 @@
       "penalty": 0,
       "conflicts": [],
       "raw_score": 58.2,
+      "capped": true,
+      "scoring_version": "1.0"
+    }
+  },
+  {
+    "id": 83,
+    "fingerprint": "swanath scholarship@aicte.gov.in",
+    "name": "SWANATH SCHOLARSHIP",
+    "provider": "All India Council for Technical Education (AICTE)",
+    "funding_type": "SCHOLARSHIP",
+    "official_source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+    "official_source_page_id": 1372,
+    "official_source_tier": 1,
+    "source_id": 4,
+    "source_type": "REGULATOR",
+    "application_url": null,
+    "application_mode": null,
+    "amount_text": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",
+    "amount_min_inr": 50000,
+    "amount_max_inr": 50000,
+    "amount_period": "YEAR",
+    "eligibility_text": null,
+    "education_levels": null,
+    "min_percentage": null,
+    "min_cgpa": null,
+    "academic_text": null,
+    "income_limit_inr": 800000,
+    "income_text": "2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial",
+    "age_min": null,
+    "age_max": null,
+    "gender": null,
+    "categories": null,
+    "disability_min_percent": null,
+    "domicile_states": null,
+    "institution_text": null,
+    "opening_date": null,
+    "closing_date": null,
+    "deadline_text": null,
+    "is_rolling": null,
+    "academic_year": null,
+    "documents_required": null,
+    "selection_process": null,
+    "renewal_text": null,
+    "page_status_text": null,
+    "detail_doc_url": null,
+    "record_kind": "PAGE",
+    "status": "REVIEW_REQUIRED",
+    "verification_status": "REVIEW_REQUIRED",
+    "confidence": 54.0,
+    "scoring_version": "1.0",
+    "india_eligible": true,
+    "discovered_via": "SEED",
+    "first_seen_at": "2026-11-12 23:46:53",
+    "last_verified_at": null,
+    "last_checked_at": "2026-11-12 23:46:53",
+    "last_changed_at": null,
+    "version": 1,
+    "consecutive_misses": 0,
+    "live_status": "LIVE",
+    "name_match_score": 100.0,
+    "consistency_ratio": 0.5,
+    "is_active_record": true,
+    "evidence": [
+      {
+        "field": "name",
+        "value": "SWANATH SCHOLARSHIP",
+        "evidence": "SWANATH SCHOLARSHIP",
+        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+        "locator": "{\"char\": [17, 36], \"pdf_page\": 1}"
+      },
+      {
+        "field": "provider",
+        "value": "All India Council for Technical Education (AICTE)",
+        "evidence": "All India Council for Technical Education",
+        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+        "locator": "{\"char\": [89, 130], \"pdf_page\": 1}"
+      },
+      {
+        "field": "amount",
+        "value": {
+          "min": 50000,
+          "max": 50000,
+          "period": "YEAR",
+          "text": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree"
+        },
+        "evidence": "Rs. 50,000.00 per annum for every year of study i.e. maximum 4 years duration for first year admitted Degree",
+        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+        "locator": "{\"char\": [1908, 2016], \"pdf_page\": 2}"
+      },
+      {
+        "field": "income_limit",
+        "value": 800000,
+        "evidence": "2) Family income from all sources should not be more than Rs. 8 lakh per annum during the financial",
+        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+        "locator": "{\"char\": [1103, 1202], \"pdf_page\": 2}"
+      },
+      {
+        "field": "official_source_url",
+        "value": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "evidence": "HTTP 200 from https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf on 2026-11-12 (snapshot d9986d39167b)",
+        "source_url": "https://www.aicte.gov.in/sites/default/files/AICTE-SWANATH.pdf",
+        "snapshot_sha256": "d9986d39167b660b814f871feca5b0accbc8ce08b6a7f95f7c5a07e4c8f6ee04",
+        "locator": "{}"
+      }
+    ],
+    "confidence_breakdown": {
+      "signals": [
+        {
+          "id": "S1",
+          "label": "Official source",
+          "weight": 25,
+          "value": 1.0,
+          "points": 25.0,
+          "reason": "aicte.gov.in classified REGULATOR (tier 1); origin SEED"
+        },
+        {
+          "id": "S2",
+          "label": "Live on official source",
+          "weight": 15,
+          "value": 0.5,
+          "points": 7.5,
+          "reason": "HTTP 200 on 2026-11-12, name match 100; last successful check older than 14 days (x0.5)"
+        },
+        {
+          "id": "S3",
+          "label": "Official application route",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no application link found on the official page"
+        },
+        {
+          "id": "S4",
+          "label": "Eligibility supported",
+          "weight": 10,
+          "value": 0.5,
+          "points": 5.0,
+          "reason": "1 structured criteria with evidence (income_limit)"
+        },
+        {
+          "id": "S5",
+          "label": "Deadline supported",
+          "weight": 10,
+          "value": 0.0,
+          "points": 0.0,
+          "reason": "no deadline on official source"
+        },
+        {
+          "id": "S6",
+          "label": "Information current",
+          "weight": 10,
+          "value": 0.1,
+          "points": 1.0,
+          "reason": "no date evidence of currency"
+        },
+        {
+          "id": "S7",
+          "label": "Fields traceable to evidence",
+          "weight": 10,
+          "value": 1.0,
+          "points": 10.0,
+          "reason": "5/5 evidence snippets re-verified verbatim in stored snapshot"
+        },
+        {
+          "id": "S8",
+          "label": "Extraction consistency",
+          "weight": 5,
+          "value": 0.5,
+          "points": 2.5,
+          "reason": "50% of key fields identical in section-scoped and full-text passes"
+        },
+        {
+          "id": "S9",
+          "label": "Corroboration",
+          "weight": 5,
+          "value": 0.6,
+          "points": 3.0,
+          "reason": "single official source, no conflicts found"
+        }
+      ],
+      "gates": [
+        {
+          "id": "G1",
+          "label": "Official source",
+          "passed": true
+        },
+        {
+          "id": "G2",
+          "label": "Live on official source now",
+          "passed": false
+        },
+        {
+          "id": "G3",
+          "label": "All fields traceable",
+          "passed": true
+        },
+        {
+          "id": "G4",
+          "label": "No open conflicts",
+          "passed": true
+        },
+        {
+          "id": "G5",
+          "label": "Name, provider & official URL present",
+          "passed": true
+        }
+      ],
+      "penalty": 0,
+      "conflicts": [],
+      "raw_score": 54.0,
       "capped": true,
       "scoring_version": "1.0"
     }
